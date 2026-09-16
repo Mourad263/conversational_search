@@ -1,0 +1,148 @@
+{
+  "cases": [
+    {
+      "id": 1001,
+      "tag": "regression_tomato_paste",
+      "sentence": "tomato paste from Heinz",
+      "history": null,
+      "ambiguous": false,
+      "expected": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "roles": {
+        "raw_query_text": "tomato paste",
+        "category_hint": "tomato paste",
+        "brand_text": "Heinz",
+        "free_from": null
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": "heinz",
+        "unresolved_exclusion": false
+      }
+    },
+    {
+      "id": 1002,
+      "tag": "regression_peas_pears",
+      "sentence": "peas",
+      "history": null,
+      "ambiguous": false,
+      "expected": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "roles": {
+        "raw_query_text": "peas",
+        "category_hint": "vegetables",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "category": "vegetables_3286",
+        "brand": null,
+        "unresolved_exclusion": false
+      }
+    },
+    {
+      "id": 1003,
+      "tag": "regression_frozen_peas",
+      "sentence": "frozen peas",
+      "history": null,
+      "ambiguous": false,
+      "expected": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "roles": {
+        "raw_query_text": "frozen peas",
+        "category_hint": "frozen vegetables",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "category": "frozen_vegetables_11674",
+        "brand": null,
+        "unresolved_exclusion": false
+      }
+    },
+    {
+      "id": 1004,
+      "tag": "regression_extra_virgin_olive_oil",
+      "sentence": "extra virgin olive oil",
+      "history": null,
+      "ambiguous": false,
+      "expected": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "roles": {
+        "raw_query_text": "extra virgin olive oil",
+        "category_hint": "olive oil",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "category": "oil_5685",
+        "brand": null,
+        "unresolved_exclusion": false
+      }
+    },
+    {
+      "id": 1005,
+      "tag": "regression_choclate_milk",
+      "sentence": "choclate milk",
+      "history": null,
+      "ambiguous": false,
+      "expected": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "roles": {
+        "raw_query_text": "choclate milk",
+        "category_hint": "milk",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "category": "milk_29",
+        "brand": null,
+        "unresolved_exclusion": false
+      }
+    },
+    {
+      "id": 1006,
+      "tag": "regression_wadi_bawadi",
+      "sentence": "عايز حاجة من الوادي",
+      "history": null,
+      "ambiguous": false,
+      "expected": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "roles": {
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": "الوادي",
+        "free_from": null
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": null,
+        "unresolved_exclusion": false
+      }
+    }
+  ]
+}

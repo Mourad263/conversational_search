@@ -1,0 +1,251 @@
+{
+  "summary": {
+    "label": "regression",
+    "dataset": "evaluation\\sprint6_semantic_benchmark_regression.json",
+    "n_cases": 6,
+    "metric_A_semantic_extraction_accuracy": 0.8333333333333334,
+    "metric_B_catalog_grounding_accuracy": 0.8333333333333334,
+    "metric_C_category_recall_unambiguous": 0.75,
+    "metric_C_n": 4,
+    "metric_D_final_search_success": 0.8333333333333334,
+    "metric_D_n": 6,
+    "metric_E_wrong_confident_match_rate": 0.2,
+    "metric_E_n": 5
+  },
+  "results": [
+    {
+      "id": 1001,
+      "tag": "regression_tomato_paste",
+      "sentence": "tomato paste from Heinz",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "tomato paste",
+        "category_hint": "tomato paste",
+        "brand_text": "Heinz",
+        "free_from": null,
+        "resolved_category": null,
+        "resolved_brand": "heinz"
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": "heinz",
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 1002,
+      "tag": "regression_peas_pears",
+      "sentence": "peas",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "peas",
+        "category_hint": "vegetables",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "vegetables_3286",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "vegetables_3286",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 1.0,
+      "d_success": true
+    },
+    {
+      "id": 1003,
+      "tag": "regression_frozen_peas",
+      "sentence": "frozen peas",
+      "ambiguous": false,
+      "a_all_correct": false,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": false,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": false,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "frozen peas",
+        "category_hint": "vegetables",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "vegetables_3286",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "frozen_vegetables_11674",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 0.0,
+      "d_success": false
+    },
+    {
+      "id": 1004,
+      "tag": "regression_extra_virgin_olive_oil",
+      "sentence": "extra virgin olive oil",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "extra virgin olive oil",
+        "category_hint": "olive oil",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "oil_5685",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "oil_5685",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 1.0,
+      "d_success": true
+    },
+    {
+      "id": 1005,
+      "tag": "regression_choclate_milk",
+      "sentence": "choclate milk",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "choclate milk",
+        "category_hint": "chocolate milk",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "milk_29",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "milk_29",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 1.0,
+      "d_success": true
+    },
+    {
+      "id": 1006,
+      "tag": "regression_wadi_bawadi",
+      "sentence": "عايز حاجة من الوادي",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": "الوادي",
+        "free_from": null,
+        "resolved_category": null,
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    }
+  ]
+}

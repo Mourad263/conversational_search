@@ -1,0 +1,126 @@
+{
+  "vocab_size": 24516,
+  "symspell_build_time_s": 0.613,
+  "avg_lookup_latency_ms": {
+    "A_rapidfuzz_extractOne_K1": 3.079,
+    "B_rapidfuzz_topK3": 4.121,
+    "B_rapidfuzz_topK5": 4.347,
+    "C_symspell_topK3": 0.202,
+    "C_symspell_topK5": 0.185
+  },
+  "dataset_n": 199,
+  "summary": {
+    "A_rapidfuzz_extractOne_K1": {
+      "overall_availability": 0.7688,
+      "n": 160,
+      "en_availability": 0.875,
+      "ar_availability": 0.6625,
+      "deletion": 0.875,
+      "insertion": 0.975,
+      "substitution": 0.65,
+      "transposition": 0.575,
+      "single_word": 0.8,
+      "multiword_one_typo": 0.7375,
+      "clean_catalog_self_present_pct": 100.0,
+      "clean_filler_any_candidate_pct": 84.2
+    },
+    "B_rapidfuzz_topK3": {
+      "overall_availability": 0.9375,
+      "n": 160,
+      "en_availability": 1.0,
+      "ar_availability": 0.875,
+      "deletion": 1.0,
+      "insertion": 1.0,
+      "substitution": 0.875,
+      "transposition": 0.875,
+      "single_word": 0.9125,
+      "multiword_one_typo": 0.9625,
+      "clean_catalog_self_present_pct": 100.0,
+      "clean_filler_any_candidate_pct": 84.2
+    },
+    "B_rapidfuzz_topK5": {
+      "overall_availability": 0.9375,
+      "n": 160,
+      "en_availability": 1.0,
+      "ar_availability": 0.875,
+      "deletion": 1.0,
+      "insertion": 1.0,
+      "substitution": 0.875,
+      "transposition": 0.875,
+      "single_word": 0.9125,
+      "multiword_one_typo": 0.9625,
+      "clean_catalog_self_present_pct": 100.0,
+      "clean_filler_any_candidate_pct": 84.2
+    },
+    "C_symspell_topK3": {
+      "overall_availability": 0.9812,
+      "n": 160,
+      "en_availability": 0.9875,
+      "ar_availability": 0.975,
+      "deletion": 0.925,
+      "insertion": 1.0,
+      "substitution": 1.0,
+      "transposition": 1.0,
+      "single_word": 0.9625,
+      "multiword_one_typo": 1.0,
+      "clean_catalog_self_present_pct": 100.0,
+      "clean_filler_any_candidate_pct": 84.2
+    },
+    "C_symspell_topK5": {
+      "overall_availability": 0.9938,
+      "n": 160,
+      "en_availability": 1.0,
+      "ar_availability": 0.9875,
+      "deletion": 0.975,
+      "insertion": 1.0,
+      "substitution": 1.0,
+      "transposition": 1.0,
+      "single_word": 0.9875,
+      "multiword_one_typo": 1.0,
+      "clean_catalog_self_present_pct": 100.0,
+      "clean_filler_any_candidate_pct": 84.2
+    }
+  },
+  "regression_controls": {
+    "milq": {
+      "A_rapidfuzz_extractOne_K1": [
+        "mil"
+      ],
+      "B_rapidfuzz_topK3": [
+        "mil"
+      ],
+      "B_rapidfuzz_topK5": [
+        "mil"
+      ],
+      "C_symspell_topK3": [
+        "milk",
+        "mill",
+        "mild"
+      ],
+      "C_symspell_topK5": [
+        "milk",
+        "mill",
+        "mild",
+        "mil",
+        "ml"
+      ]
+    },
+    "mliq": {
+      "A_rapidfuzz_extractOne_K1": [],
+      "B_rapidfuzz_topK3": [],
+      "B_rapidfuzz_topK5": [],
+      "C_symspell_topK3": [
+        "ml",
+        "milk",
+        "mix"
+      ],
+      "C_symspell_topK5": [
+        "ml",
+        "milk",
+        "mix",
+        "mill",
+        "lid"
+      ]
+    }
+  }
+}

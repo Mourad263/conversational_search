@@ -1,0 +1,19 @@
+{
+  "0.0": {
+    "temperature": 0.0,
+    "n_calls": 72,
+    "field_accuracy": {
+      "intent": 1.0,
+      "price_min": 1.0,
+      "price_max": 1.0,
+      "target_facet": 1.0,
+      "raw_query_text": 0.9027777777777778,
+      "category_hint": 0.9166666666666666,
+      "brand_text": 1.0,
+      "free_from": 1.0
+    },
+    "exact_action_accuracy": 0.8194444444444444,
+    "run_to_run_consistency": 0.7916666666666666
+  },
+  "_note": "0.1/0.2/0.3 NOT run -- OpenAI API returned insufficient_quota (credit_balance_exhausted) partway through the 0.1 pass. Only the 72 calls at temperature=0.0 above completed before the account ran out of credits."
+}

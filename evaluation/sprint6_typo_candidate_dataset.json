@@ -1,0 +1,2513 @@
+{
+  "seed": 20260915,
+  "top_k": 5,
+  "cases": [
+    {
+      "id": 1,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "colou"
+      ],
+      "typo_index": 0,
+      "truth": "colour"
+    },
+    {
+      "id": 2,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "gycerin"
+      ],
+      "typo_index": 0,
+      "truth": "glycerin"
+    },
+    {
+      "id": 3,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "orginl"
+      ],
+      "typo_index": 0,
+      "truth": "orginal"
+    },
+    {
+      "id": 4,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "appox"
+      ],
+      "typo_index": 0,
+      "truth": "approx"
+    },
+    {
+      "id": 5,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "mrba"
+      ],
+      "typo_index": 0,
+      "truth": "merba"
+    },
+    {
+      "id": 6,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "tand"
+      ],
+      "typo_index": 0,
+      "truth": "stand"
+    },
+    {
+      "id": 7,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "rown"
+      ],
+      "typo_index": 0,
+      "truth": "brown"
+    },
+    {
+      "id": 8,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "eixir"
+      ],
+      "typo_index": 0,
+      "truth": "elixir"
+    },
+    {
+      "id": 9,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "ikkoman"
+      ],
+      "typo_index": 0,
+      "truth": "kikkoman"
+    },
+    {
+      "id": 10,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "makr"
+      ],
+      "typo_index": 0,
+      "truth": "maker"
+    },
+    {
+      "id": 11,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "gm",
+        "stuffd"
+      ],
+      "typo_index": 1,
+      "truth": "stuffed"
+    },
+    {
+      "id": 12,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "c",
+        "fairnes"
+      ],
+      "typo_index": 1,
+      "truth": "fairness"
+    },
+    {
+      "id": 13,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "action",
+        "crytal"
+      ],
+      "typo_index": 1,
+      "truth": "crystal"
+    },
+    {
+      "id": 14,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "chocolate",
+        "mchi"
+      ],
+      "typo_index": 1,
+      "truth": "mochi"
+    },
+    {
+      "id": 15,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "cheese",
+        "mozzarela"
+      ],
+      "typo_index": 1,
+      "truth": "mozzarella"
+    },
+    {
+      "id": 16,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "and",
+        "kife"
+      ],
+      "typo_index": 1,
+      "truth": "knife"
+    },
+    {
+      "id": 17,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "piece",
+        "ilkman"
+      ],
+      "typo_index": 1,
+      "truth": "milkman"
+    },
+    {
+      "id": 18,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "corn",
+        "monana"
+      ],
+      "typo_index": 1,
+      "truth": "montana"
+    },
+    {
+      "id": 19,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "game",
+        "eductional"
+      ],
+      "typo_index": 1,
+      "truth": "educational"
+    },
+    {
+      "id": 20,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "baraka",
+        "drnking"
+      ],
+      "typo_index": 1,
+      "truth": "drinking"
+    },
+    {
+      "id": 21,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "alovedra"
+      ],
+      "typo_index": 0,
+      "truth": "alovera"
+    },
+    {
+      "id": 22,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "editigon"
+      ],
+      "typo_index": 0,
+      "truth": "edition"
+    },
+    {
+      "id": 23,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "butterr"
+      ],
+      "typo_index": 0,
+      "truth": "butter"
+    },
+    {
+      "id": 24,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "jeacker"
+      ],
+      "typo_index": 0,
+      "truth": "jacker"
+    },
+    {
+      "id": 25,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "werjther"
+      ],
+      "typo_index": 0,
+      "truth": "werther"
+    },
+    {
+      "id": 26,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "ulxtra"
+      ],
+      "typo_index": 0,
+      "truth": "ultra"
+    },
+    {
+      "id": 27,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "santaorini"
+      ],
+      "typo_index": 0,
+      "truth": "santorini"
+    },
+    {
+      "id": 28,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "mitvco"
+      ],
+      "typo_index": 0,
+      "truth": "mitco"
+    },
+    {
+      "id": 29,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "brrazilian"
+      ],
+      "typo_index": 0,
+      "truth": "brazilian"
+    },
+    {
+      "id": 30,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "adwasi"
+      ],
+      "typo_index": 0,
+      "truth": "awasi"
+    },
+    {
+      "id": 31,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "apple",
+        "gardezn"
+      ],
+      "typo_index": 1,
+      "truth": "garden"
+    },
+    {
+      "id": 32,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "fruit",
+        "fpreserve"
+      ],
+      "typo_index": 1,
+      "truth": "preserve"
+    },
+    {
+      "id": 33,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "anti",
+        "steehl"
+      ],
+      "typo_index": 1,
+      "truth": "steel"
+    },
+    {
+      "id": 34,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "chicken",
+        "maggui"
+      ],
+      "typo_index": 1,
+      "truth": "maggi"
+    },
+    {
+      "id": 35,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "bars",
+        "snickerm"
+      ],
+      "typo_index": 1,
+      "truth": "snicker"
+    },
+    {
+      "id": 36,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "aqua",
+        "deltfa"
+      ],
+      "typo_index": 1,
+      "truth": "delta"
+    },
+    {
+      "id": 37,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "baby",
+        "tmonth"
+      ],
+      "typo_index": 1,
+      "truth": "month"
+    },
+    {
+      "id": 38,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "by",
+        "mincedb"
+      ],
+      "typo_index": 1,
+      "truth": "minced"
+    },
+    {
+      "id": 39,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "chip",
+        "jackerf"
+      ],
+      "typo_index": 1,
+      "truth": "jacker"
+    },
+    {
+      "id": 40,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "gold",
+        "sockeet"
+      ],
+      "typo_index": 1,
+      "truth": "socket"
+    },
+    {
+      "id": 41,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "chffee"
+      ],
+      "typo_index": 0,
+      "truth": "coffee"
+    },
+    {
+      "id": 42,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "istanbwlly"
+      ],
+      "typo_index": 0,
+      "truth": "istanbolly"
+    },
+    {
+      "id": 43,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "marshrone"
+      ],
+      "typo_index": 0,
+      "truth": "marshzone"
+    },
+    {
+      "id": 44,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "vegetau"
+      ],
+      "typo_index": 0,
+      "truth": "vegetar"
+    },
+    {
+      "id": 45,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "dispasable"
+      ],
+      "typo_index": 0,
+      "truth": "disposable"
+    },
+    {
+      "id": 46,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "zosmetic"
+      ],
+      "typo_index": 0,
+      "truth": "cosmetic"
+    },
+    {
+      "id": 47,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "mixinj"
+      ],
+      "typo_index": 0,
+      "truth": "mixing"
+    },
+    {
+      "id": 48,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "anagchy"
+      ],
+      "typo_index": 0,
+      "truth": "anarchy"
+    },
+    {
+      "id": 49,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "chills"
+      ],
+      "typo_index": 0,
+      "truth": "chilli"
+    },
+    {
+      "id": 50,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "khowering"
+      ],
+      "typo_index": 0,
+      "truth": "showering"
+    },
+    {
+      "id": 51,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "face",
+        "purifjing"
+      ],
+      "typo_index": 1,
+      "truth": "purifying"
+    },
+    {
+      "id": 52,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "kg",
+        "tibra"
+      ],
+      "typo_index": 1,
+      "truth": "tiara"
+    },
+    {
+      "id": 53,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "brown",
+        "ordanic"
+      ],
+      "typo_index": 1,
+      "truth": "organic"
+    },
+    {
+      "id": 54,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "cleansing",
+        "garnper"
+      ],
+      "typo_index": 1,
+      "truth": "garnier"
+    },
+    {
+      "id": 55,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "a",
+        "cucumbed"
+      ],
+      "typo_index": 1,
+      "truth": "cucumber"
+    },
+    {
+      "id": 56,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "chili",
+        "tigeh"
+      ],
+      "typo_index": 1,
+      "truth": "tiger"
+    },
+    {
+      "id": 57,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "abu",
+        "arabiya"
+      ],
+      "typo_index": 1,
+      "truth": "arabica"
+    },
+    {
+      "id": 58,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "and",
+        "fegille"
+      ],
+      "typo_index": 1,
+      "truth": "feuille"
+    },
+    {
+      "id": 59,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "al",
+        "fatania"
+      ],
+      "typo_index": 1,
+      "truth": "watania"
+    },
+    {
+      "id": 60,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "bebeto",
+        "rpller"
+      ],
+      "typo_index": 1,
+      "truth": "roller"
+    },
+    {
+      "id": 61,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "sehrosa"
+      ],
+      "typo_index": 0,
+      "truth": "sherosa"
+    },
+    {
+      "id": 62,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "ijngo"
+      ],
+      "typo_index": 0,
+      "truth": "jingo"
+    },
+    {
+      "id": 63,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "delicaet"
+      ],
+      "typo_index": 0,
+      "truth": "delicate"
+    },
+    {
+      "id": 64,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "shcar"
+      ],
+      "typo_index": 0,
+      "truth": "schar"
+    },
+    {
+      "id": 65,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "fluly"
+      ],
+      "typo_index": 0,
+      "truth": "fully"
+    },
+    {
+      "id": 66,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "fnacy"
+      ],
+      "typo_index": 0,
+      "truth": "fancy"
+    },
+    {
+      "id": 67,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "proidgy"
+      ],
+      "typo_index": 0,
+      "truth": "prodigy"
+    },
+    {
+      "id": 68,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "drgaee"
+      ],
+      "typo_index": 0,
+      "truth": "dragee"
+    },
+    {
+      "id": 69,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "segafrdeo"
+      ],
+      "typo_index": 0,
+      "truth": "segafredo"
+    },
+    {
+      "id": 70,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "storgae"
+      ],
+      "typo_index": 0,
+      "truth": "storage"
+    },
+    {
+      "id": 71,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "assorted",
+        "huose"
+      ],
+      "typo_index": 1,
+      "truth": "house"
+    },
+    {
+      "id": 72,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "anti",
+        "stainelss"
+      ],
+      "typo_index": 1,
+      "truth": "stainless"
+    },
+    {
+      "id": 73,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "al",
+        "amede"
+      ],
+      "typo_index": 1,
+      "truth": "ameed"
+    },
+    {
+      "id": 74,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "chup",
+        "chuap"
+      ],
+      "typo_index": 1,
+      "truth": "chupa"
+    },
+    {
+      "id": 75,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "blender",
+        "emdiatech"
+      ],
+      "typo_index": 1,
+      "truth": "mediatech"
+    },
+    {
+      "id": 76,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "beef",
+        "frankfurtre"
+      ],
+      "typo_index": 1,
+      "truth": "frankfurter"
+    },
+    {
+      "id": 77,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "antibacterial",
+        "grapferuit"
+      ],
+      "typo_index": 1,
+      "truth": "grapefruit"
+    },
+    {
+      "id": 78,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "altahya",
+        "hmumu"
+      ],
+      "typo_index": 1,
+      "truth": "hummu"
+    },
+    {
+      "id": 79,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "apple",
+        "gardne"
+      ],
+      "typo_index": 1,
+      "truth": "garden"
+    },
+    {
+      "id": 80,
+      "kind": "typo",
+      "language": "en",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "gr",
+        "tpoping"
+      ],
+      "typo_index": 1,
+      "truth": "topping"
+    },
+    {
+      "id": 81,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "اتداء"
+      ],
+      "typo_index": 0,
+      "truth": "ابتداء"
+    },
+    {
+      "id": 82,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "بحة"
+      ],
+      "typo_index": 0,
+      "truth": "بحبة"
+    },
+    {
+      "id": 83,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "متنع"
+      ],
+      "typo_index": 0,
+      "truth": "متنوع"
+    },
+    {
+      "id": 84,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "يلز"
+      ],
+      "typo_index": 0,
+      "truth": "ويلز"
+    },
+    {
+      "id": 85,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "ماحة"
+      ],
+      "typo_index": 0,
+      "truth": "مساحة"
+    },
+    {
+      "id": 86,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "لحساس"
+      ],
+      "typo_index": 0,
+      "truth": "الحساس"
+    },
+    {
+      "id": 87,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "مطط"
+      ],
+      "typo_index": 0,
+      "truth": "مخطط"
+    },
+    {
+      "id": 88,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "الزباد"
+      ],
+      "typo_index": 0,
+      "truth": "الزبادي"
+    },
+    {
+      "id": 89,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "قري"
+      ],
+      "typo_index": 0,
+      "truth": "قريش"
+    },
+    {
+      "id": 90,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "single",
+      "tokens": [
+        "بائحه"
+      ],
+      "typo_index": 0,
+      "truth": "برائحه"
+    },
+    {
+      "id": 91,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "العادي",
+        "العنية"
+      ],
+      "typo_index": 1,
+      "truth": "العناية"
+    },
+    {
+      "id": 92,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "اب",
+        "للتوس"
+      ],
+      "typo_index": 1,
+      "truth": "للتسوس"
+    },
+    {
+      "id": 93,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "ازرق",
+        "مطب"
+      ],
+      "typo_index": 1,
+      "truth": "مطبخ"
+    },
+    {
+      "id": 94,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "بيور",
+        "حينة"
+      ],
+      "typo_index": 1,
+      "truth": "طحينة"
+    },
+    {
+      "id": 95,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "جم",
+        "الطب"
+      ],
+      "typo_index": 1,
+      "truth": "الطبخ"
+    },
+    {
+      "id": 96,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "البامبو",
+        "وقية"
+      ],
+      "typo_index": 1,
+      "truth": "ورقية"
+    },
+    {
+      "id": 97,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "البسطرمة",
+        "للبططس"
+      ],
+      "typo_index": 1,
+      "truth": "للبطاطس"
+    },
+    {
+      "id": 98,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "بقع",
+        "بخخ"
+      ],
+      "typo_index": 1,
+      "truth": "بخاخ"
+    },
+    {
+      "id": 99,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "اسبريسو",
+        "فيجو"
+      ],
+      "typo_index": 1,
+      "truth": "فياجو"
+    },
+    {
+      "id": 100,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "deletion",
+      "arity": "multiword",
+      "tokens": [
+        "البوادي",
+        "طينية"
+      ],
+      "typo_index": 1,
+      "truth": "طحينية"
+    },
+    {
+      "id": 101,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "مسطرث"
+      ],
+      "typo_index": 0,
+      "truth": "مسطر"
+    },
+    {
+      "id": 102,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "باذهي"
+      ],
+      "typo_index": 0,
+      "truth": "باهي"
+    },
+    {
+      "id": 103,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "طفردي"
+      ],
+      "typo_index": 0,
+      "truth": "فردي"
+    },
+    {
+      "id": 104,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "البلازمدا"
+      ],
+      "typo_index": 0,
+      "truth": "البلازما"
+    },
+    {
+      "id": 105,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "فريثش"
+      ],
+      "typo_index": 0,
+      "truth": "فريش"
+    },
+    {
+      "id": 106,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "اماميخ"
+      ],
+      "typo_index": 0,
+      "truth": "امامي"
+    },
+    {
+      "id": 107,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "سضهله"
+      ],
+      "typo_index": 0,
+      "truth": "سهله"
+    },
+    {
+      "id": 108,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "الكراميهل"
+      ],
+      "typo_index": 0,
+      "truth": "الكراميل"
+    },
+    {
+      "id": 109,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "هولنديش"
+      ],
+      "typo_index": 0,
+      "truth": "هولندي"
+    },
+    {
+      "id": 110,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "single",
+      "tokens": [
+        "ضلسان"
+      ],
+      "typo_index": 0,
+      "truth": "لسان"
+    },
+    {
+      "id": 111,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "الوان",
+        "ماساو"
+      ],
+      "typo_index": 1,
+      "truth": "ماسا"
+    },
+    {
+      "id": 112,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "بالمانجو",
+        "بيتعي"
+      ],
+      "typo_index": 1,
+      "truth": "بيتي"
+    },
+    {
+      "id": 113,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "ايون",
+        "بالزبيبح"
+      ],
+      "typo_index": 1,
+      "truth": "بالزبيب"
+    },
+    {
+      "id": 114,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "اكواب",
+        "كبرتون"
+      ],
+      "typo_index": 1,
+      "truth": "كرتون"
+    },
+    {
+      "id": 115,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "اتوماتيك",
+        "بامجفف"
+      ],
+      "typo_index": 1,
+      "truth": "بمجفف"
+    },
+    {
+      "id": 116,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "حلاوه",
+        "البوغادي"
+      ],
+      "typo_index": 1,
+      "truth": "البوادي"
+    },
+    {
+      "id": 117,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "اقرا",
+        "ولوشن"
+      ],
+      "typo_index": 1,
+      "truth": "ولون"
+    },
+    {
+      "id": 118,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "الاصطناعية",
+        "فرطيسكيز"
+      ],
+      "typo_index": 1,
+      "truth": "فريسكيز"
+    },
+    {
+      "id": 119,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "ا",
+        "ثنائبي"
+      ],
+      "typo_index": 1,
+      "truth": "ثنائي"
+    },
+    {
+      "id": 120,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "insertion",
+      "arity": "multiword",
+      "tokens": [
+        "كيلو",
+        "عويسي"
+      ],
+      "typo_index": 1,
+      "truth": "عويس"
+    },
+    {
+      "id": 121,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "اوريجنار"
+      ],
+      "typo_index": 0,
+      "truth": "اوريجنال"
+    },
+    {
+      "id": 122,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "وغروة"
+      ],
+      "typo_index": 0,
+      "truth": "وفروة"
+    },
+    {
+      "id": 123,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "رغوظ"
+      ],
+      "typo_index": 0,
+      "truth": "رغوة"
+    },
+    {
+      "id": 124,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "مالتيزسز"
+      ],
+      "typo_index": 0,
+      "truth": "مالتيزرز"
+    },
+    {
+      "id": 125,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "صسكويك"
+      ],
+      "typo_index": 0,
+      "truth": "نسكويك"
+    },
+    {
+      "id": 126,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "معحون"
+      ],
+      "typo_index": 0,
+      "truth": "معجون"
+    },
+    {
+      "id": 127,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "يفران"
+      ],
+      "typo_index": 0,
+      "truth": "افران"
+    },
+    {
+      "id": 128,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "ميلر"
+      ],
+      "typo_index": 0,
+      "truth": "ميلك"
+    },
+    {
+      "id": 129,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "راخش"
+      ],
+      "typo_index": 0,
+      "truth": "رانش"
+    },
+    {
+      "id": 130,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "single",
+      "tokens": [
+        "سموذشي"
+      ],
+      "typo_index": 0,
+      "truth": "سموتشي"
+    },
+    {
+      "id": 131,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "برائحة",
+        "ايليمون"
+      ],
+      "typo_index": 1,
+      "truth": "الليمون"
+    },
+    {
+      "id": 132,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "بلو",
+        "حلاقظ"
+      ],
+      "typo_index": 1,
+      "truth": "حلاقه"
+    },
+    {
+      "id": 133,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "جم",
+        "ضلملو"
+      ],
+      "typo_index": 1,
+      "truth": "الملو"
+    },
+    {
+      "id": 134,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "الحافظة",
+        "قجفف"
+      ],
+      "typo_index": 1,
+      "truth": "مجفف"
+    },
+    {
+      "id": 135,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "التحضير",
+        "تشمبو"
+      ],
+      "typo_index": 1,
+      "truth": "تشيبو"
+    },
+    {
+      "id": 136,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "اضافة",
+        "بالانانهس"
+      ],
+      "typo_index": 1,
+      "truth": "بالاناناس"
+    },
+    {
+      "id": 137,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "بغطاء",
+        "محفم"
+      ],
+      "typo_index": 1,
+      "truth": "محكم"
+    },
+    {
+      "id": 138,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "بدون",
+        "مهونات"
+      ],
+      "typo_index": 1,
+      "truth": "ملونات"
+    },
+    {
+      "id": 139,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "اسباجتي",
+        "ذيلون"
+      ],
+      "typo_index": 1,
+      "truth": "نيلون"
+    },
+    {
+      "id": 140,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "substitution",
+      "arity": "multiword",
+      "tokens": [
+        "الاسود",
+        "البفراء"
+      ],
+      "typo_index": 1,
+      "truth": "الصفراء"
+    },
+    {
+      "id": 141,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "رفشه"
+      ],
+      "typo_index": 0,
+      "truth": "فرشه"
+    },
+    {
+      "id": 142,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "ااجج"
+      ],
+      "typo_index": 0,
+      "truth": "اجاج"
+    },
+    {
+      "id": 143,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "فشرا"
+      ],
+      "typo_index": 0,
+      "truth": "فشار"
+    },
+    {
+      "id": 144,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "بونوبن"
+      ],
+      "typo_index": 0,
+      "truth": "بونبون"
+    },
+    {
+      "id": 145,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "كيرتاين"
+      ],
+      "typo_index": 0,
+      "truth": "كيراتين"
+    },
+    {
+      "id": 146,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "يعون"
+      ],
+      "typo_index": 0,
+      "truth": "عيون"
+    },
+    {
+      "id": 147,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "اولسلفات"
+      ],
+      "typo_index": 0,
+      "truth": "والسلفات"
+    },
+    {
+      "id": 148,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "دراوكن"
+      ],
+      "typo_index": 0,
+      "truth": "دراكون"
+    },
+    {
+      "id": 149,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "ماجنا"
+      ],
+      "typo_index": 0,
+      "truth": "مجانا"
+    },
+    {
+      "id": 150,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "single",
+      "tokens": [
+        "يمسلار"
+      ],
+      "typo_index": 0,
+      "truth": "ميسلار"
+    },
+    {
+      "id": 151,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "الاغراض",
+        "السوادء"
+      ],
+      "typo_index": 1,
+      "truth": "السوداء"
+    },
+    {
+      "id": 152,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "ارضيات",
+        "نجرال"
+      ],
+      "typo_index": 1,
+      "truth": "جنرال"
+    },
+    {
+      "id": 153,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "الفراخ",
+        "وندلز"
+      ],
+      "typo_index": 1,
+      "truth": "نودلز"
+    },
+    {
+      "id": 154,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "بريزيدن",
+        "لثثات"
+      ],
+      "typo_index": 1,
+      "truth": "ثلثات"
+    },
+    {
+      "id": 155,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "الكريسماس",
+        "قبةع"
+      ],
+      "typo_index": 1,
+      "truth": "قبعة"
+    },
+    {
+      "id": 156,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "بالخلطة",
+        "لاحمص"
+      ],
+      "typo_index": 1,
+      "truth": "الحمص"
+    },
+    {
+      "id": 157,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "خوخ",
+        "مسترود"
+      ],
+      "typo_index": 1,
+      "truth": "مستورد"
+    },
+    {
+      "id": 158,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "الجلوتين",
+        "سوبيرم"
+      ],
+      "typo_index": 1,
+      "truth": "سوبريم"
+    },
+    {
+      "id": 159,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "بيرل",
+        "بريجد"
+      ],
+      "typo_index": 1,
+      "truth": "بريدج"
+    },
+    {
+      "id": 160,
+      "kind": "typo",
+      "language": "ar",
+      "mutation": "transposition",
+      "arity": "multiword",
+      "tokens": [
+        "الاصطناعية",
+        "ابلقمح"
+      ],
+      "typo_index": 1,
+      "truth": "بالقمح"
+    },
+    {
+      "id": 161,
+      "kind": "clean_catalog",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "c",
+        "razor"
+      ],
+      "typo_index": 1,
+      "truth": "razor"
+    },
+    {
+      "id": 162,
+      "kind": "clean_catalog",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "cake",
+        "mousse"
+      ],
+      "typo_index": 1,
+      "truth": "mousse"
+    },
+    {
+      "id": 163,
+      "kind": "clean_catalog",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "axe",
+        "africa"
+      ],
+      "typo_index": 1,
+      "truth": "africa"
+    },
+    {
+      "id": 164,
+      "kind": "clean_catalog",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "nouval",
+        "birmingham"
+      ],
+      "typo_index": 1,
+      "truth": "birmingham"
+    },
+    {
+      "id": 165,
+      "kind": "clean_catalog",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "block",
+        "cappuccino"
+      ],
+      "typo_index": 1,
+      "truth": "cappuccino"
+    },
+    {
+      "id": 166,
+      "kind": "clean_catalog",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "cream",
+        "orgakera"
+      ],
+      "typo_index": 1,
+      "truth": "orgakera"
+    },
+    {
+      "id": 167,
+      "kind": "clean_catalog",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "mcvitie",
+        "digestive"
+      ],
+      "typo_index": 1,
+      "truth": "digestive"
+    },
+    {
+      "id": 168,
+      "kind": "clean_catalog",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "booster",
+        "bright"
+      ],
+      "typo_index": 1,
+      "truth": "bright"
+    },
+    {
+      "id": 169,
+      "kind": "clean_catalog",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "plain",
+        "labna"
+      ],
+      "typo_index": 1,
+      "truth": "labna"
+    },
+    {
+      "id": 170,
+      "kind": "clean_catalog",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "cruelty",
+        "solution"
+      ],
+      "typo_index": 1,
+      "truth": "solution"
+    },
+    {
+      "id": 171,
+      "kind": "clean_catalog",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "اسنان",
+        "للغاية"
+      ],
+      "typo_index": 1,
+      "truth": "للغاية"
+    },
+    {
+      "id": 172,
+      "kind": "clean_catalog",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "اصلي",
+        "العنايه"
+      ],
+      "typo_index": 1,
+      "truth": "العنايه"
+    },
+    {
+      "id": 173,
+      "kind": "clean_catalog",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "جم",
+        "بامية"
+      ],
+      "typo_index": 1,
+      "truth": "بامية"
+    },
+    {
+      "id": 174,
+      "kind": "clean_catalog",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "الاطباق",
+        "لتنظيف"
+      ],
+      "typo_index": 1,
+      "truth": "لتنظيف"
+    },
+    {
+      "id": 175,
+      "kind": "clean_catalog",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "بولة",
+        "تيتيز"
+      ],
+      "typo_index": 1,
+      "truth": "تيتيز"
+    },
+    {
+      "id": 176,
+      "kind": "clean_catalog",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "اخضر",
+        "ماتشا"
+      ],
+      "typo_index": 1,
+      "truth": "ماتشا"
+    },
+    {
+      "id": 177,
+      "kind": "clean_catalog",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "بشواية",
+        "شارب"
+      ],
+      "typo_index": 1,
+      "truth": "شارب"
+    },
+    {
+      "id": 178,
+      "kind": "clean_catalog",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "زهرة",
+        "البرسيم"
+      ],
+      "typo_index": 1,
+      "truth": "البرسيم"
+    },
+    {
+      "id": 179,
+      "kind": "clean_catalog",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "الاخضر",
+        "بالزيتون"
+      ],
+      "typo_index": 1,
+      "truth": "بالزيتون"
+    },
+    {
+      "id": 180,
+      "kind": "clean_catalog",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "ايس",
+        "موتشي"
+      ],
+      "typo_index": 1,
+      "truth": "موتشي"
+    },
+    {
+      "id": 181,
+      "kind": "clean_filler",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "alway",
+        "please"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 182,
+      "kind": "clean_filler",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "mejdool",
+        "maybe"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 183,
+      "kind": "clean_filler",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "dabur",
+        "really"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 184,
+      "kind": "clean_filler",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "arabic",
+        "quickly"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 185,
+      "kind": "clean_filler",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "frying",
+        "kindly"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 186,
+      "kind": "clean_filler",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "provolone",
+        "actually"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 187,
+      "kind": "clean_filler",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "istanboli",
+        "possibly"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 188,
+      "kind": "clean_filler",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "stand",
+        "something"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 189,
+      "kind": "clean_filler",
+      "language": "en",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "staniless",
+        "anything"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 190,
+      "kind": "clean_filler",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "حراري",
+        "لوسمحت"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 191,
+      "kind": "clean_filler",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "مثلج",
+        "بسرعة"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 192,
+      "kind": "clean_filler",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "ماسا",
+        "ممكن"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 193,
+      "kind": "clean_filler",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "مانجو",
+        "يعني"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 194,
+      "kind": "clean_filler",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "كومبليت",
+        "بصراحة"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 195,
+      "kind": "clean_filler",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "محمص",
+        "خالص"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 196,
+      "kind": "clean_filler",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "تنظيف",
+        "النهاردة"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 197,
+      "kind": "clean_filler",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "براون",
+        "كمان"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 198,
+      "kind": "clean_filler",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "بالوان",
+        "شوية"
+      ],
+      "typo_index": 1,
+      "truth": null
+    },
+    {
+      "id": 199,
+      "kind": "clean_filler",
+      "language": "ar",
+      "mutation": null,
+      "arity": "multiword",
+      "tokens": [
+        "البرسيم",
+        "طبعا"
+      ],
+      "typo_index": 1,
+      "truth": null
+    }
+  ]
+}

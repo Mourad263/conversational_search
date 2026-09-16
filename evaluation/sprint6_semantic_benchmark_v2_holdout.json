@@ -1,0 +1,831 @@
+{
+  "seed": 20260928,
+  "dev_fraction": 0.7,
+  "label_policy": "roles from intended user meaning; groundings hand-authored from canonical catalog display names and verified against the database; no production resolver was called to produce any expected value",
+  "cases": [
+    {
+      "tag": "en_bare_product",
+      "language": "en",
+      "sentence": "show me some chocolate",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "chocolate",
+        "category_hint": "chocolate",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": "chocolate_2",
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "canonical Chocolate / الشوكولاتة",
+      "catalog_evidence": {
+        "categories": {
+          "chocolate_2": {
+            "display_name_en": "Chocolate",
+            "display_name_ar": "الشوكولاتة",
+            "product_count": 338
+          }
+        },
+        "brands": {}
+      },
+      "id": 2
+    },
+    {
+      "tag": "en_bare_product",
+      "language": "en",
+      "sentence": "I want rice",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "rice",
+        "category_hint": "rice",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": "rice",
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "canonical Rice / الأرز",
+      "catalog_evidence": {
+        "categories": {
+          "rice": {
+            "display_name_en": "Rice",
+            "display_name_ar": "الأرز",
+            "product_count": 122
+          }
+        },
+        "brands": {}
+      },
+      "id": 3
+    },
+    {
+      "tag": "en_bare_product",
+      "language": "en",
+      "sentence": "do you have honey",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "honey",
+        "category_hint": "honey",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": "honey_5698",
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "canonical Honey / عسل",
+      "catalog_evidence": {
+        "categories": {
+          "honey_5698": {
+            "display_name_en": "Honey",
+            "display_name_ar": "عسل",
+            "product_count": 155
+          }
+        },
+        "brands": {}
+      },
+      "id": 5
+    },
+    {
+      "tag": "ar_bare_product",
+      "language": "ar",
+      "sentence": "عايزة عسل",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "عسل",
+        "category_hint": "عسل",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": "honey_5698",
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "canonical AR name is literally عسل",
+      "catalog_evidence": {
+        "categories": {
+          "honey_5698": {
+            "display_name_en": "Honey",
+            "display_name_ar": "عسل",
+            "product_count": 155
+          }
+        },
+        "brands": {}
+      },
+      "id": 7
+    },
+    {
+      "tag": "code_switch",
+      "language": "mixed",
+      "sentence": "I want شاي please",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "شاي",
+        "category_hint": "شاي",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": "tea_5702",
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "canonical Tea / الشاي",
+      "catalog_evidence": {
+        "categories": {
+          "tea_5702": {
+            "display_name_en": "Tea",
+            "display_name_ar": "الشاي",
+            "product_count": 226
+          }
+        },
+        "brands": {}
+      },
+      "id": 13
+    },
+    {
+      "tag": "explicit_brand",
+      "language": "en",
+      "sentence": "anything from Dove",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": "Dove",
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": null,
+        "brand": "dove",
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "156 products",
+      "catalog_evidence": {
+        "categories": {},
+        "brands": {
+          "dove": {
+            "product_count": 156,
+            "aliases": [
+              "Dove",
+              "دوف"
+            ]
+          }
+        }
+      },
+      "id": 17
+    },
+    {
+      "tag": "brand_variant_spelling",
+      "language": "en",
+      "sentence": "show me Juhaina",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": "Juhaina",
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": null,
+        "brand": "juhayna",
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "common transliteration variant",
+      "catalog_evidence": {
+        "categories": {},
+        "brands": {
+          "juhayna": {
+            "product_count": 122,
+            "aliases": [
+              "Juhayna",
+              "جهينه"
+            ]
+          }
+        }
+      },
+      "id": 22
+    },
+    {
+      "tag": "brand_variant_spelling",
+      "language": "ar",
+      "sentence": "حاجة من نستله",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": "نستله",
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": null,
+        "brand": "nestle",
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "catalog AR alias is نيستل; نستله is the same brand, spelled differently",
+      "catalog_evidence": {
+        "categories": {},
+        "brands": {
+          "nestle": {
+            "product_count": 130,
+            "aliases": [
+              "Nestle",
+              "نيستل"
+            ]
+          }
+        }
+      },
+      "id": 23
+    },
+    {
+      "tag": "multi_word_concept",
+      "language": "ar",
+      "sentence": "لبن خالي الدسم",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "لبن خالي الدسم",
+        "category_hint": "لبن خالي الدسم",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": "skimmed_milk_39",
+        "brand": null,
+        "acceptable_categories": [
+          "skimmed_milk_39",
+          "milk_29"
+        ],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "Skimmed Milk / لبن منزوع الدسم",
+      "catalog_evidence": {
+        "categories": {
+          "skimmed_milk_39": {
+            "display_name_en": "Skimmed Milk",
+            "display_name_ar": "لبن منزوع الدسم",
+            "product_count": 23
+          },
+          "milk_29": {
+            "display_name_en": "Milk",
+            "display_name_ar": "الألبان",
+            "product_count": 124
+          }
+        },
+        "brands": {}
+      },
+      "id": 28
+    },
+    {
+      "tag": "ingredient_vs_descriptor",
+      "language": "en",
+      "sentence": "strawberry",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "strawberry",
+        "category_hint": "fruits",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": "fruits_3283",
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "the fruit itself is the product",
+      "catalog_evidence": {
+        "categories": {
+          "fruits_3283": {
+            "display_name_en": "Fruits",
+            "display_name_ar": "الفواكه",
+            "product_count": 343
+          }
+        },
+        "brands": {}
+      },
+      "id": 29
+    },
+    {
+      "tag": "ingredient_vs_descriptor",
+      "language": "en",
+      "sentence": "strawberry yogurt",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "strawberry yogurt",
+        "category_hint": "yogurt",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "ambiguous",
+        "category": null,
+        "brand": null,
+        "acceptable_categories": [
+          "flavored_yogurt_49",
+          "yogurt"
+        ],
+        "acceptable_brands": [],
+        "forbidden_categories": [
+          "fruits_3283"
+        ],
+        "forbidden_brands": []
+      },
+      "label_note": "strawberry is the FLAVOUR here; Flavored Yogurt and Yogurt both fair, Fruits is not",
+      "catalog_evidence": {
+        "categories": {
+          "flavored_yogurt_49": {
+            "display_name_en": "Flavored Yogurt",
+            "display_name_ar": "زبادي بالنكهات",
+            "product_count": 46
+          },
+          "yogurt": {
+            "display_name_en": "Yogurt",
+            "display_name_ar": "منتجات الزبادي",
+            "product_count": 180
+          },
+          "fruits_3283": {
+            "display_name_en": "Fruits",
+            "display_name_ar": "الفواكه",
+            "product_count": 343
+          }
+        },
+        "brands": {}
+      },
+      "id": 30
+    },
+    {
+      "tag": "ingredient_vs_descriptor",
+      "language": "ar",
+      "sentence": "شامبو بالليمون",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "شامبو بالليمون",
+        "category_hint": "شامبو",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "ambiguous",
+        "category": null,
+        "brand": null,
+        "acceptable_categories": [
+          "hair_care",
+          "shower_bath_soap_1747"
+        ],
+        "acceptable_brands": [],
+        "forbidden_categories": [
+          "fruits_3283"
+        ],
+        "forbidden_brands": []
+      },
+      "label_note": "no row denotes shampoo alone; Hair Care and Shower/Bath/Soap both plausible",
+      "catalog_evidence": {
+        "categories": {
+          "hair_care": {
+            "display_name_en": "Hair Care",
+            "display_name_ar": "العناية بالشعر",
+            "product_count": 1034
+          },
+          "shower_bath_soap_1747": {
+            "display_name_en": "Shower , Bath & Soap",
+            "display_name_ar": "الصابون والاستحمام وغسيل الجسم",
+            "product_count": 850
+          },
+          "fruits_3283": {
+            "display_name_en": "Fruits",
+            "display_name_ar": "الفواكه",
+            "product_count": 343
+          }
+        },
+        "brands": {}
+      },
+      "id": 33
+    },
+    {
+      "tag": "category_browse",
+      "language": "ar",
+      "sentence": "وريني قسم المكسرات",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "قسم المكسرات",
+        "category_hint": "مكسرات",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "ambiguous",
+        "category": null,
+        "brand": null,
+        "acceptable_categories": [
+          "nuts",
+          "nuts_seeds_16871"
+        ],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "TWO rows denote nuts: `nuts` (مكسرات) and Nuts & Seeds (المكسرات)",
+      "catalog_evidence": {
+        "categories": {
+          "nuts": {
+            "display_name_en": "nuts",
+            "display_name_ar": "مكسرات",
+            "product_count": 56
+          },
+          "nuts_seeds_16871": {
+            "display_name_en": "Nuts & Seeds",
+            "display_name_ar": "المكسرات",
+            "product_count": 73
+          }
+        },
+        "brands": {}
+      },
+      "id": 36
+    },
+    {
+      "tag": "free_from",
+      "language": "ar",
+      "sentence": "عايز لبن من غير لاكتوز",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "لبن",
+        "category_hint": "لبن",
+        "brand_text": null,
+        "free_from": "لاكتوز"
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": "lactose_free_32297",
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "Lactose Free / خالي من اللاكتوز, 3 products",
+      "catalog_evidence": {
+        "categories": {
+          "lactose_free_32297": {
+            "display_name_en": "Lactose Free",
+            "display_name_ar": "خالي من اللاكتوز",
+            "product_count": 3
+          }
+        },
+        "brands": {}
+      },
+      "id": 40
+    },
+    {
+      "tag": "typo_en",
+      "language": "en",
+      "sentence": "I need chese please",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "chese",
+        "category_hint": "cheese",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": "cheese",
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "",
+      "catalog_evidence": {
+        "categories": {
+          "cheese": {
+            "display_name_en": "Cheese",
+            "display_name_ar": "الأجبان",
+            "product_count": 520
+          }
+        },
+        "brands": {}
+      },
+      "id": 43
+    },
+    {
+      "tag": "typo_en",
+      "language": "en",
+      "sentence": "show me buttter",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "buttter",
+        "category_hint": "butter",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": "butter",
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "Butter / الزبدة",
+      "catalog_evidence": {
+        "categories": {
+          "butter": {
+            "display_name_en": "Butter",
+            "display_name_ar": "الزبدة",
+            "product_count": 28
+          }
+        },
+        "brands": {}
+      },
+      "id": 45
+    },
+    {
+      "tag": "typo_en",
+      "language": "en",
+      "sentence": "looking for irce",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "irce",
+        "category_hint": "rice",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": "rice",
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "",
+      "catalog_evidence": {
+        "categories": {
+          "rice": {
+            "display_name_en": "Rice",
+            "display_name_ar": "الأرز",
+            "product_count": 122
+          }
+        },
+        "brands": {}
+      },
+      "id": 46
+    },
+    {
+      "tag": "conversational_modify_replace",
+      "language": "en",
+      "sentence": "also add cheese",
+      "history": [
+        "I need milk"
+      ],
+      "expected_action": {
+        "intent": "add_filter",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "cheese",
+        "category_hint": "cheese",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": "cheese",
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "",
+      "catalog_evidence": {
+        "categories": {
+          "cheese": {
+            "display_name_en": "Cheese",
+            "display_name_ar": "الأجبان",
+            "product_count": 520
+          }
+        },
+        "brands": {}
+      },
+      "id": 51
+    },
+    {
+      "tag": "conversational_modify_replace",
+      "language": "en",
+      "sentence": "make it under 80 instead",
+      "history": [
+        "I need milk under 50"
+      ],
+      "expected_action": {
+        "intent": "modify_filter",
+        "price_min": null,
+        "price_max": 80.0,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "none",
+        "category": null,
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "",
+      "catalog_evidence": {
+        "categories": {},
+        "brands": {}
+      },
+      "id": 53
+    },
+    {
+      "tag": "off_topic",
+      "language": "en",
+      "sentence": "how's the weather in Cairo today?",
+      "history": null,
+      "expected_action": {
+        "intent": "off_topic",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "none",
+        "category": null,
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": []
+      },
+      "label_note": "",
+      "catalog_evidence": {
+        "categories": {},
+        "brands": {}
+      },
+      "id": 61
+    }
+  ]
+}

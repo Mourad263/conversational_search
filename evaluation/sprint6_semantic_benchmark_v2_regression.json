@@ -1,0 +1,317 @@
+{
+  "seed": 20260928,
+  "dev_fraction": 0.7,
+  "label_policy": "roles from intended user meaning; groundings hand-authored from canonical catalog display names and verified against the database; no production resolver was called to produce any expected value",
+  "cases": [
+    {
+      "tag": "regression_tomato_paste_vs_pasta",
+      "language": "en",
+      "sentence": "tomato paste from Heinz",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "tomato paste",
+        "category_hint": "tomato paste",
+        "brand_text": "Heinz",
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "retrieval_only",
+        "category": null,
+        "brand": "heinz",
+        "acceptable_categories": [
+          "sauces_pastes_5694"
+        ],
+        "acceptable_brands": [],
+        "forbidden_categories": [
+          "pasta_5699"
+        ],
+        "forbidden_brands": []
+      },
+      "label_note": "original bug: 'paste' fuzzy-hijacked by the Pasta row",
+      "catalog_evidence": {
+        "categories": {
+          "sauces_pastes_5694": {
+            "display_name_en": "Sauces & Pastes",
+            "display_name_ar": "صلصة وصوصات",
+            "product_count": 428
+          },
+          "pasta_5699": {
+            "display_name_en": "Pasta",
+            "display_name_ar": "المكرونة",
+            "product_count": 324
+          }
+        },
+        "brands": {
+          "heinz": {
+            "product_count": 49,
+            "aliases": [
+              "Heinz",
+              "هينز"
+            ]
+          }
+        }
+      },
+      "id": 1001
+    },
+    {
+      "tag": "regression_peas_vs_pears",
+      "language": "en",
+      "sentence": "peas",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "peas",
+        "category_hint": "peas",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "retrieval_only",
+        "category": null,
+        "brand": null,
+        "acceptable_categories": [
+          "vegetables_3286"
+        ],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": [
+          "pears"
+        ]
+      },
+      "label_note": "original bug: resolved to the brand Pears",
+      "catalog_evidence": {
+        "categories": {
+          "vegetables_3286": {
+            "display_name_en": "Vegetables",
+            "display_name_ar": "خضراوات",
+            "product_count": 548
+          }
+        },
+        "brands": {
+          "pears": {
+            "product_count": 2,
+            "aliases": [
+              "Pears",
+              "بيرز"
+            ]
+          }
+        }
+      },
+      "id": 1002
+    },
+    {
+      "tag": "regression_frozen_peas",
+      "language": "en",
+      "sentence": "frozen peas",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "frozen peas",
+        "category_hint": "frozen vegetables",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": "frozen_vegetables_11674",
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": [
+          "pears"
+        ]
+      },
+      "label_note": "Frozen Vegetables / خضراوات مجمدة denotes it exactly",
+      "catalog_evidence": {
+        "categories": {
+          "frozen_vegetables_11674": {
+            "display_name_en": "Frozen Vegetables",
+            "display_name_ar": "خضراوات مجمدة",
+            "product_count": 172
+          }
+        },
+        "brands": {
+          "pears": {
+            "product_count": 2,
+            "aliases": [
+              "Pears",
+              "بيرز"
+            ]
+          }
+        }
+      },
+      "id": 1003
+    },
+    {
+      "tag": "regression_extra_virgin_olive_oil",
+      "language": "en",
+      "sentence": "extra virgin olive oil",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "extra virgin olive oil",
+        "category_hint": "olive oil",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "exact",
+        "category": "oil_5685",
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": [
+          "extra"
+        ]
+      },
+      "label_note": "original bug: 'extra' hijacked by the real 15-product brand Extra",
+      "catalog_evidence": {
+        "categories": {
+          "oil_5685": {
+            "display_name_en": "Oil",
+            "display_name_ar": "الزيت",
+            "product_count": 222
+          }
+        },
+        "brands": {
+          "extra": {
+            "product_count": 15,
+            "aliases": [
+              "Extra"
+            ]
+          }
+        }
+      },
+      "id": 1004
+    },
+    {
+      "tag": "regression_choclate_milk",
+      "language": "en",
+      "sentence": "choclate milk",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": "choclate milk",
+        "category_hint": "chocolate milk",
+        "brand_text": null,
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "retrieval_only",
+        "category": null,
+        "brand": null,
+        "acceptable_categories": [
+          "flavored_milk_41",
+          "milk_29",
+          "chocolate_2"
+        ],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": [
+          "chocodate"
+        ]
+      },
+      "label_note": "original bug: 'choclate' hijacked by the brand Chocodate",
+      "catalog_evidence": {
+        "categories": {
+          "flavored_milk_41": {
+            "display_name_en": "Flavored Milk ",
+            "display_name_ar": "لبن بنكهات",
+            "product_count": 17
+          },
+          "milk_29": {
+            "display_name_en": "Milk",
+            "display_name_ar": "الألبان",
+            "product_count": 124
+          },
+          "chocolate_2": {
+            "display_name_en": "Chocolate",
+            "display_name_ar": "الشوكولاتة",
+            "product_count": 338
+          }
+        },
+        "brands": {
+          "chocodate": {
+            "product_count": 2,
+            "aliases": [
+              "Chocodate",
+              "شوكودات"
+            ]
+          }
+        }
+      },
+      "id": 1005
+    },
+    {
+      "tag": "regression_alwadi_vs_el_bawadi",
+      "language": "ar",
+      "sentence": "عايز حاجة من الوادي",
+      "history": null,
+      "expected_action": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "target_facet": null
+      },
+      "expected_roles": {
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": "الوادي",
+        "free_from": null
+      },
+      "expected_grounding": {
+        "mode": "retrieval_only",
+        "category": null,
+        "brand": null,
+        "acceptable_categories": [],
+        "acceptable_brands": [],
+        "forbidden_categories": [],
+        "forbidden_brands": [
+          "el_bawadi"
+        ]
+      },
+      "label_note": "el_bawadi's real aliases are البوادى / El Bawadi -- NOT الوادي, so no canonical brand denotes this; any brand match here is a false hijack",
+      "catalog_evidence": {
+        "categories": {},
+        "brands": {
+          "el_bawadi": {
+            "product_count": 43,
+            "aliases": [
+              "El Bawadi",
+              "البوادى"
+            ]
+          }
+        }
+      },
+      "id": 1006
+    }
+  ]
+}

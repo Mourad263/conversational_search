@@ -1,0 +1,1612 @@
+{
+  "n_products": 25881,
+  "k_metrics": {
+    "64": {
+      "k": 64,
+      "fit_time_s": 9.75,
+      "peak_python_memory_mb": 27.7,
+      "cluster_sizes": {
+        "min": 124,
+        "median": 408.5,
+        "mean": 404.39,
+        "max": 1037,
+        "empty_clusters": 0
+      },
+      "category_diagnostics": {
+        "avg_dominant_category_pct": 0.6417,
+        "avg_categories_per_cluster": 15.02,
+        "clusters_with_category_data": 64
+      }
+    },
+    "128": {
+      "k": 128,
+      "fit_time_s": 6.82,
+      "peak_python_memory_mb": 28.1,
+      "cluster_sizes": {
+        "min": 5,
+        "median": 176.5,
+        "mean": 202.2,
+        "max": 556,
+        "empty_clusters": 0
+      },
+      "category_diagnostics": {
+        "avg_dominant_category_pct": 0.6966,
+        "avg_categories_per_cluster": 9.02,
+        "clusters_with_category_data": 127
+      }
+    },
+    "256": {
+      "k": 256,
+      "fit_time_s": 12.67,
+      "peak_python_memory_mb": 29.3,
+      "cluster_sizes": {
+        "min": 3,
+        "median": 81.0,
+        "mean": 101.1,
+        "max": 471,
+        "empty_clusters": 0
+      },
+      "category_diagnostics": {
+        "avg_dominant_category_pct": 0.739,
+        "avg_categories_per_cluster": 5.66,
+        "clusters_with_category_data": 249
+      }
+    }
+  },
+  "qualitative_clusters_k": 128,
+  "qualitative_clusters": [
+    {
+      "cluster_id": 19,
+      "cluster_size": 369,
+      "representative_products": [
+        {
+          "product_id": 17667,
+          "name": "Rivoli Shower Gel Rose - 500 Ml",
+          "brand": "rivoli",
+          "category": "beauty_personal_care_1722"
+        },
+        {
+          "product_id": 23441,
+          "name": "Nivea Care And Relax Shower Gel - 750Ml",
+          "brand": "nivea",
+          "category": null
+        },
+        {
+          "product_id": 23442,
+          "name": "Nivea Welcome Sunshine Shower Gel - 750Ml",
+          "brand": "nivea",
+          "category": null
+        },
+        {
+          "product_id": 14606,
+          "name": "Dettol Skincare Showergel Liquid - 250Ml",
+          "brand": "dettol",
+          "category": null
+        },
+        {
+          "product_id": 23444,
+          "name": "Nivea Care And Roses Shower Gel - 750Ml",
+          "brand": "nivea",
+          "category": null
+        },
+        {
+          "product_id": 1300,
+          "name": "Nivea Energy Shower Gel For Men - 250 Ml",
+          "brand": "nivea",
+          "category": "beauty_personal_care_1722"
+        },
+        {
+          "product_id": 22232,
+          "name": "Dettol Fresh Shower Gel - 250Ml",
+          "brand": "dettol",
+          "category": null
+        },
+        {
+          "product_id": 6615,
+          "name": "Axe Shower Gel Music - 250Ml",
+          "brand": null,
+          "category": "beauty_personal_care_1722"
+        },
+        {
+          "product_id": 16186,
+          "name": "Lux Magical Orchid Shower Gel With Louf  - 250 Ml",
+          "brand": "lux",
+          "category": "beauty_personal_care_1722"
+        },
+        {
+          "product_id": 13861,
+          "name": "Fa Yog Vanilla Shower Gel  - 250 Ml",
+          "brand": "fa",
+          "category": "shower_bath_soap_1747"
+        }
+      ]
+    },
+    {
+      "cluster_id": 31,
+      "cluster_size": 369,
+      "representative_products": [
+        {
+          "product_id": 22736,
+          "name": "Orouba Arabica Espresso Coffee - 250G",
+          "brand": "orouba",
+          "category": null
+        },
+        {
+          "product_id": 22735,
+          "name": "Orouba Classic Espresso Coffee - 250G",
+          "brand": "orouba",
+          "category": null
+        },
+        {
+          "product_id": 9719,
+          "name": "Nescaf? Gold Sweetened Low Fat Instant Cappuccino Stick - Artificial Flavors Free - 18.5 Gr",
+          "brand": "nestle",
+          "category": "beverages_35"
+        },
+        {
+          "product_id": 16273,
+          "name": "Strabucks Arabica Espresso Coffee Beans Dark Roast - 200 Gr",
+          "brand": "starbucks",
+          "category": "beverages_35"
+        },
+        {
+          "product_id": 9855,
+          "name": "Abu Auf Espresso Colombian Coffee - 250 Gr",
+          "brand": "abu_auf",
+          "category": "beverages_35"
+        },
+        {
+          "product_id": 20325,
+          "name": "Bon Cafã© Signature Espresso Ground Coffee - 250G",
+          "brand": "bon_cafe",
+          "category": "grocery"
+        },
+        {
+          "product_id": 23664,
+          "name": "Nescafe Iced Cappuccino - 250 Ml",
+          "brand": "nescafe",
+          "category": null
+        },
+        {
+          "product_id": 11924,
+          "name": "Cru Kafe Orgnc Light Rost - 10*52G",
+          "brand": null,
+          "category": "beverages_35"
+        },
+        {
+          "product_id": 26618,
+          "name": "Italcaffe Coffee Beans Tanzania - 250G",
+          "brand": null,
+          "category": null
+        },
+        {
+          "product_id": 9725,
+          "name": "Nescaf? Gold Low Fat Cappuccino Instant Coffee Sachet With Caramel - Artificial Flavors Free - 17 Gr",
+          "brand": "nescafe",
+          "category": "beverages_35"
+        }
+      ]
+    },
+    {
+      "cluster_id": 40,
+      "cluster_size": 132,
+      "representative_products": [
+        {
+          "product_id": 5131,
+          "name": "Spinneys Cheese Cake - 1 Pc",
+          "brand": "spinneys",
+          "category": "bakery_bread_1724"
+        },
+        {
+          "product_id": 5140,
+          "name": "Spinneys Faich - By Kg",
+          "brand": "spinneys",
+          "category": "bakery_bread_1724"
+        },
+        {
+          "product_id": 23829,
+          "name": "Spinneys White Cheese Patee - 1Pc - 1Pc",
+          "brand": null,
+          "category": "bakery_bread_1724"
+        },
+        {
+          "product_id": 23835,
+          "name": "Spinneys Hot Dog Patee - 1Pc - 1Pc",
+          "brand": null,
+          "category": "bakery_bread_1724"
+        },
+        {
+          "product_id": 640,
+          "name": "Spinneys Donuts - 1 Pc",
+          "brand": "spinneys",
+          "category": "bakery_bread_1724"
+        },
+        {
+          "product_id": 23831,
+          "name": "Spinneys Cinnamon Roll - 1Pc - 1Pc",
+          "brand": null,
+          "category": "bakery_bread_1724"
+        },
+        {
+          "product_id": 5109,
+          "name": "Spinneys Baklawa - ( By Weight )",
+          "brand": "spinneys",
+          "category": "bakery_bread_1724"
+        },
+        {
+          "product_id": 11292,
+          "name": "Spinneys Chicken Panee - 1 Kg",
+          "brand": "spinneys",
+          "category": "frozen_food_3281"
+        },
+        {
+          "product_id": 23832,
+          "name": "Spinneys Croissant - 1Pc - 1Pc",
+          "brand": null,
+          "category": "bakery_bread_1724"
+        },
+        {
+          "product_id": 10843,
+          "name": "Spinneys Gateaux Soiree - ( By Weight )",
+          "brand": "spinneys",
+          "category": "bakery_bread_1724"
+        }
+      ]
+    },
+    {
+      "cluster_id": 55,
+      "cluster_size": 134,
+      "representative_products": [
+        {
+          "product_id": 3806,
+          "name": " Tiara Olive Extra Virgin Oil 500 Ml + 250 Ml",
+          "brand": "tiara",
+          "category": "butter_oil_ghee_5686"
+        },
+        {
+          "product_id": 20405,
+          "name": "Choice Extra Virgin Olive Oil - 500Ml",
+          "brand": "choice",
+          "category": "grocery"
+        },
+        {
+          "product_id": 2199,
+          "name": "Imtenan Olive Oil Extra Virgin -250Ml",
+          "brand": "imtenan",
+          "category": "butter_oil_ghee_5686"
+        },
+        {
+          "product_id": 6233,
+          "name": "Wadi Food Extra Virgin Olive Oil - 500 Ml",
+          "brand": "wadi_food",
+          "category": "butter_oil_ghee_5686"
+        },
+        {
+          "product_id": 6155,
+          "name": "Tiara Cold Pressed Extra Virgin Olive Oil - 250 Ml",
+          "brand": "tiara",
+          "category": "butter_oil_ghee_5686"
+        },
+        {
+          "product_id": 6164,
+          "name": "Wadi Food Extra Virgin Olive Oil - Cholesterol Free - 250 Ml",
+          "brand": "wadi_food",
+          "category": "butter_oil_ghee_5686"
+        },
+        {
+          "product_id": 14158,
+          "name": "Choice Extra Virgin Olive Oil - 250 Ml",
+          "brand": "olivia",
+          "category": "butter_oil_ghee_5686"
+        },
+        {
+          "product_id": 20404,
+          "name": "Choice Extra Virgin Olive Oil - 250 Ml",
+          "brand": "choice",
+          "category": "grocery"
+        },
+        {
+          "product_id": 14399,
+          "name": "Choice Olivia Extra Virgin Olive Oil - 500 Ml",
+          "brand": "choice",
+          "category": "butter_oil_ghee_5686"
+        },
+        {
+          "product_id": 2202,
+          "name": "Avanti Extra Virgin Olive Oil- 250 Ml",
+          "brand": "avanti",
+          "category": "butter_oil_ghee_5686"
+        }
+      ]
+    },
+    {
+      "cluster_id": 56,
+      "cluster_size": 169,
+      "representative_products": [
+        {
+          "product_id": 22493,
+          "name": "Spinneys - Towel Cotton Plain Dark Purple - 50*100",
+          "brand": "spinneys",
+          "category": null
+        },
+        {
+          "product_id": 26489,
+          "name": "Spinneys - Towel Cotton Plain Burgundy - 50*100",
+          "brand": "spinneys",
+          "category": null
+        },
+        {
+          "product_id": 22484,
+          "name": "Spinneys - Towel Cotton Plain Dark Purple - 30*30",
+          "brand": "spinneys",
+          "category": null
+        },
+        {
+          "product_id": 15265,
+          "name": "Spinneys - Cotton Face Towel Plain Mauve - 50*100",
+          "brand": "spinneys",
+          "category": "fashion_textiles_5684"
+        },
+        {
+          "product_id": 22487,
+          "name": "Spinneys - Towel Cotton Plain Burgundy - 30*30",
+          "brand": "spinneys",
+          "category": null
+        },
+        {
+          "product_id": 22497,
+          "name": "Spinneys - Towel Cotton Plain Cashmere - 50*100",
+          "brand": "spinneys",
+          "category": null
+        },
+        {
+          "product_id": 15259,
+          "name": "Spinneys - Cotton Face Towel Plain White 300 Gm - 50*100",
+          "brand": "spinneys",
+          "category": "fashion_textiles_5684"
+        },
+        {
+          "product_id": 15264,
+          "name": "Spinneys - Cotton Face Towel Plain Green - 50*100",
+          "brand": "spinneys",
+          "category": "fashion_textiles_5684"
+        },
+        {
+          "product_id": 22492,
+          "name": "Spinneys - Towel Cotton Plain Blue - 50*100",
+          "brand": "spinneys",
+          "category": null
+        },
+        {
+          "product_id": 22489,
+          "name": "Spinneys - Towel Cotton Plain Dark Gray - 30*30",
+          "brand": "spinneys",
+          "category": null
+        }
+      ]
+    },
+    {
+      "cluster_id": 98,
+      "cluster_size": 126,
+      "representative_products": [
+        {
+          "product_id": 2554,
+          "name": "Fa Sport Deodorant Body Spray - 200Ml",
+          "brand": "fa",
+          "category": "deodorants_1749"
+        },
+        {
+          "product_id": 2553,
+          "name": "Fa Attraction Force Deodorant Body Spray - 200Ml",
+          "brand": "fa",
+          "category": "deodorants_1749"
+        },
+        {
+          "product_id": 5511,
+          "name": "Fa Pink Passion Deodorant Body Spray - 200Ml",
+          "brand": "fa",
+          "category": "deodorants_1749"
+        },
+        {
+          "product_id": 20030,
+          "name": "Flavia Epic Perfume Body Spray Grey - 250 Ml",
+          "brand": null,
+          "category": "beauty_personal_care_1722"
+        },
+        {
+          "product_id": 20027,
+          "name": "Flavia Epic Perfume Body Spray 7 For Unisex - 250 Ml",
+          "brand": null,
+          "category": "beauty_personal_care_1722"
+        },
+        {
+          "product_id": 20033,
+          "name": "Estiara Body Spray Pancier - 200ML",
+          "brand": "lux",
+          "category": "beauty_personal_care_1722"
+        },
+        {
+          "product_id": 20029,
+          "name": "Flavia Epic Perfume Body Spray 5 For Unisex - 250 Ml",
+          "brand": null,
+          "category": "beauty_personal_care_1722"
+        },
+        {
+          "product_id": 10521,
+          "name": "Fa Aqua Body Splash 25% Off - 250 Ml",
+          "brand": "fa",
+          "category": "beauty_personal_care_1722"
+        },
+        {
+          "product_id": 20024,
+          "name": "Luxe Estiara Advants Perfume Body Spray - 200 Ml",
+          "brand": "lux",
+          "category": "beauty_personal_care_1722"
+        },
+        {
+          "product_id": 20032,
+          "name": "Flavia Epic 7 Perfume Body Spray - 250 Ml",
+          "brand": null,
+          "category": "beauty_personal_care_1722"
+        }
+      ]
+    }
+  ],
+  "recommendation_examples": [
+    {
+      "query": "milk",
+      "category_slug": "milk_29",
+      "original_products": [
+        {
+          "product_id": 13804,
+          "name": "Avanti Super Instant Full Cream Milk Powder - 1.5 Kg"
+        },
+        {
+          "product_id": 6163,
+          "name": "Miro Skimmed Instant Milk Powder Mix Low Fat - 20 Gr"
+        },
+        {
+          "product_id": 16084,
+          "name": "Nestle Sweetened Full Cream Condensed Milk - 370 Gr"
+        },
+        {
+          "product_id": 9297,
+          "name": "Juhayna Long Life Full Fat Milk (3% Fat) - No Added Milk Powder - 1 L"
+        },
+        {
+          "product_id": 10131,
+          "name": "Daria Coconut Milk - 400 Ml"
+        },
+        {
+          "product_id": 15613,
+          "name": "Domty Long Life Full Fat Milk - milk powder free, additives free - 1 L"
+        },
+        {
+          "product_id": 378,
+          "name": "Healthy Fresh Milk Full Cream- 850 Ml"
+        },
+        {
+          "product_id": 386,
+          "name": "Juhayna Light Laban Rayeb - 440 Gr"
+        }
+      ],
+      "represented_cluster_ids": [
+        71,
+        110
+      ],
+      "recommend_profile_only": [
+        {
+          "product_id": 7449,
+          "name": "Avanti Full Cream Milk Powder - 800 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.9029
+        },
+        {
+          "product_id": 9055,
+          "name": "Healthy Fresh Milk Skimed - 850Ml",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.9009
+        },
+        {
+          "product_id": 9056,
+          "name": "Healthy Fresh Milk Choco - 850Ml",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8978
+        },
+        {
+          "product_id": 9168,
+          "name": "Juhayna Long Life Full Fat Milk (3% Fat) - 200 Ml",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8951
+        },
+        {
+          "product_id": 4765,
+          "name": "Juhayna Skimmed Milk - 200 Ml",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8951
+        },
+        {
+          "product_id": 388,
+          "name": "Juhayna Half Cream Milk (1.5% Fat) (-6 Egp) - No Added Milk Powder - 6 X 1 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8946
+        },
+        {
+          "product_id": 6258,
+          "name": "Miro Milk Powder Full Cream - 1500 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8944
+        },
+        {
+          "product_id": 9021,
+          "name": "Juhayna Long Life Full Fat Milk - 1.5 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.894
+        }
+      ],
+      "recommend_query_only": [
+        {
+          "product_id": 22653,
+          "name": "The Milk Man Fresh Milk Rayeb - 850ML",
+          "category": "speciality_milk_42",
+          "similarity": 0.7426
+        },
+        {
+          "product_id": 9047,
+          "name": "Lactel Long Life Full Fat Milk - 1 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.7409
+        },
+        {
+          "product_id": 3969,
+          "name": "Miro Skimmed Powdered Milk - 250 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.7391
+        },
+        {
+          "product_id": 3792,
+          "name": "Miro Milk Powder Low Fat - 700 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.739
+        },
+        {
+          "product_id": 22663,
+          "name": "The Milk Man Fresh Milk Lactose Free - 850ML",
+          "category": "speciality_milk_42",
+          "similarity": 0.7358
+        },
+        {
+          "product_id": 11138,
+          "name": "Lamar Long Life Milk - Fat Free, Additives Free, Preservatives Free - 1 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.7356
+        },
+        {
+          "product_id": 22665,
+          "name": "The Milk Man Fresh Milk With Dates - 250ML",
+          "category": "speciality_milk_42",
+          "similarity": 0.735
+        },
+        {
+          "product_id": 4181,
+          "name": "Cerelac Wheat With Milk (6+ Months) - 125 Gr",
+          "category": "baby_food_1721",
+          "similarity": 0.7308
+        }
+      ],
+      "recommend_combined": [
+        {
+          "product_id": 4765,
+          "name": "Juhayna Skimmed Milk - 200 Ml",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.859
+        },
+        {
+          "product_id": 3792,
+          "name": "Miro Milk Powder Low Fat - 700 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8552
+        },
+        {
+          "product_id": 6258,
+          "name": "Miro Milk Powder Full Cream - 1500 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8549
+        },
+        {
+          "product_id": 3969,
+          "name": "Miro Skimmed Powdered Milk - 250 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8548
+        },
+        {
+          "product_id": 9055,
+          "name": "Healthy Fresh Milk Skimed - 850Ml",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8539
+        },
+        {
+          "product_id": 9047,
+          "name": "Lactel Long Life Full Fat Milk - 1 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8536
+        },
+        {
+          "product_id": 18243,
+          "name": "Juhayna Skimmed Milk - 1.5 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8534
+        },
+        {
+          "product_id": 9892,
+          "name": "Juhayna Milk (3% Fat) - Lactose Free, Powder Free - 1 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8531
+        }
+      ]
+    },
+    {
+      "query": "lactose-free milk",
+      "category_slug": "milk_29",
+      "original_products": [
+        {
+          "product_id": 13804,
+          "name": "Avanti Super Instant Full Cream Milk Powder - 1.5 Kg"
+        },
+        {
+          "product_id": 6163,
+          "name": "Miro Skimmed Instant Milk Powder Mix Low Fat - 20 Gr"
+        },
+        {
+          "product_id": 16084,
+          "name": "Nestle Sweetened Full Cream Condensed Milk - 370 Gr"
+        },
+        {
+          "product_id": 9297,
+          "name": "Juhayna Long Life Full Fat Milk (3% Fat) - No Added Milk Powder - 1 L"
+        },
+        {
+          "product_id": 10131,
+          "name": "Daria Coconut Milk - 400 Ml"
+        },
+        {
+          "product_id": 15613,
+          "name": "Domty Long Life Full Fat Milk - milk powder free, additives free - 1 L"
+        },
+        {
+          "product_id": 378,
+          "name": "Healthy Fresh Milk Full Cream- 850 Ml"
+        },
+        {
+          "product_id": 386,
+          "name": "Juhayna Light Laban Rayeb - 440 Gr"
+        }
+      ],
+      "represented_cluster_ids": [
+        71,
+        110
+      ],
+      "recommend_profile_only": [
+        {
+          "product_id": 7449,
+          "name": "Avanti Full Cream Milk Powder - 800 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.9029
+        },
+        {
+          "product_id": 9055,
+          "name": "Healthy Fresh Milk Skimed - 850Ml",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.9009
+        },
+        {
+          "product_id": 9056,
+          "name": "Healthy Fresh Milk Choco - 850Ml",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8978
+        },
+        {
+          "product_id": 9168,
+          "name": "Juhayna Long Life Full Fat Milk (3% Fat) - 200 Ml",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8951
+        },
+        {
+          "product_id": 4765,
+          "name": "Juhayna Skimmed Milk - 200 Ml",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8951
+        },
+        {
+          "product_id": 388,
+          "name": "Juhayna Half Cream Milk (1.5% Fat) (-6 Egp) - No Added Milk Powder - 6 X 1 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8946
+        },
+        {
+          "product_id": 6258,
+          "name": "Miro Milk Powder Full Cream - 1500 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8944
+        },
+        {
+          "product_id": 9021,
+          "name": "Juhayna Long Life Full Fat Milk - 1.5 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.894
+        }
+      ],
+      "recommend_query_only": [
+        {
+          "product_id": 20299,
+          "name": "Labanita Lactose Free Milk - 900Ml",
+          "category": "speciality_milk_42",
+          "similarity": 0.7994
+        },
+        {
+          "product_id": 14659,
+          "name": "Riso Scotti Unsweetened Gluten Free Almond Milk - 1L",
+          "category": "speciality_milk_42",
+          "similarity": 0.7756
+        },
+        {
+          "product_id": 22663,
+          "name": "The Milk Man Fresh Milk Lactose Free - 850ML",
+          "category": "speciality_milk_42",
+          "similarity": 0.7623
+        },
+        {
+          "product_id": 23597,
+          "name": "Reefy Fresh Milk Lactose Free - 850Ml",
+          "category": "speciality_milk_42",
+          "similarity": 0.7613
+        },
+        {
+          "product_id": 9892,
+          "name": "Juhayna Milk (3% Fat) - Lactose Free, Powder Free - 1 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.76
+        },
+        {
+          "product_id": 9239,
+          "name": "Juhayna Skimmed Milk (0.5% Fat) - Lactose Free, Preservatives Free, Additives Free - 1 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.7545
+        },
+        {
+          "product_id": 11138,
+          "name": "Lamar Long Life Milk - Fat Free, Additives Free, Preservatives Free - 1 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.751
+        },
+        {
+          "product_id": 10265,
+          "name": "Almarai Skimmed Milk - Powder Free, Preservatives Free - 6 X 1 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.7473
+        }
+      ],
+      "recommend_combined": [
+        {
+          "product_id": 9892,
+          "name": "Juhayna Milk (3% Fat) - Lactose Free, Powder Free - 1 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8751
+        },
+        {
+          "product_id": 20299,
+          "name": "Labanita Lactose Free Milk - 900Ml",
+          "category": "speciality_milk_42",
+          "similarity": 0.8718
+        },
+        {
+          "product_id": 9239,
+          "name": "Juhayna Skimmed Milk (0.5% Fat) - Lactose Free, Preservatives Free, Additives Free - 1 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.867
+        },
+        {
+          "product_id": 9055,
+          "name": "Healthy Fresh Milk Skimed - 850Ml",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8638
+        },
+        {
+          "product_id": 9039,
+          "name": "Lactel Full Cream Milk- 1 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8612
+        },
+        {
+          "product_id": 11138,
+          "name": "Lamar Long Life Milk - Fat Free, Additives Free, Preservatives Free - 1 L",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8589
+        },
+        {
+          "product_id": 3792,
+          "name": "Miro Milk Powder Low Fat - 700 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8582
+        },
+        {
+          "product_id": 4765,
+          "name": "Juhayna Skimmed Milk - 200 Ml",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8577
+        }
+      ]
+    },
+    {
+      "query": "yogurt",
+      "category_slug": "yogurt",
+      "original_products": [
+        {
+          "product_id": 9181,
+          "name": "Juhayna Low Fat Peach Strained Yogurt - Low Sugar - 180 Gr"
+        },
+        {
+          "product_id": 17687,
+          "name": "Yopolis Greek Yogurt With Peach - 150G"
+        },
+        {
+          "product_id": 9251,
+          "name": "Yopolis 12G Protein Natural Greek Yogurt (2% Fat) - 150 Gr"
+        },
+        {
+          "product_id": 9233,
+          "name": "Yopolis Flip 7G Protein Greek Yogurt With Salted Caramel Almonds - 145 Gr"
+        },
+        {
+          "product_id": 9144,
+          "name": "Juhayna Zabado Peach Yogurt Drink - 220 Gr"
+        },
+        {
+          "product_id": 9081,
+          "name": "Almarai Plain 2% Fat Greek Yogurt - No Added Preservatives - 170 Gr"
+        },
+        {
+          "product_id": 7019,
+          "name": "Nestle Fruits Yoghurt Peach- 105 Gm"
+        },
+        {
+          "product_id": 9192,
+          "name": "Almarai Fresh Full Fat Yogurt - 170 Gr"
+        }
+      ],
+      "represented_cluster_ids": [
+        110
+      ],
+      "recommend_profile_only": [
+        {
+          "product_id": 20854,
+          "name": "Almarai Greek Yogurt Plain 0.2% Fat - 170G",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.9348
+        },
+        {
+          "product_id": 17690,
+          "name": "Yopolis Greek Natural 5% Fat Yogurt - 120G",
+          "category": "suhoor_ramadan_47",
+          "similarity": 0.9267
+        },
+        {
+          "product_id": 17686,
+          "name": "Yopolis Greek Yogurt With Strawberry - 150G",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.9253
+        },
+        {
+          "product_id": 18203,
+          "name": "Juhayna Greek Low Fat Mixed Berry Yogurt - Preservatives Free, Gluten Free, Artificial Sweeteners Free - 180 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.9252
+        },
+        {
+          "product_id": 9260,
+          "name": "Yopolis Flip 7G Protein Greek Yogurt With Chocolate Granola Flakes - 145 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.9249
+        },
+        {
+          "product_id": 7918,
+          "name": "Yopolis 9G Protein Peach Greek Yogurt (1.4% Fat) - 150 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.9249
+        },
+        {
+          "product_id": 9182,
+          "name": "Juhayna Low Fat Strawberry Greek Yogurt - Low Sugar - 180 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.9242
+        },
+        {
+          "product_id": 19830,
+          "name": "Almarai 5% Fat Plain Greek Yogurt (15% Off)",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.9236
+        }
+      ],
+      "recommend_query_only": [
+        {
+          "product_id": 18203,
+          "name": "Juhayna Greek Low Fat Mixed Berry Yogurt - Preservatives Free, Gluten Free, Artificial Sweeteners Free - 180 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.7639
+        },
+        {
+          "product_id": 9146,
+          "name": "Juhayna Natural Yogurt- 475 G",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.7489
+        },
+        {
+          "product_id": 7404,
+          "name": "Juhayna Low Fat French Vanilla Bean Strained Yogurt - Low Sugar - 180 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.7471
+        },
+        {
+          "product_id": 14498,
+          "name": "Juhayna Greek Yogurt (0.2%) - 180 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.7459
+        },
+        {
+          "product_id": 16326,
+          "name": "Yaru Onion Powder - Gluten Free, Preservatives Free, Flavor Free - 70 Gr",
+          "category": "grocery",
+          "similarity": 0.7454
+        },
+        {
+          "product_id": 9182,
+          "name": "Juhayna Low Fat Strawberry Greek Yogurt - Low Sugar - 180 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.7446
+        },
+        {
+          "product_id": 14497,
+          "name": "Juhayna Greek Yogurt (2% Fat) - 180 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.7439
+        },
+        {
+          "product_id": 7876,
+          "name": "Juhayna Yogurt With Sugar 3+1- 105 G",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.7433
+        }
+      ],
+      "recommend_combined": [
+        {
+          "product_id": 18203,
+          "name": "Juhayna Greek Low Fat Mixed Berry Yogurt - Preservatives Free, Gluten Free, Artificial Sweeteners Free - 180 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8949
+        },
+        {
+          "product_id": 9182,
+          "name": "Juhayna Low Fat Strawberry Greek Yogurt - Low Sugar - 180 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8842
+        },
+        {
+          "product_id": 14497,
+          "name": "Juhayna Greek Yogurt (2% Fat) - 180 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8817
+        },
+        {
+          "product_id": 14498,
+          "name": "Juhayna Greek Yogurt (0.2%) - 180 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8816
+        },
+        {
+          "product_id": 14495,
+          "name": "Juhayna Greek Yogurt (7% Fat) - 13G Protein - 180 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8785
+        },
+        {
+          "product_id": 20854,
+          "name": "Almarai Greek Yogurt Plain 0.2% Fat - 170G",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8767
+        },
+        {
+          "product_id": 17686,
+          "name": "Yopolis Greek Yogurt With Strawberry - 150G",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8711
+        },
+        {
+          "product_id": 13022,
+          "name": "Almarai Greek Yogurt Berries Flavors With Real Fruits Pieces - Artificial Colors Free - 170 Gr",
+          "category": "cheese_dairy_eggs_30",
+          "similarity": 0.8705
+        }
+      ]
+    },
+    {
+      "query": "olive oil",
+      "category_slug": "oil_5685",
+      "original_products": [
+        {
+          "product_id": 2341,
+          "name": "Shahd Sunflower Oil- 750 Ml"
+        },
+        {
+          "product_id": 18571,
+          "name": "Borges Olive Oil - 750Ml"
+        },
+        {
+          "product_id": 5202,
+          "name": "Tiara Cold Pressed Flaxseed Oil - 500 Ml"
+        },
+        {
+          "product_id": 5206,
+          "name": "Choice Cold Pressed Sesame Oil - 500 Ml"
+        },
+        {
+          "product_id": 5217,
+          "name": "Choice Cold Pressed Flaxseed Oil - 250 Ml"
+        },
+        {
+          "product_id": 9830,
+          "name": "Borges Original Mediterranean Taste Extra Virgin Olive Oil - 500 Ml"
+        },
+        {
+          "product_id": 9487,
+          "name": " Qalia Mixed Oil- 700Ml"
+        },
+        {
+          "product_id": 2192,
+          "name": "L'Oro Corn Oil - 2.25 L"
+        }
+      ],
+      "represented_cluster_ids": [
+        13,
+        55,
+        107,
+        112
+      ],
+      "recommend_profile_only": [
+        {
+          "product_id": 5205,
+          "name": "Choice Flaxseed Oil Cold Pressed - 500 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.9072
+        },
+        {
+          "product_id": 3806,
+          "name": " Tiara Olive Extra Virgin Oil 500 Ml + 250 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.8972
+        },
+        {
+          "product_id": 17832,
+          "name": "Borges Olive Oil Classic - 500Ml",
+          "category": "grocery",
+          "similarity": 0.8969
+        },
+        {
+          "product_id": 20405,
+          "name": "Choice Extra Virgin Olive Oil - 500Ml",
+          "category": "grocery",
+          "similarity": 0.8924
+        },
+        {
+          "product_id": 6186,
+          "name": "Borges Classic Olive Oil - 250 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.8921
+        },
+        {
+          "product_id": 6155,
+          "name": "Tiara Cold Pressed Extra Virgin Olive Oil - 250 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.8875
+        },
+        {
+          "product_id": 20404,
+          "name": "Choice Extra Virgin Olive Oil - 250 Ml",
+          "category": "grocery",
+          "similarity": 0.8826
+        },
+        {
+          "product_id": 14158,
+          "name": "Choice Extra Virgin Olive Oil - 250 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.8805
+        }
+      ],
+      "recommend_query_only": [
+        {
+          "product_id": 2142,
+          "name": "Tiara Unfiltered Cold Pressed Unrefined Virgin Olive Oil - Cholesterol Free - 500 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.7803
+        },
+        {
+          "product_id": 2125,
+          "name": "Tiara Unfiltered Cold Pressed Unrefined Virgin Olive Oil - Cholesterol Free - 250 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.777
+        },
+        {
+          "product_id": 2127,
+          "name": "Tiara Cold Pressed Unrefined Extra Virgin Olive Oil - Cholesterol Free - 1 L",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.7754
+        },
+        {
+          "product_id": 6164,
+          "name": "Wadi Food Extra Virgin Olive Oil - Cholesterol Free - 250 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.7751
+        },
+        {
+          "product_id": 2076,
+          "name": "Riviere D'Or Organic Cold Pressed Extra Virgin Olive Oil - 250 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.7748
+        },
+        {
+          "product_id": 11993,
+          "name": "Colavita - Olive Oil - 1L",
+          "category": "grocery",
+          "similarity": 0.7725
+        },
+        {
+          "product_id": 14399,
+          "name": "Choice Olivia Extra Virgin Olive Oil - 500 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.7684
+        },
+        {
+          "product_id": 16582,
+          "name": "Consul Olive Oil Pure - 800 Ml",
+          "category": "grocery",
+          "similarity": 0.7653
+        }
+      ],
+      "recommend_combined": [
+        {
+          "product_id": 2142,
+          "name": "Tiara Unfiltered Cold Pressed Unrefined Virgin Olive Oil - Cholesterol Free - 500 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.8779
+        },
+        {
+          "product_id": 2125,
+          "name": "Tiara Unfiltered Cold Pressed Unrefined Virgin Olive Oil - Cholesterol Free - 250 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.8752
+        },
+        {
+          "product_id": 14399,
+          "name": "Choice Olivia Extra Virgin Olive Oil - 500 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.8735
+        },
+        {
+          "product_id": 2127,
+          "name": "Tiara Cold Pressed Unrefined Extra Virgin Olive Oil - Cholesterol Free - 1 L",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.8728
+        },
+        {
+          "product_id": 3806,
+          "name": " Tiara Olive Extra Virgin Oil 500 Ml + 250 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.8719
+        },
+        {
+          "product_id": 6164,
+          "name": "Wadi Food Extra Virgin Olive Oil - Cholesterol Free - 250 Ml",
+          "category": "butter_oil_ghee_5686",
+          "similarity": 0.871
+        },
+        {
+          "product_id": 15407,
+          "name": "Consul Olive Oil Pure - 250 Ml",
+          "category": "grocery",
+          "similarity": 0.8691
+        },
+        {
+          "product_id": 17832,
+          "name": "Borges Olive Oil Classic - 500Ml",
+          "category": "grocery",
+          "similarity": 0.8682
+        }
+      ]
+    },
+    {
+      "query": "chocolate",
+      "category_slug": "chocolate_2",
+      "original_products": [
+        {
+          "product_id": 4517,
+          "name": "Bebeto Hoopix Jelly Gum -  80 G"
+        },
+        {
+          "product_id": 4490,
+          "name": "Go On Sante Vanilla Raspberry Protein Bar -  50 G"
+        },
+        {
+          "product_id": 5343,
+          "name": "Cadbury Dairy Milk Bubbly Milk Chocolate Bar - 40 Gr"
+        },
+        {
+          "product_id": 828,
+          "name": "Cadbury Miniatures Assorted Chocolate Bites (20 Pieces) - 200 Gr"
+        },
+        {
+          "product_id": 17855,
+          "name": "M&M'S Milk Chocolate In Sugar Shell 3 Pcs. 45 Gr"
+        },
+        {
+          "product_id": 17626,
+          "name": "Lusine Cupcake With Chocolate - 30G"
+        },
+        {
+          "product_id": 765,
+          "name": "Cadbury Dairy Milk Bubbly Milk Chocolate Slab - 87 Gr"
+        },
+        {
+          "product_id": 17951,
+          "name": "Galaxy Milk Chocolate With Crispy Cereal - 102G"
+        }
+      ],
+      "represented_cluster_ids": [
+        9,
+        22,
+        78
+      ],
+      "recommend_profile_only": [
+        {
+          "product_id": 20787,
+          "name": "Cadbury Dairy Milk Chocolate - 20G",
+          "category": "sweets_snacks_1",
+          "similarity": 0.9142
+        },
+        {
+          "product_id": 9543,
+          "name": "Cadbury Dairy Milk Bubbly Chocolate Bar - 28 Gr",
+          "category": "chocolate_2",
+          "similarity": 0.9134
+        },
+        {
+          "product_id": 18817,
+          "name": "Cadbury Darkmilk Chocolate - 80G",
+          "category": "chocolate_2",
+          "similarity": 0.9069
+        },
+        {
+          "product_id": 4385,
+          "name": "Cadbury Dairy Milk Caramel Chocolate Bar - 40 Gr",
+          "category": "chocolate_2",
+          "similarity": 0.9023
+        },
+        {
+          "product_id": 10539,
+          "name": "Cadbury Dairy Milk Marvellous Creations Chocolate Bar With Jelly Popping Candies - 160 Gr",
+          "category": "chocolate_2",
+          "similarity": 0.9018
+        },
+        {
+          "product_id": 5378,
+          "name": "Cadbury Dairy Milk Bubbly Chocolate Bar With Oreo - 43 Gr",
+          "category": "chocolate_2",
+          "similarity": 0.9007
+        },
+        {
+          "product_id": 23673,
+          "name": "Cadbury Dairy Milk Milk Chocolate - 50 G",
+          "category": null,
+          "similarity": 0.9005
+        },
+        {
+          "product_id": 20788,
+          "name": "Cadbury Dairy Milk Chocolate With Hazelnut - 20G",
+          "category": "sweets_snacks_1",
+          "similarity": 0.8998
+        }
+      ],
+      "recommend_query_only": [
+        {
+          "product_id": 15111,
+          "name": "Lacasa Dark Chocolate 70% - 100G",
+          "category": "snacks_chips_14",
+          "similarity": 0.7493
+        },
+        {
+          "product_id": 15112,
+          "name": "Lacasa 85% Dark Chocolate Slab - Gluten Free - 100 Gr",
+          "category": "snacks_chips_14",
+          "similarity": 0.7464
+        },
+        {
+          "product_id": 15114,
+          "name": "Lacasa 70% Dark Chocolate With Mint - Gluten Free - 100 Gr",
+          "category": "snacks_chips_14",
+          "similarity": 0.7464
+        },
+        {
+          "product_id": 22886,
+          "name": "Valor Chocolatissimo 70% Cacao Dark Pralines Chocolate - 180G",
+          "category": null,
+          "similarity": 0.746
+        },
+        {
+          "product_id": 24342,
+          "name": "Choco Mum Milk Chocolate Bar Filed With Caramel - 30G",
+          "category": "one_day_offers_1738",
+          "similarity": 0.7453
+        },
+        {
+          "product_id": 15113,
+          "name": "Lacasa Dark Chocolate 92% - 100G",
+          "category": "chocolate_2",
+          "similarity": 0.7439
+        },
+        {
+          "product_id": 15437,
+          "name": "Valor 70% Dark Chocolate Bar - Gluten Free, No Added Sugar - 35 Gr",
+          "category": "chocolate_2",
+          "similarity": 0.7423
+        },
+        {
+          "product_id": 19533,
+          "name": "Cafã© O Chocolate Milkshake - 36G",
+          "category": "beverages_35",
+          "similarity": 0.7406
+        }
+      ],
+      "recommend_combined": [
+        {
+          "product_id": 9543,
+          "name": "Cadbury Dairy Milk Bubbly Chocolate Bar - 28 Gr",
+          "category": "chocolate_2",
+          "similarity": 0.8574
+        },
+        {
+          "product_id": 18817,
+          "name": "Cadbury Darkmilk Chocolate - 80G",
+          "category": "chocolate_2",
+          "similarity": 0.854
+        },
+        {
+          "product_id": 5378,
+          "name": "Cadbury Dairy Milk Bubbly Chocolate Bar With Oreo - 43 Gr",
+          "category": "chocolate_2",
+          "similarity": 0.8508
+        },
+        {
+          "product_id": 24519,
+          "name": "- CHOCOLATE WITH NUTS  - 80GM",
+          "category": null,
+          "similarity": 0.8495
+        },
+        {
+          "product_id": 17835,
+          "name": "Cadbury Dairy Milk Chocolate - 95G",
+          "category": "chocolate_2",
+          "similarity": 0.8488
+        },
+        {
+          "product_id": 8905,
+          "name": "Cadbury Dairy Milk Freddo Chocolate - 90G",
+          "category": "chocolate_2",
+          "similarity": 0.8485
+        },
+        {
+          "product_id": 18780,
+          "name": "Cadbury Dairy Milk Freddo Caramel Chocolate - 97.5G",
+          "category": "chocolate_2",
+          "similarity": 0.8484
+        },
+        {
+          "product_id": 10539,
+          "name": "Cadbury Dairy Milk Marvellous Creations Chocolate Bar With Jelly Popping Candies - 160 Gr",
+          "category": "chocolate_2",
+          "similarity": 0.8476
+        }
+      ]
+    },
+    {
+      "query": "detergent",
+      "category_slug": "detergents_19",
+      "original_products": [
+        {
+          "product_id": 13020,
+          "name": "Xtra Washing Powder L/S"
+        },
+        {
+          "product_id": 15061,
+          "name": "Spinneys Value Washing Powder - 1Kg"
+        },
+        {
+          "product_id": 850,
+          "name": "Clorox Clothes Laundry Detergent Stain Remover & Color Booster - 500 Gr"
+        },
+        {
+          "product_id": 4983,
+          "name": "Tide Automatic Clean & Fresh Laundry Detergent Powder Front Load (30% Off) - 7 kg"
+        },
+        {
+          "product_id": 14265,
+          "name": "Persil Washing Gel Xl Off - 3.9L"
+        },
+        {
+          "product_id": 4695,
+          "name": "Vanish Color Safe Multi Use Liquid Fabric Stain Remover For White & Colored Clothes - Chlorine Bleach Free - 900 Ml"
+        },
+        {
+          "product_id": 17074,
+          "name": "Persil Automatic Anti Greying Laundry Detergent Powder Top & Front Load (5Kg) With Free Persil Classic Dark & Black Care Liquid Laundry Detergent Front Load (880G) - 1 Bundle"
+        },
+        {
+          "product_id": 17011,
+          "name": "Persil Power Gel Anti-Graying Laundry Detergent Rose Scent Front & Top Load - 3.25 Kg"
+        }
+      ],
+      "represented_cluster_ids": [
+        6,
+        63,
+        119
+      ],
+      "recommend_profile_only": [
+        {
+          "product_id": 16050,
+          "name": "Persil Automatic Deep Clean Anti Greying Laundry Detergent Powder Lavender Scent Top Load - 1.7 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.9298
+        },
+        {
+          "product_id": 8503,
+          "name": "Persil Automatic Deep Clean Anti Greying Laundry Detergent Powder Rose Scent Top & Front Load - 2.5 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.9294
+        },
+        {
+          "product_id": 16245,
+          "name": "Persil Power Gel Deep Clean Anti-Greying Liquid Laundry Detergent Lavender Scent Top & Front Load (10% Off) - 3.9 kg ",
+          "category": "bleach_disinfectant_22",
+          "similarity": 0.9274
+        },
+        {
+          "product_id": 8502,
+          "name": "Persil Deep Clean Plus Boosted Anti-Greying Power Laundry Detergent Gel Rose Scent Front & Top Load - 2600 Gr",
+          "category": "cleaning_products_5",
+          "similarity": 0.9268
+        },
+        {
+          "product_id": 17073,
+          "name": "Persil Automatic Deep Clean Anti Greying Laundry Detergent Powder Lavender Scent Top & Front Load With Free Persil Classic Dark & Black Care Liquid Laundry Detergent Front Load",
+          "category": "cleaning_products_5",
+          "similarity": 0.9266
+        },
+        {
+          "product_id": 16244,
+          "name": "Persil Power Gel Deep Clean Anti-Greying Liquid Laundry Detergent Rose Scent Top & Front Load (10% Off) - 3.9 kg",
+          "category": "bleach_disinfectant_22",
+          "similarity": 0.9249
+        },
+        {
+          "product_id": 17075,
+          "name": "Persil Automatic Deep Clean Anti Greying Laundry Detergent Powder Rose Scent Top & Front Load With Free Liquid Laundry Detergent For Black & Dark Clothes",
+          "category": "cleaning_products_5",
+          "similarity": 0.9222
+        },
+        {
+          "product_id": 852,
+          "name": "Persil Concentrated Power Gel Laundry Detergent Liquid Front & Top Load Lavender Scent (30% Off) - 3.9 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.9207
+        }
+      ],
+      "recommend_query_only": [
+        {
+          "product_id": 8505,
+          "name": "Persil Automatic Deep Clean Antigreying Laundry Detergent Powder Lavender Scent Top Load",
+          "category": "cleaning_products_5",
+          "similarity": 0.7437
+        },
+        {
+          "product_id": 8511,
+          "name": "Tide Automatic Laundry Detergent Powder Lavender Scent Front & Top Load (1 Kg Free) - 5 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.7431
+        },
+        {
+          "product_id": 4795,
+          "name": "Persil Power Gel Laundry Detergent Lavender Scent Front & Top Load - 1 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.7421
+        },
+        {
+          "product_id": 852,
+          "name": "Persil Concentrated Power Gel Laundry Detergent Liquid Front & Top Load Lavender Scent (30% Off) - 3.9 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.7406
+        },
+        {
+          "product_id": 4985,
+          "name": "Tide Automatic Laundry Detergent Powder with Downy Essence Front Load (30% Off) - 7 kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.7374
+        },
+        {
+          "product_id": 4224,
+          "name": "Persil Automatic Color Deep Clean Laundry Detergent Powder Flower Scent (25% Off) - 2.5 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.7372
+        },
+        {
+          "product_id": 17010,
+          "name": "Persil Deep Clean Anti Greying Laundry Detergent Gel Lavender Scent Front & Top Load - 3.25 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.7343
+        },
+        {
+          "product_id": 8509,
+          "name": "Tide Automatic Laundry Detergent Powder Clean & Fresh Scent Front & Top Load (1 Kg Free) - 5 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.7342
+        }
+      ],
+      "recommend_combined": [
+        {
+          "product_id": 852,
+          "name": "Persil Concentrated Power Gel Laundry Detergent Liquid Front & Top Load Lavender Scent (30% Off) - 3.9 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.879
+        },
+        {
+          "product_id": 8505,
+          "name": "Persil Automatic Deep Clean Antigreying Laundry Detergent Powder Lavender Scent Top Load",
+          "category": "cleaning_products_5",
+          "similarity": 0.8784
+        },
+        {
+          "product_id": 4795,
+          "name": "Persil Power Gel Laundry Detergent Lavender Scent Front & Top Load - 1 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.8774
+        },
+        {
+          "product_id": 4224,
+          "name": "Persil Automatic Color Deep Clean Laundry Detergent Powder Flower Scent (25% Off) - 2.5 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.8749
+        },
+        {
+          "product_id": 17010,
+          "name": "Persil Deep Clean Anti Greying Laundry Detergent Gel Lavender Scent Front & Top Load - 3.25 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.8735
+        },
+        {
+          "product_id": 16050,
+          "name": "Persil Automatic Deep Clean Anti Greying Laundry Detergent Powder Lavender Scent Top Load - 1.7 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.8723
+        },
+        {
+          "product_id": 8503,
+          "name": "Persil Automatic Deep Clean Anti Greying Laundry Detergent Powder Rose Scent Top & Front Load - 2.5 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.8722
+        },
+        {
+          "product_id": 7260,
+          "name": "Persil Automatic Deep Clean Technology Laundry Detergent Powder Lavender Scent Front & Top Load - 8 Kg",
+          "category": "cleaning_products_5",
+          "similarity": 0.872
+        }
+      ]
+    }
+  ]
+}

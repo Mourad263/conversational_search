@@ -1,0 +1,227 @@
+{
+  "n": 22,
+  "passed": 22,
+  "mismatches": [],
+  "results": [
+    {
+      "label": "A_en_direct_1",
+      "text": "give me alternatives",
+      "history": null,
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "A_en_direct_2",
+      "text": "suggest something similar",
+      "history": null,
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "B_en_followup_1",
+      "text": "what else do you have?",
+      "history": [
+        "I need chocolate"
+      ],
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "B_en_followup_2",
+      "text": "can you recommend another one?",
+      "history": [
+        "I want yogurt"
+      ],
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "C_en_more_1",
+      "text": "got anything else to offer?",
+      "history": [
+        "I need shampoo"
+      ],
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "D_ar_direct_1",
+      "text": "رشحلي حاجة",
+      "history": null,
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "D_ar_direct_2",
+      "text": "عندك بدائل؟",
+      "history": null,
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "E_egy_followup_1",
+      "text": "فيه اختيارات تانية؟",
+      "history": [
+        "عايز شاي"
+      ],
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "E_egy_followup_2",
+      "text": "هاتلي حاجة شبه دي",
+      "history": [
+        "عايز جبنة"
+      ],
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "F_ar_more_1",
+      "text": "إيه تاني عندك؟",
+      "history": [
+        "عايز عصير"
+      ],
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "G_codeswitch_1",
+      "text": "show me حاجات تانية",
+      "history": [
+        "عايز شامبو"
+      ],
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "G_codeswitch_2",
+      "text": "ممكن suggest حاجة شبه دي",
+      "history": [
+        "I need coffee"
+      ],
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "H_same_turn_1",
+      "text": "suggest some good chocolate",
+      "history": null,
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "H_same_turn_2",
+      "text": "ممكن ترشحلي حاجة تانية زي اللبن ده؟",
+      "history": null,
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "I_with_state_1",
+      "text": "what else?",
+      "history": [
+        "lactose-free milk"
+      ],
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "J_no_state_1",
+      "text": "ممكن ترشحلي حاجة؟",
+      "history": null,
+      "expected_recommendation_request": true,
+      "actual_recommendation_request": true,
+      "intent": "no_op",
+      "pass": true
+    },
+    {
+      "label": "K_neg_1",
+      "text": "I want yogurt",
+      "history": null,
+      "expected_recommendation_request": false,
+      "actual_recommendation_request": false,
+      "intent": "search",
+      "pass": true
+    },
+    {
+      "label": "K_neg_2",
+      "text": "عايز شاي",
+      "history": null,
+      "expected_recommendation_request": false,
+      "actual_recommendation_request": false,
+      "intent": "search",
+      "pass": true
+    },
+    {
+      "label": "K_neg_3",
+      "text": "show me Juhayna milk",
+      "history": null,
+      "expected_recommendation_request": false,
+      "actual_recommendation_request": false,
+      "intent": "search",
+      "pass": true
+    },
+    {
+      "label": "L_neg_1",
+      "text": "make it under 100",
+      "history": [
+        "I need milk"
+      ],
+      "expected_recommendation_request": false,
+      "actual_recommendation_request": false,
+      "intent": "add_filter",
+      "pass": true
+    },
+    {
+      "label": "L_neg_2",
+      "text": "actually I want chicken instead",
+      "history": [
+        "I need beef"
+      ],
+      "expected_recommendation_request": false,
+      "actual_recommendation_request": false,
+      "intent": "modify_filter",
+      "pass": true
+    },
+    {
+      "label": "M_neg_1",
+      "text": "tell me a joke",
+      "history": null,
+      "expected_recommendation_request": false,
+      "actual_recommendation_request": false,
+      "intent": "off_topic",
+      "pass": true
+    }
+  ]
+}

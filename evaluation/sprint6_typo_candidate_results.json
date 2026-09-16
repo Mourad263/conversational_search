@@ -1,0 +1,3712 @@
+{
+  "seed": 20260915,
+  "top_k": 5,
+  "summary": {
+    "A_extractOne": {
+      "overall_typo": {
+        "n": 160,
+        "available_rate": 0.7937,
+        "correct_rate": 0.7688,
+        "wrong_rate": 0.1125,
+        "unresolved_rate": 0.1187,
+        "fail_not_generated": 33,
+        "fail_generated_wrong_selection": 4
+      },
+      "by_language": {
+        "en": {
+          "n": 80,
+          "available_rate": 0.875,
+          "correct_rate": 0.875,
+          "wrong_rate": 0.0375,
+          "unresolved_rate": 0.0875,
+          "fail_not_generated": 10,
+          "fail_generated_wrong_selection": 0
+        },
+        "ar": {
+          "n": 80,
+          "available_rate": 0.7125,
+          "correct_rate": 0.6625,
+          "wrong_rate": 0.1875,
+          "unresolved_rate": 0.15,
+          "fail_not_generated": 23,
+          "fail_generated_wrong_selection": 4
+        }
+      },
+      "by_mutation": {
+        "deletion": {
+          "n": 40,
+          "available_rate": 0.875,
+          "correct_rate": 0.875,
+          "wrong_rate": 0.1,
+          "unresolved_rate": 0.025,
+          "fail_not_generated": 5,
+          "fail_generated_wrong_selection": 0
+        },
+        "insertion": {
+          "n": 40,
+          "available_rate": 0.975,
+          "correct_rate": 0.975,
+          "wrong_rate": 0.0,
+          "unresolved_rate": 0.025,
+          "fail_not_generated": 1,
+          "fail_generated_wrong_selection": 0
+        },
+        "substitution": {
+          "n": 40,
+          "available_rate": 0.675,
+          "correct_rate": 0.65,
+          "wrong_rate": 0.175,
+          "unresolved_rate": 0.175,
+          "fail_not_generated": 13,
+          "fail_generated_wrong_selection": 1
+        },
+        "transposition": {
+          "n": 40,
+          "available_rate": 0.65,
+          "correct_rate": 0.575,
+          "wrong_rate": 0.175,
+          "unresolved_rate": 0.25,
+          "fail_not_generated": 14,
+          "fail_generated_wrong_selection": 3
+        }
+      },
+      "by_arity": {
+        "single": {
+          "n": 80,
+          "available_rate": 0.825,
+          "correct_rate": 0.8,
+          "wrong_rate": 0.1125,
+          "unresolved_rate": 0.0875,
+          "fail_not_generated": 14,
+          "fail_generated_wrong_selection": 2
+        },
+        "multiword": {
+          "n": 80,
+          "available_rate": 0.7625,
+          "correct_rate": 0.7375,
+          "wrong_rate": 0.1125,
+          "unresolved_rate": 0.15,
+          "fail_not_generated": 19,
+          "fail_generated_wrong_selection": 2
+        }
+      },
+      "controls": {
+        "clean_catalog": {
+          "n": 20,
+          "damage_rate": 0.0,
+          "damaged": 0
+        },
+        "clean_filler": {
+          "n": 19,
+          "damage_rate": 0.4211,
+          "damaged": 8
+        }
+      }
+    },
+    "B_topk": {
+      "overall_typo": {
+        "n": 160,
+        "available_rate": 0.9812,
+        "correct_rate": 0.8313,
+        "wrong_rate": 0.1187,
+        "unresolved_rate": 0.05,
+        "fail_not_generated": 3,
+        "fail_generated_wrong_selection": 24
+      },
+      "by_language": {
+        "en": {
+          "n": 80,
+          "available_rate": 1.0,
+          "correct_rate": 0.925,
+          "wrong_rate": 0.075,
+          "unresolved_rate": 0.0,
+          "fail_not_generated": 0,
+          "fail_generated_wrong_selection": 6
+        },
+        "ar": {
+          "n": 80,
+          "available_rate": 0.9625,
+          "correct_rate": 0.7375,
+          "wrong_rate": 0.1625,
+          "unresolved_rate": 0.1,
+          "fail_not_generated": 3,
+          "fail_generated_wrong_selection": 18
+        }
+      },
+      "by_mutation": {
+        "deletion": {
+          "n": 40,
+          "available_rate": 1.0,
+          "correct_rate": 0.775,
+          "wrong_rate": 0.225,
+          "unresolved_rate": 0.0,
+          "fail_not_generated": 0,
+          "fail_generated_wrong_selection": 9
+        },
+        "insertion": {
+          "n": 40,
+          "available_rate": 1.0,
+          "correct_rate": 0.95,
+          "wrong_rate": 0.05,
+          "unresolved_rate": 0.0,
+          "fail_not_generated": 0,
+          "fail_generated_wrong_selection": 2
+        },
+        "substitution": {
+          "n": 40,
+          "available_rate": 0.95,
+          "correct_rate": 0.825,
+          "wrong_rate": 0.1,
+          "unresolved_rate": 0.075,
+          "fail_not_generated": 2,
+          "fail_generated_wrong_selection": 5
+        },
+        "transposition": {
+          "n": 40,
+          "available_rate": 0.975,
+          "correct_rate": 0.775,
+          "wrong_rate": 0.1,
+          "unresolved_rate": 0.125,
+          "fail_not_generated": 1,
+          "fail_generated_wrong_selection": 8
+        }
+      },
+      "by_arity": {
+        "single": {
+          "n": 80,
+          "available_rate": 0.975,
+          "correct_rate": 0.75,
+          "wrong_rate": 0.1875,
+          "unresolved_rate": 0.0625,
+          "fail_not_generated": 2,
+          "fail_generated_wrong_selection": 18
+        },
+        "multiword": {
+          "n": 80,
+          "available_rate": 0.9875,
+          "correct_rate": 0.9125,
+          "wrong_rate": 0.05,
+          "unresolved_rate": 0.0375,
+          "fail_not_generated": 1,
+          "fail_generated_wrong_selection": 6
+        }
+      },
+      "controls": {
+        "clean_catalog": {
+          "n": 20,
+          "damage_rate": 0.0,
+          "damaged": 0
+        },
+        "clean_filler": {
+          "n": 19,
+          "damage_rate": 0.0,
+          "damaged": 0
+        }
+      }
+    }
+  },
+  "cases": [
+    {
+      "id": 1,
+      "kind": "typo",
+      "tokens": [
+        "colou"
+      ],
+      "truth": "colour",
+      "a_selected": "colour",
+      "b_generated": [
+        "colour",
+        "colo",
+        "color",
+        "cloud",
+        "coloured"
+      ],
+      "b_selected": "color"
+    },
+    {
+      "id": 2,
+      "kind": "typo",
+      "tokens": [
+        "gycerin"
+      ],
+      "truth": "glycerin",
+      "a_selected": "glycerin",
+      "b_generated": [
+        "glycerin",
+        "glycerine",
+        "gylecrin",
+        "ceriten",
+        "grain"
+      ],
+      "b_selected": "glycerin"
+    },
+    {
+      "id": 3,
+      "kind": "typo",
+      "tokens": [
+        "orginl"
+      ],
+      "truth": "orginal",
+      "a_selected": "orginal",
+      "b_generated": [
+        "orginal",
+        "originl",
+        "original",
+        "oreginal",
+        "2orginal"
+      ],
+      "b_selected": "original"
+    },
+    {
+      "id": 4,
+      "kind": "typo",
+      "tokens": [
+        "appox"
+      ],
+      "truth": "approx",
+      "a_selected": "approx",
+      "b_generated": [
+        "approx",
+        "pepo",
+        "eppo",
+        "apple",
+        "happy"
+      ],
+      "b_selected": "approx"
+    },
+    {
+      "id": 5,
+      "kind": "typo",
+      "tokens": [
+        "mrba"
+      ],
+      "truth": "merba",
+      "a_selected": "merba",
+      "b_generated": [
+        "merba",
+        "mora",
+        "mira",
+        "mr",
+        "maram"
+      ],
+      "b_selected": "merba"
+    },
+    {
+      "id": 6,
+      "kind": "typo",
+      "tokens": [
+        "tand"
+      ],
+      "truth": "stand",
+      "a_selected": "stand",
+      "b_generated": [
+        "stand",
+        "and",
+        "tan",
+        "strand",
+        "hand"
+      ],
+      "b_selected": "and"
+    },
+    {
+      "id": 7,
+      "kind": "typo",
+      "tokens": [
+        "rown"
+      ],
+      "truth": "brown",
+      "a_selected": "brown",
+      "b_generated": [
+        "brown",
+        "crown",
+        "drown",
+        "own",
+        "brown4"
+      ],
+      "b_selected": "brown"
+    },
+    {
+      "id": 8,
+      "kind": "typo",
+      "tokens": [
+        "eixir"
+      ],
+      "truth": "elixir",
+      "a_selected": "elixir",
+      "b_generated": [
+        "elixir",
+        "lixir",
+        "exit",
+        "extra",
+        "dixie"
+      ],
+      "b_selected": "elixir"
+    },
+    {
+      "id": 9,
+      "kind": "typo",
+      "tokens": [
+        "ikkoman"
+      ],
+      "truth": "kikkoman",
+      "a_selected": "kikkoman",
+      "b_generated": [
+        "kikkoman",
+        "kikoman",
+        "milkman",
+        "roman",
+        "tikka"
+      ],
+      "b_selected": "kikkoman"
+    },
+    {
+      "id": 10,
+      "kind": "typo",
+      "tokens": [
+        "makr"
+      ],
+      "truth": "maker",
+      "a_selected": "maker",
+      "b_generated": [
+        "maker",
+        "mar",
+        "mask",
+        "mark",
+        "make"
+      ],
+      "b_selected": "maker"
+    },
+    {
+      "id": 11,
+      "kind": "typo",
+      "tokens": [
+        "gm",
+        "stuffd"
+      ],
+      "truth": "stuffed",
+      "a_selected": "stuffed",
+      "b_generated": [
+        "stuffed",
+        "stuff",
+        "stuffing",
+        "puffed",
+        "studio"
+      ],
+      "b_selected": "stuffed"
+    },
+    {
+      "id": 12,
+      "kind": "typo",
+      "tokens": [
+        "c",
+        "fairnes"
+      ],
+      "truth": "fairness",
+      "a_selected": "fairness",
+      "b_generated": [
+        "fairness",
+        "faireness",
+        "fine",
+        "fair",
+        "fire"
+      ],
+      "b_selected": "fairness"
+    },
+    {
+      "id": 13,
+      "kind": "typo",
+      "tokens": [
+        "action",
+        "crytal"
+      ],
+      "truth": "crystal",
+      "a_selected": "crystal",
+      "b_generated": [
+        "crystal",
+        "cristal",
+        "royal",
+        "craml",
+        "creal"
+      ],
+      "b_selected": "crystal"
+    },
+    {
+      "id": 14,
+      "kind": "typo",
+      "tokens": [
+        "chocolate",
+        "mchi"
+      ],
+      "truth": "mochi",
+      "a_selected": "mochi",
+      "b_generated": [
+        "mochi",
+        "machin",
+        "munchi",
+        "chip",
+        "chia"
+      ],
+      "b_selected": "munchi"
+    },
+    {
+      "id": 15,
+      "kind": "typo",
+      "tokens": [
+        "cheese",
+        "mozzarela"
+      ],
+      "truth": "mozzarella",
+      "a_selected": "mozzarella",
+      "b_generated": [
+        "mozzarella",
+        "mozarella",
+        "mozzare",
+        "pizzarella",
+        "marvel"
+      ],
+      "b_selected": "mozzarella"
+    },
+    {
+      "id": 16,
+      "kind": "typo",
+      "tokens": [
+        "and",
+        "kife"
+      ],
+      "truth": "knife",
+      "a_selected": "knife",
+      "b_generated": [
+        "knife",
+        "4knife",
+        "life",
+        "kafe",
+        "kiev"
+      ],
+      "b_selected": "knife"
+    },
+    {
+      "id": 17,
+      "kind": "typo",
+      "tokens": [
+        "piece",
+        "ilkman"
+      ],
+      "truth": "milkman",
+      "a_selected": "milkman",
+      "b_generated": [
+        "milkman",
+        "milkana",
+        "kikoman",
+        "milka",
+        "kikkoman"
+      ],
+      "b_selected": "milkman"
+    },
+    {
+      "id": 18,
+      "kind": "typo",
+      "tokens": [
+        "corn",
+        "monana"
+      ],
+      "truth": "montana",
+      "a_selected": "montana",
+      "b_generated": [
+        "montana",
+        "moana",
+        "morgana",
+        "monin",
+        "manga"
+      ],
+      "b_selected": "montana"
+    },
+    {
+      "id": 19,
+      "kind": "typo",
+      "tokens": [
+        "game",
+        "eductional"
+      ],
+      "truth": "educational",
+      "a_selected": "educational",
+      "b_generated": [
+        "educational",
+        "ediucational",
+        "education",
+        "seduction",
+        "edctnl"
+      ],
+      "b_selected": "educational"
+    },
+    {
+      "id": 20,
+      "kind": "typo",
+      "tokens": [
+        "baraka",
+        "drnking"
+      ],
+      "truth": "drinking",
+      "a_selected": "drinking",
+      "b_generated": [
+        "drinking",
+        "drying",
+        "dunkin",
+        "daring",
+        "darkening"
+      ],
+      "b_selected": "drinking"
+    },
+    {
+      "id": 21,
+      "kind": "typo",
+      "tokens": [
+        "alovedra"
+      ],
+      "truth": "alovera",
+      "a_selected": "alovera",
+      "b_generated": [
+        "alovera",
+        "aloevera",
+        "alvera",
+        "lovea",
+        "lover"
+      ],
+      "b_selected": "alovera"
+    },
+    {
+      "id": 22,
+      "kind": "typo",
+      "tokens": [
+        "editigon"
+      ],
+      "truth": "edition",
+      "a_selected": "edition",
+      "b_generated": [
+        "edition",
+        "addition",
+        "education",
+        "condition",
+        "seduction"
+      ],
+      "b_selected": "edition"
+    },
+    {
+      "id": 23,
+      "kind": "typo",
+      "tokens": [
+        "butterr"
+      ],
+      "truth": "butter",
+      "a_selected": "butter",
+      "b_generated": [
+        "butter",
+        "buttter",
+        "butterâ",
+        "buttercream",
+        "cutter"
+      ],
+      "b_selected": "butter"
+    },
+    {
+      "id": 24,
+      "kind": "typo",
+      "tokens": [
+        "jeacker"
+      ],
+      "truth": "jacker",
+      "a_selected": "jacker",
+      "b_generated": [
+        "jacker",
+        "jaker",
+        "lecker",
+        "jacket",
+        "jake"
+      ],
+      "b_selected": "jacker"
+    },
+    {
+      "id": 25,
+      "kind": "typo",
+      "tokens": [
+        "werjther"
+      ],
+      "truth": "werther",
+      "a_selected": "werther",
+      "b_generated": [
+        "werther",
+        "wither",
+        "teether",
+        "leather",
+        "frother"
+      ],
+      "b_selected": "werther"
+    },
+    {
+      "id": 26,
+      "kind": "typo",
+      "tokens": [
+        "ulxtra"
+      ],
+      "truth": "ultra",
+      "a_selected": "ultra",
+      "b_generated": [
+        "ultra",
+        "xtra",
+        "extra",
+        "nutra",
+        "ultramax"
+      ],
+      "b_selected": "ultra"
+    },
+    {
+      "id": 27,
+      "kind": "typo",
+      "tokens": [
+        "santaorini"
+      ],
+      "truth": "santorini",
+      "a_selected": "santorini",
+      "b_generated": [
+        "santorini",
+        "storing",
+        "santary",
+        "mandarin",
+        "santa"
+      ],
+      "b_selected": "santorini"
+    },
+    {
+      "id": 28,
+      "kind": "typo",
+      "tokens": [
+        "mitvco"
+      ],
+      "truth": "mitco",
+      "a_selected": "mitco",
+      "b_generated": [
+        "mitco",
+        "micro",
+        "mojito",
+        "micron",
+        "mirtec"
+      ],
+      "b_selected": "mitco"
+    },
+    {
+      "id": 29,
+      "kind": "typo",
+      "tokens": [
+        "brrazilian"
+      ],
+      "truth": "brazilian",
+      "a_selected": "brazilian",
+      "b_generated": [
+        "brazilian",
+        "brazilie",
+        "brazil",
+        "brilliant",
+        "brilliance"
+      ],
+      "b_selected": "brazilian"
+    },
+    {
+      "id": 30,
+      "kind": "typo",
+      "tokens": [
+        "adwasi"
+      ],
+      "truth": "awasi",
+      "a_selected": "awasi",
+      "b_generated": [
+        "awasi",
+        "awai",
+        "hawai",
+        "handwash",
+        "hawawshi"
+      ],
+      "b_selected": "awasi"
+    },
+    {
+      "id": 31,
+      "kind": "typo",
+      "tokens": [
+        "apple",
+        "gardezn"
+      ],
+      "truth": "garden",
+      "a_selected": "garden",
+      "b_generated": [
+        "garden",
+        "gardena",
+        "gardn",
+        "gardenia",
+        "gard"
+      ],
+      "b_selected": "garden"
+    },
+    {
+      "id": 32,
+      "kind": "typo",
+      "tokens": [
+        "fruit",
+        "fpreserve"
+      ],
+      "truth": "preserve",
+      "a_selected": "preserve",
+      "b_generated": [
+        "preserve",
+        "preserver",
+        "presever",
+        "preservative",
+        "fresher"
+      ],
+      "b_selected": "preserve"
+    },
+    {
+      "id": 33,
+      "kind": "typo",
+      "tokens": [
+        "anti",
+        "steehl"
+      ],
+      "truth": "steel",
+      "a_selected": "steel",
+      "b_generated": [
+        "steel",
+        "teeth",
+        "steal",
+        "steen",
+        "sheel"
+      ],
+      "b_selected": "steel"
+    },
+    {
+      "id": 34,
+      "kind": "typo",
+      "tokens": [
+        "chicken",
+        "maggui"
+      ],
+      "truth": "maggi",
+      "a_selected": "maggi",
+      "b_generated": [
+        "maggi",
+        "magic",
+        "magnum",
+        "formaggio",
+        "magrbi"
+      ],
+      "b_selected": "maggi"
+    },
+    {
+      "id": 35,
+      "kind": "typo",
+      "tokens": [
+        "bars",
+        "snickerm"
+      ],
+      "truth": "snicker",
+      "a_selected": "snicker",
+      "b_generated": [
+        "snicker",
+        "slicer",
+        "wicker",
+        "sniper",
+        "licker"
+      ],
+      "b_selected": "snicker"
+    },
+    {
+      "id": 36,
+      "kind": "typo",
+      "tokens": [
+        "aqua",
+        "deltfa"
+      ],
+      "truth": "delta",
+      "a_selected": "delta",
+      "b_generated": [
+        "delta",
+        "delay",
+        "delia",
+        "ela",
+        "degital"
+      ],
+      "b_selected": "delta"
+    },
+    {
+      "id": 37,
+      "kind": "typo",
+      "tokens": [
+        "baby",
+        "tmonth"
+      ],
+      "truth": "month",
+      "a_selected": "month",
+      "b_generated": [
+        "month",
+        "monthly",
+        "mount",
+        "mouth",
+        "tooth"
+      ],
+      "b_selected": "month"
+    },
+    {
+      "id": 38,
+      "kind": "typo",
+      "tokens": [
+        "by",
+        "mincedb"
+      ],
+      "truth": "minced",
+      "a_selected": "minced",
+      "b_generated": [
+        "minced",
+        "mince",
+        "mincer",
+        "mind",
+        "iced"
+      ],
+      "b_selected": "minced"
+    },
+    {
+      "id": 39,
+      "kind": "typo",
+      "tokens": [
+        "chip",
+        "jackerf"
+      ],
+      "truth": "jacker",
+      "a_selected": "jacker",
+      "b_generated": [
+        "jacker",
+        "jaker",
+        "jacket",
+        "jake",
+        "jack"
+      ],
+      "b_selected": "jacker"
+    },
+    {
+      "id": 40,
+      "kind": "typo",
+      "tokens": [
+        "gold",
+        "sockeet"
+      ],
+      "truth": "socket",
+      "a_selected": "socket",
+      "b_generated": [
+        "socket",
+        "rocket",
+        "pocket",
+        "sock",
+        "3pocket"
+      ],
+      "b_selected": "socket"
+    },
+    {
+      "id": 41,
+      "kind": "typo",
+      "tokens": [
+        "chffee"
+      ],
+      "truth": "coffee",
+      "a_selected": "coffee",
+      "b_generated": [
+        "coffee",
+        "chee",
+        "coffe",
+        "caffe",
+        "cafee"
+      ],
+      "b_selected": "coffee"
+    },
+    {
+      "id": 42,
+      "kind": "typo",
+      "tokens": [
+        "istanbwlly"
+      ],
+      "truth": "istanbolly",
+      "a_selected": "istanbolly",
+      "b_generated": [
+        "istanbolly",
+        "istanbully",
+        "istanbuly",
+        "istanboly",
+        "istanbolli"
+      ],
+      "b_selected": "istanbolly"
+    },
+    {
+      "id": 43,
+      "kind": "typo",
+      "tokens": [
+        "marshrone"
+      ],
+      "truth": "marshzone",
+      "a_selected": "marshzone",
+      "b_generated": [
+        "marshzone",
+        "mashreq",
+        "mashine",
+        "marsh",
+        "marne"
+      ],
+      "b_selected": "marshzone"
+    },
+    {
+      "id": 44,
+      "kind": "typo",
+      "tokens": [
+        "vegetau"
+      ],
+      "truth": "vegetar",
+      "a_selected": null,
+      "b_generated": [
+        "vegeta",
+        "vegetar",
+        "vegetab",
+        "vegetal",
+        "veget"
+      ],
+      "b_selected": "vegetar"
+    },
+    {
+      "id": 45,
+      "kind": "typo",
+      "tokens": [
+        "dispasable"
+      ],
+      "truth": "disposable",
+      "a_selected": "disposable",
+      "b_generated": [
+        "disposable",
+        "2disposable",
+        "dispodable",
+        "spreadable",
+        "washable"
+      ],
+      "b_selected": "disposable"
+    },
+    {
+      "id": 46,
+      "kind": "typo",
+      "tokens": [
+        "zosmetic"
+      ],
+      "truth": "cosmetic",
+      "a_selected": "cosmetic",
+      "b_generated": [
+        "cosmetic",
+        "rostic",
+        "ostrich",
+        "metalic",
+        "geometrical"
+      ],
+      "b_selected": "cosmetic"
+    },
+    {
+      "id": 47,
+      "kind": "typo",
+      "tokens": [
+        "mixinj"
+      ],
+      "truth": "mixing",
+      "a_selected": "mixing",
+      "b_generated": [
+        "mixing",
+        "mix",
+        "mexican",
+        "million",
+        "mission"
+      ],
+      "b_selected": "mixing"
+    },
+    {
+      "id": 48,
+      "kind": "typo",
+      "tokens": [
+        "anagchy"
+      ],
+      "truth": "anarchy",
+      "a_selected": "anarchy",
+      "b_generated": [
+        "anarchy",
+        "anchovy",
+        "fancy",
+        "nacho",
+        "ranch"
+      ],
+      "b_selected": "anarchy"
+    },
+    {
+      "id": 49,
+      "kind": "typo",
+      "tokens": [
+        "chills"
+      ],
+      "truth": "chilli",
+      "a_selected": "chill",
+      "b_generated": [
+        "chill",
+        "chilli",
+        "chilal",
+        "hill",
+        "chilled"
+      ],
+      "b_selected": "chilli"
+    },
+    {
+      "id": 50,
+      "kind": "typo",
+      "tokens": [
+        "khowering"
+      ],
+      "truth": "showering",
+      "a_selected": "showering",
+      "b_generated": [
+        "showering",
+        "herring",
+        "herng",
+        "shower",
+        "boeing"
+      ],
+      "b_selected": "showering"
+    },
+    {
+      "id": 51,
+      "kind": "typo",
+      "tokens": [
+        "face",
+        "purifjing"
+      ],
+      "truth": "purifying",
+      "a_selected": null,
+      "b_generated": [
+        "purifing",
+        "purifying",
+        "purifier",
+        "purified",
+        "spring"
+      ],
+      "b_selected": "purifying"
+    },
+    {
+      "id": 52,
+      "kind": "typo",
+      "tokens": [
+        "kg",
+        "tibra"
+      ],
+      "truth": "tiara",
+      "a_selected": "tiara",
+      "b_generated": [
+        "tiara",
+        "fibra",
+        "tra",
+        "timber",
+        "tierra"
+      ],
+      "b_selected": "tiara"
+    },
+    {
+      "id": 53,
+      "kind": "typo",
+      "tokens": [
+        "brown",
+        "ordanic"
+      ],
+      "truth": "organic",
+      "a_selected": "organic",
+      "b_generated": [
+        "organic",
+        "jordan",
+        "rani",
+        "oran",
+        "organix"
+      ],
+      "b_selected": "organic"
+    },
+    {
+      "id": 54,
+      "kind": "typo",
+      "tokens": [
+        "cleansing",
+        "garnper"
+      ],
+      "truth": "garnier",
+      "a_selected": "garnier",
+      "b_generated": [
+        "garnier",
+        "gariner",
+        "garnierâ",
+        "grinder",
+        "garnite"
+      ],
+      "b_selected": "garnier"
+    },
+    {
+      "id": 55,
+      "kind": "typo",
+      "tokens": [
+        "a",
+        "cucumbed"
+      ],
+      "truth": "cucumber",
+      "a_selected": "cucumber",
+      "b_generated": [
+        "cucumber",
+        "cucmber",
+        "cucumbr",
+        "cubed",
+        "vacuumed"
+      ],
+      "b_selected": "cucumber"
+    },
+    {
+      "id": 56,
+      "kind": "typo",
+      "tokens": [
+        "chili",
+        "tigeh"
+      ],
+      "truth": "tiger",
+      "a_selected": "tiger",
+      "b_generated": [
+        "tiger",
+        "tight",
+        "thigh",
+        "tie",
+        "high"
+      ],
+      "b_selected": "tiger"
+    },
+    {
+      "id": 57,
+      "kind": "typo",
+      "tokens": [
+        "abu",
+        "arabiya"
+      ],
+      "truth": "arabica",
+      "a_selected": null,
+      "b_generated": [
+        "arabia",
+        "arabian",
+        "arabica",
+        "darabia",
+        "arabeya"
+      ],
+      "b_selected": "arabica"
+    },
+    {
+      "id": 58,
+      "kind": "typo",
+      "tokens": [
+        "and",
+        "fegille"
+      ],
+      "truth": "feuille",
+      "a_selected": "feuille",
+      "b_generated": [
+        "feuille",
+        "fillet",
+        "filled",
+        "filler",
+        "file"
+      ],
+      "b_selected": "feuille"
+    },
+    {
+      "id": 59,
+      "kind": "typo",
+      "tokens": [
+        "al",
+        "fatania"
+      ],
+      "truth": "watania",
+      "a_selected": "watania",
+      "b_generated": [
+        "watania",
+        "fantasia",
+        "alwatania",
+        "titania",
+        "filatan"
+      ],
+      "b_selected": "watania"
+    },
+    {
+      "id": 60,
+      "kind": "typo",
+      "tokens": [
+        "bebeto",
+        "rpller"
+      ],
+      "truth": "roller",
+      "a_selected": "roller",
+      "b_generated": [
+        "roller",
+        "repelle",
+        "plier",
+        "ruler",
+        "per"
+      ],
+      "b_selected": "roller"
+    },
+    {
+      "id": 61,
+      "kind": "typo",
+      "tokens": [
+        "sehrosa"
+      ],
+      "truth": "sherosa",
+      "a_selected": "sherosa",
+      "b_generated": [
+        "sherosa",
+        "rosa",
+        "sesam",
+        "ashra",
+        "rossa"
+      ],
+      "b_selected": "sherosa"
+    },
+    {
+      "id": 62,
+      "kind": "typo",
+      "tokens": [
+        "ijngo"
+      ],
+      "truth": "jingo",
+      "a_selected": "jingo",
+      "b_generated": [
+        "jingo",
+        "bingo",
+        "ring",
+        "king",
+        "wing"
+      ],
+      "b_selected": "jingo"
+    },
+    {
+      "id": 63,
+      "kind": "typo",
+      "tokens": [
+        "delicaet"
+      ],
+      "truth": "delicate",
+      "a_selected": "delicate",
+      "b_generated": [
+        "delicate",
+        "delicato",
+        "delicia",
+        "dlicate",
+        "delia"
+      ],
+      "b_selected": "delicate"
+    },
+    {
+      "id": 64,
+      "kind": "typo",
+      "tokens": [
+        "shcar"
+      ],
+      "truth": "schar",
+      "a_selected": null,
+      "b_generated": [
+        "shark",
+        "schar",
+        "sharp",
+        "sahar",
+        "share"
+      ],
+      "b_selected": "sharp"
+    },
+    {
+      "id": 65,
+      "kind": "typo",
+      "tokens": [
+        "fluly"
+      ],
+      "truth": "fully",
+      "a_selected": "fully",
+      "b_generated": [
+        "fully",
+        "fly",
+        "ful",
+        "fluffy",
+        "full"
+      ],
+      "b_selected": "fully"
+    },
+    {
+      "id": 66,
+      "kind": "typo",
+      "tokens": [
+        "fnacy"
+      ],
+      "truth": "fancy",
+      "a_selected": "fancy",
+      "b_generated": [
+        "fancy",
+        "funday",
+        "face",
+        "factory",
+        "fantasy"
+      ],
+      "b_selected": "fancy"
+    },
+    {
+      "id": 67,
+      "kind": "typo",
+      "tokens": [
+        "proidgy"
+      ],
+      "truth": "prodigy",
+      "a_selected": "prodigy",
+      "b_generated": [
+        "prodigy",
+        "bridg",
+        "brody",
+        "pomid",
+        "proglide"
+      ],
+      "b_selected": "prodigy"
+    },
+    {
+      "id": 68,
+      "kind": "typo",
+      "tokens": [
+        "drgaee"
+      ],
+      "truth": "dragee",
+      "a_selected": "dragee",
+      "b_generated": [
+        "dragee",
+        "rabee",
+        "dreem",
+        "drake",
+        "doreen"
+      ],
+      "b_selected": "dragee"
+    },
+    {
+      "id": 69,
+      "kind": "typo",
+      "tokens": [
+        "segafrdeo"
+      ],
+      "truth": "segafredo",
+      "a_selected": "segafredo",
+      "b_generated": [
+        "segafredo",
+        "garden",
+        "sugarfree",
+        "seaside",
+        "seafood"
+      ],
+      "b_selected": "segafredo"
+    },
+    {
+      "id": 70,
+      "kind": "typo",
+      "tokens": [
+        "storgae"
+      ],
+      "truth": "storage",
+      "a_selected": "storage",
+      "b_generated": [
+        "storage",
+        "store",
+        "storag",
+        "storng",
+        "ostora"
+      ],
+      "b_selected": "storage"
+    },
+    {
+      "id": 71,
+      "kind": "typo",
+      "tokens": [
+        "assorted",
+        "huose"
+      ],
+      "truth": "house",
+      "a_selected": null,
+      "b_generated": [
+        "hose",
+        "house",
+        "horse",
+        "use",
+        "home"
+      ],
+      "b_selected": "house"
+    },
+    {
+      "id": 72,
+      "kind": "typo",
+      "tokens": [
+        "anti",
+        "stainelss"
+      ],
+      "truth": "stainless",
+      "a_selected": "stainless",
+      "b_generated": [
+        "stainless",
+        "stanliss",
+        "staniless",
+        "stainle",
+        "stain"
+      ],
+      "b_selected": "stainless"
+    },
+    {
+      "id": 73,
+      "kind": "typo",
+      "tokens": [
+        "al",
+        "amede"
+      ],
+      "truth": "ameed",
+      "a_selected": "mamee",
+      "b_generated": [
+        "mamee",
+        "ameed",
+        "ahmed",
+        "ahmedtea",
+        "ampere"
+      ],
+      "b_selected": "ameed"
+    },
+    {
+      "id": 74,
+      "kind": "typo",
+      "tokens": [
+        "chup",
+        "chuap"
+      ],
+      "truth": "chupa",
+      "a_selected": "chup",
+      "b_generated": [
+        "chup",
+        "chupa",
+        "champ",
+        "cup",
+        "hua"
+      ],
+      "b_selected": "chup"
+    },
+    {
+      "id": 75,
+      "kind": "typo",
+      "tokens": [
+        "blender",
+        "emdiatech"
+      ],
+      "truth": "mediatech",
+      "a_selected": "mediatech",
+      "b_generated": [
+        "mediatech",
+        "emirate",
+        "match",
+        "eliminate",
+        "matcha"
+      ],
+      "b_selected": "mediatech"
+    },
+    {
+      "id": 76,
+      "kind": "typo",
+      "tokens": [
+        "beef",
+        "frankfurtre"
+      ],
+      "truth": "frankfurter",
+      "a_selected": "frankfurter",
+      "b_generated": [
+        "frankfurter",
+        "frank",
+        "furniture",
+        "fruite",
+        "france"
+      ],
+      "b_selected": "frankfurter"
+    },
+    {
+      "id": 77,
+      "kind": "typo",
+      "tokens": [
+        "antibacterial",
+        "grapferuit"
+      ],
+      "truth": "grapefruit",
+      "a_selected": "grapefruit",
+      "b_generated": [
+        "grapefruit",
+        "grapefruite",
+        "grapefr",
+        "fruit",
+        "grape"
+      ],
+      "b_selected": "grapefruit"
+    },
+    {
+      "id": 78,
+      "kind": "typo",
+      "tokens": [
+        "altahya",
+        "hmumu"
+      ],
+      "truth": "hummu",
+      "a_selected": null,
+      "b_generated": [
+        "humu",
+        "hummu",
+        "mum",
+        "mimu",
+        "chocomum"
+      ],
+      "b_selected": "hummu"
+    },
+    {
+      "id": 79,
+      "kind": "typo",
+      "tokens": [
+        "apple",
+        "gardne"
+      ],
+      "truth": "garden",
+      "a_selected": null,
+      "b_generated": [
+        "gardn",
+        "garden",
+        "gard",
+        "garnite",
+        "garnier"
+      ],
+      "b_selected": "garden"
+    },
+    {
+      "id": 80,
+      "kind": "typo",
+      "tokens": [
+        "gr",
+        "tpoping"
+      ],
+      "truth": "topping",
+      "a_selected": "topping",
+      "b_generated": [
+        "topping",
+        "popping",
+        "toning",
+        "dpping",
+        "tong"
+      ],
+      "b_selected": "topping"
+    },
+    {
+      "id": 81,
+      "kind": "typo",
+      "tokens": [
+        "اتداء"
+      ],
+      "truth": "ابتداء",
+      "a_selected": "ابتداء",
+      "b_generated": [
+        "ابتداء",
+        "لاداء",
+        "اصدقاء",
+        "الشتاء",
+        "السوداء"
+      ],
+      "b_selected": "ابتداء"
+    },
+    {
+      "id": 82,
+      "kind": "typo",
+      "tokens": [
+        "بحة"
+      ],
+      "truth": "بحبة",
+      "a_selected": "بحبة",
+      "b_generated": [
+        "بحبة",
+        "حة",
+        "بحشوة",
+        "بحافة",
+        "سباحة"
+      ],
+      "b_selected": "بحبة"
+    },
+    {
+      "id": 83,
+      "kind": "typo",
+      "tokens": [
+        "متنع"
+      ],
+      "truth": "متنوع",
+      "a_selected": "متنوع",
+      "b_generated": [
+        "متنوع",
+        "منع",
+        "متنوعه",
+        "متنوعة",
+        "مانع"
+      ],
+      "b_selected": "متنوعة"
+    },
+    {
+      "id": 84,
+      "kind": "typo",
+      "tokens": [
+        "يلز"
+      ],
+      "truth": "ويلز",
+      "a_selected": "تيلز",
+      "b_generated": [
+        "تيلز",
+        "ميلز",
+        "ويلز",
+        "هيلز",
+        "فيلز"
+      ],
+      "b_selected": "ميلز"
+    },
+    {
+      "id": 85,
+      "kind": "typo",
+      "tokens": [
+        "ماحة"
+      ],
+      "truth": "مساحة",
+      "a_selected": "مساحة",
+      "b_generated": [
+        "مساحة",
+        "احة",
+        "مكافحة",
+        "ومساحة",
+        "متاح"
+      ],
+      "b_selected": "مساحة"
+    },
+    {
+      "id": 86,
+      "kind": "typo",
+      "tokens": [
+        "لحساس"
+      ],
+      "truth": "الحساس",
+      "a_selected": "الحساس",
+      "b_generated": [
+        "الحساس",
+        "حساس",
+        "الحساسه",
+        "الحساسة",
+        "لحساسية"
+      ],
+      "b_selected": "الحساسة"
+    },
+    {
+      "id": 87,
+      "kind": "typo",
+      "tokens": [
+        "مطط"
+      ],
+      "truth": "مخطط",
+      "a_selected": "مخطط",
+      "b_generated": [
+        "مخطط",
+        "مطاط",
+        "مط",
+        "مطاطي",
+        "مخططة"
+      ],
+      "b_selected": "مخطط"
+    },
+    {
+      "id": 88,
+      "kind": "typo",
+      "tokens": [
+        "الزباد"
+      ],
+      "truth": "الزبادي",
+      "a_selected": "الزبادي",
+      "b_generated": [
+        "الزبادي",
+        "بالزبادي",
+        "والزبادي",
+        "البارد",
+        "الزبده"
+      ],
+      "b_selected": "الزبادي"
+    },
+    {
+      "id": 89,
+      "kind": "typo",
+      "tokens": [
+        "قري"
+      ],
+      "truth": "قريش",
+      "a_selected": "بقري",
+      "b_generated": [
+        "بقري",
+        "قريش",
+        "ري",
+        "قرمزي",
+        "طري"
+      ],
+      "b_selected": "بقري"
+    },
+    {
+      "id": 90,
+      "kind": "typo",
+      "tokens": [
+        "بائحه"
+      ],
+      "truth": "برائحه",
+      "a_selected": "برائحه",
+      "b_generated": [
+        "برائحه",
+        "سباحه",
+        "رائحه",
+        "برائحة",
+        "بالحبه"
+      ],
+      "b_selected": "برائحه"
+    },
+    {
+      "id": 91,
+      "kind": "typo",
+      "tokens": [
+        "العادي",
+        "العنية"
+      ],
+      "truth": "العناية",
+      "a_selected": "العناية",
+      "b_generated": [
+        "العناية",
+        "العنيدة",
+        "المعدنية",
+        "والعناية",
+        "لعناية"
+      ],
+      "b_selected": "العناية"
+    },
+    {
+      "id": 92,
+      "kind": "typo",
+      "tokens": [
+        "اب",
+        "للتوس"
+      ],
+      "truth": "للتسوس",
+      "a_selected": "للتسوس",
+      "b_generated": [
+        "للتسوس",
+        "لتس",
+        "اللوتس",
+        "التسوس",
+        "للتكسر"
+      ],
+      "b_selected": "للتسوس"
+    },
+    {
+      "id": 93,
+      "kind": "typo",
+      "tokens": [
+        "ازرق",
+        "مطب"
+      ],
+      "truth": "مطبخ",
+      "a_selected": "مرطب",
+      "b_generated": [
+        "مرطب",
+        "مطبخ",
+        "مطبع",
+        "طب",
+        "مط"
+      ],
+      "b_selected": "مطبخ"
+    },
+    {
+      "id": 94,
+      "kind": "typo",
+      "tokens": [
+        "بيور",
+        "حينة"
+      ],
+      "truth": "طحينة",
+      "a_selected": "طحينة",
+      "b_generated": [
+        "طحينة",
+        "حنة",
+        "طحينية",
+        "زينة",
+        "صحية"
+      ],
+      "b_selected": "طحينة"
+    },
+    {
+      "id": 95,
+      "kind": "typo",
+      "tokens": [
+        "جم",
+        "الطب"
+      ],
+      "truth": "الطبخ",
+      "a_selected": "الرطب",
+      "b_generated": [
+        "الرطب",
+        "الطبخ",
+        "الطيب",
+        "الب",
+        "بالطبق"
+      ],
+      "b_selected": "الطيب"
+    },
+    {
+      "id": 96,
+      "kind": "typo",
+      "tokens": [
+        "البامبو",
+        "وقية"
+      ],
+      "truth": "ورقية",
+      "a_selected": "ورقية",
+      "b_generated": [
+        "ورقية",
+        "وقاية",
+        "ونقية",
+        "واقية",
+        "وحقيقة"
+      ],
+      "b_selected": "ورقية"
+    },
+    {
+      "id": 97,
+      "kind": "typo",
+      "tokens": [
+        "البسطرمة",
+        "للبططس"
+      ],
+      "truth": "للبطاطس",
+      "a_selected": "للبطاطس",
+      "b_generated": [
+        "للبطاطس",
+        "البطاطس",
+        "بطاطس",
+        "للقطط",
+        "للخطوط"
+      ],
+      "b_selected": "للبطاطس"
+    },
+    {
+      "id": 98,
+      "kind": "typo",
+      "tokens": [
+        "بقع",
+        "بخخ"
+      ],
+      "truth": "بخاخ",
+      "a_selected": "بخاخ",
+      "b_generated": [
+        "بخاخ",
+        "بخاخه",
+        "بخاخة",
+        "خوخ",
+        "بالخوخ"
+      ],
+      "b_selected": "بخاخ"
+    },
+    {
+      "id": 99,
+      "kind": "typo",
+      "tokens": [
+        "اسبريسو",
+        "فيجو"
+      ],
+      "truth": "فياجو",
+      "a_selected": null,
+      "b_generated": [
+        "فريجو",
+        "فياجو",
+        "فيج",
+        "فياجيو",
+        "فياجرو"
+      ],
+      "b_selected": "فياجو"
+    },
+    {
+      "id": 100,
+      "kind": "typo",
+      "tokens": [
+        "البوادي",
+        "طينية"
+      ],
+      "truth": "طحينية",
+      "a_selected": "طحينية",
+      "b_generated": [
+        "طحينية",
+        "طحينة",
+        "صينية",
+        "قطنية",
+        "طبيعية"
+      ],
+      "b_selected": "طحينية"
+    },
+    {
+      "id": 101,
+      "kind": "typo",
+      "tokens": [
+        "مسطرث"
+      ],
+      "truth": "مسطر",
+      "a_selected": "مسطر",
+      "b_generated": [
+        "مسطر",
+        "مسطره",
+        "مطر",
+        "مسطردة",
+        "مسطرده"
+      ],
+      "b_selected": "مسطر"
+    },
+    {
+      "id": 102,
+      "kind": "typo",
+      "tokens": [
+        "باذهي"
+      ],
+      "truth": "باهي",
+      "a_selected": "باهي",
+      "b_generated": [
+        "باهي",
+        "باي",
+        "بالذهب",
+        "بالذره",
+        "الذهبي"
+      ],
+      "b_selected": "باهي"
+    },
+    {
+      "id": 103,
+      "kind": "typo",
+      "tokens": [
+        "طفردي"
+      ],
+      "truth": "فردي",
+      "a_selected": "فردي",
+      "b_generated": [
+        "فردي",
+        "فردية",
+        "طري",
+        "فري",
+        "فرد"
+      ],
+      "b_selected": "فردي"
+    },
+    {
+      "id": 104,
+      "kind": "typo",
+      "tokens": [
+        "البلازمدا"
+      ],
+      "truth": "البلازما",
+      "a_selected": "البلازما",
+      "b_generated": [
+        "البلازما",
+        "بلازما",
+        "الباندا",
+        "الامد",
+        "بلازا"
+      ],
+      "b_selected": "بلازما"
+    },
+    {
+      "id": 105,
+      "kind": "typo",
+      "tokens": [
+        "فريثش"
+      ],
+      "truth": "فريش",
+      "a_selected": "فريش",
+      "b_generated": [
+        "فريش",
+        "فرينش",
+        "Cفريش",
+        "فرش",
+        "فيش"
+      ],
+      "b_selected": "فريش"
+    },
+    {
+      "id": 106,
+      "kind": "typo",
+      "tokens": [
+        "اماميخ"
+      ],
+      "truth": "امامي",
+      "a_selected": "امامي",
+      "b_generated": [
+        "امامي",
+        "ايمامي",
+        "امامية",
+        "مامي",
+        "الامامي"
+      ],
+      "b_selected": "امامي"
+    },
+    {
+      "id": 107,
+      "kind": "typo",
+      "tokens": [
+        "سضهله"
+      ],
+      "truth": "سهله",
+      "a_selected": "سهله",
+      "b_generated": [
+        "سهله",
+        "سهل",
+        "سله",
+        "لسهوله",
+        "سلطه"
+      ],
+      "b_selected": "سهله"
+    },
+    {
+      "id": 108,
+      "kind": "typo",
+      "tokens": [
+        "الكراميهل"
+      ],
+      "truth": "الكراميل",
+      "a_selected": "الكراميل",
+      "b_generated": [
+        "الكراميل",
+        "بالكراميل",
+        "الكاراميل",
+        "والكراميل",
+        "الكرامه"
+      ],
+      "b_selected": "بالكراميل"
+    },
+    {
+      "id": 109,
+      "kind": "typo",
+      "tokens": [
+        "هولنديش"
+      ],
+      "truth": "هولندي",
+      "a_selected": "هولندي",
+      "b_generated": [
+        "هولندي",
+        "هولاندي",
+        "هندي",
+        "هولد",
+        "هوني"
+      ],
+      "b_selected": "هولندي"
+    },
+    {
+      "id": 110,
+      "kind": "typo",
+      "tokens": [
+        "ضلسان"
+      ],
+      "truth": "لسان",
+      "a_selected": "لسان",
+      "b_generated": [
+        "لسان",
+        "سان",
+        "الساخن",
+        "لاسنان",
+        "لاين"
+      ],
+      "b_selected": "لسان"
+    },
+    {
+      "id": 111,
+      "kind": "typo",
+      "tokens": [
+        "الوان",
+        "ماساو"
+      ],
+      "truth": "ماسا",
+      "a_selected": "ماسا",
+      "b_generated": [
+        "ماسا",
+        "اسو",
+        "مارابو",
+        "الساور",
+        "ماسدام"
+      ],
+      "b_selected": "ماسا"
+    },
+    {
+      "id": 112,
+      "kind": "typo",
+      "tokens": [
+        "بالمانجو",
+        "بيتعي"
+      ],
+      "truth": "بيتي",
+      "a_selected": "بيتي",
+      "b_generated": [
+        "بيتي",
+        "بيوتي",
+        "طبيعي",
+        "نبيتي",
+        "بريتي"
+      ],
+      "b_selected": "بيتي"
+    },
+    {
+      "id": 113,
+      "kind": "typo",
+      "tokens": [
+        "ايون",
+        "بالزبيبح"
+      ],
+      "truth": "بالزبيب",
+      "a_selected": "بالزبيب",
+      "b_generated": [
+        "بالزبيب",
+        "الزبيب",
+        "والزبيب",
+        "بالزبادي",
+        "بالبلح"
+      ],
+      "b_selected": "بالزبيب"
+    },
+    {
+      "id": 114,
+      "kind": "typo",
+      "tokens": [
+        "اكواب",
+        "كبرتون"
+      ],
+      "truth": "كرتون",
+      "a_selected": "كرتون",
+      "b_generated": [
+        "كرتون",
+        "كرتونه",
+        "كرتونة",
+        "بريتون",
+        "كارتون"
+      ],
+      "b_selected": "كرتون"
+    },
+    {
+      "id": 115,
+      "kind": "typo",
+      "tokens": [
+        "اتوماتيك",
+        "بامجفف"
+      ],
+      "truth": "بمجفف",
+      "a_selected": null,
+      "b_generated": [
+        "بالمجفف",
+        "بمجفف",
+        "مجفف",
+        "المجففة",
+        "المجففه"
+      ],
+      "b_selected": "بمجفف"
+    },
+    {
+      "id": 116,
+      "kind": "typo",
+      "tokens": [
+        "حلاوه",
+        "البوغادي"
+      ],
+      "truth": "البوادي",
+      "a_selected": "البوادي",
+      "b_generated": [
+        "البوادي",
+        "الوادي",
+        "الزبادي",
+        "الواي",
+        "بوادي"
+      ],
+      "b_selected": "البوادي"
+    },
+    {
+      "id": 117,
+      "kind": "typo",
+      "tokens": [
+        "اقرا",
+        "ولوشن"
+      ],
+      "truth": "ولون",
+      "a_selected": "ولون",
+      "b_generated": [
+        "ولون",
+        "لوشن",
+        "سوليوشن",
+        "جولون",
+        "2لوشن"
+      ],
+      "b_selected": "ولون"
+    },
+    {
+      "id": 118,
+      "kind": "typo",
+      "tokens": [
+        "الاصطناعية",
+        "فرطيسكيز"
+      ],
+      "truth": "فريسكيز",
+      "a_selected": "فريسكيز",
+      "b_generated": [
+        "فريسكيز",
+        "فريسكيس",
+        "فريسكيزاكل",
+        "ريسيز",
+        "فريسكو"
+      ],
+      "b_selected": "فريسكيز"
+    },
+    {
+      "id": 119,
+      "kind": "typo",
+      "tokens": [
+        "ا",
+        "ثنائبي"
+      ],
+      "truth": "ثنائي",
+      "a_selected": "ثنائي",
+      "b_generated": [
+        "ثنائي",
+        "ثنائية",
+        "وثنائي",
+        "نسائي",
+        "عنابي"
+      ],
+      "b_selected": "ثنائي"
+    },
+    {
+      "id": 120,
+      "kind": "typo",
+      "tokens": [
+        "كيلو",
+        "عويسي"
+      ],
+      "truth": "عويس",
+      "a_selected": "عويس",
+      "b_generated": [
+        "عويس",
+        "سويسي",
+        "ويسكي",
+        "سويسري",
+        "تويسبي"
+      ],
+      "b_selected": "عويس"
+    },
+    {
+      "id": 121,
+      "kind": "typo",
+      "tokens": [
+        "اوريجنار"
+      ],
+      "truth": "اوريجنال",
+      "a_selected": "اوريجنال",
+      "b_generated": [
+        "اوريجنال",
+        "اوريجينال",
+        "اورديناري",
+        "اورجنال",
+        "اوريجنز"
+      ],
+      "b_selected": "اوريجينال"
+    },
+    {
+      "id": 122,
+      "kind": "typo",
+      "tokens": [
+        "وغروة"
+      ],
+      "truth": "وفروة",
+      "a_selected": "وفروة",
+      "b_generated": [
+        "وفروة",
+        "ومروحة",
+        "كورة",
+        "ورقة",
+        "مورو"
+      ],
+      "b_selected": "وفروة"
+    },
+    {
+      "id": 123,
+      "kind": "typo",
+      "tokens": [
+        "رغوظ"
+      ],
+      "truth": "رغوة",
+      "a_selected": null,
+      "b_generated": [
+        "رغوه",
+        "رغوة",
+        "رغوي",
+        "رو",
+        "برغوة"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 124,
+      "kind": "typo",
+      "tokens": [
+        "مالتيزسز"
+      ],
+      "truth": "مالتيزرز",
+      "a_selected": "مالتيزرز",
+      "b_generated": [
+        "مالتيزرز",
+        "مالتي",
+        "ماتيز",
+        "ماليزي",
+        "ماليزا"
+      ],
+      "b_selected": "مالتيزرز"
+    },
+    {
+      "id": 125,
+      "kind": "typo",
+      "tokens": [
+        "صسكويك"
+      ],
+      "truth": "نسكويك",
+      "a_selected": "نسكويك",
+      "b_generated": [
+        "نسكويك",
+        "كويك",
+        "نيسكويك",
+        "سكويز",
+        "سكوتي"
+      ],
+      "b_selected": "نسكويك"
+    },
+    {
+      "id": 126,
+      "kind": "typo",
+      "tokens": [
+        "معحون"
+      ],
+      "truth": "معجون",
+      "a_selected": "معجون",
+      "b_generated": [
+        "معجون",
+        "مطحون",
+        "عون",
+        "مون",
+        "محو"
+      ],
+      "b_selected": "معجون"
+    },
+    {
+      "id": 127,
+      "kind": "typo",
+      "tokens": [
+        "يفران"
+      ],
+      "truth": "افران",
+      "a_selected": "فرانس",
+      "b_generated": [
+        "فرانس",
+        "افران",
+        "فرسان",
+        "فرانك",
+        "نيفرلاند"
+      ],
+      "b_selected": "فرانس"
+    },
+    {
+      "id": 128,
+      "kind": "typo",
+      "tokens": [
+        "ميلر"
+      ],
+      "truth": "ميلك",
+      "a_selected": "ميلرز",
+      "b_generated": [
+        "ميلرز",
+        "ميلزر",
+        "ميسلر",
+        "ميل",
+        "ميسيلر"
+      ],
+      "b_selected": "ميلرز"
+    },
+    {
+      "id": 129,
+      "kind": "typo",
+      "tokens": [
+        "راخش"
+      ],
+      "truth": "رانش",
+      "a_selected": "راش",
+      "b_generated": [
+        "راش",
+        "فراخ",
+        "رانش",
+        "براش",
+        "رشاش"
+      ],
+      "b_selected": "راش"
+    },
+    {
+      "id": 130,
+      "kind": "typo",
+      "tokens": [
+        "سموذشي"
+      ],
+      "truth": "سموتشي",
+      "a_selected": "سموتشي",
+      "b_generated": [
+        "سموتشي",
+        "سوشي",
+        "موتشي",
+        "مونشي",
+        "السوشي"
+      ],
+      "b_selected": "سموتشي"
+    },
+    {
+      "id": 131,
+      "kind": "typo",
+      "tokens": [
+        "برائحة",
+        "ايليمون"
+      ],
+      "truth": "الليمون",
+      "a_selected": null,
+      "b_generated": [
+        "اليمون",
+        "الليمون",
+        "باليمون",
+        "ليمون",
+        "بالليمون"
+      ],
+      "b_selected": "الليمون"
+    },
+    {
+      "id": 132,
+      "kind": "typo",
+      "tokens": [
+        "بلو",
+        "حلاقظ"
+      ],
+      "truth": "حلاقه",
+      "a_selected": "حلاقة",
+      "b_generated": [
+        "حلاقة",
+        "حلاقه",
+        "حلق",
+        "وحلاقة",
+        "لاصق"
+      ],
+      "b_selected": "حلاقه"
+    },
+    {
+      "id": 133,
+      "kind": "typo",
+      "tokens": [
+        "جم",
+        "ضلملو"
+      ],
+      "truth": "الملو",
+      "a_selected": "الملو",
+      "b_generated": [
+        "الملو",
+        "الملوك",
+        "والملو",
+        "الملون",
+        "ملون"
+      ],
+      "b_selected": "الملو"
+    },
+    {
+      "id": 134,
+      "kind": "typo",
+      "tokens": [
+        "الحافظة",
+        "قجفف"
+      ],
+      "truth": "مجفف",
+      "a_selected": null,
+      "b_generated": [
+        "مجفف",
+        "جفاف",
+        "مجففه",
+        "بمجفف",
+        "مجففة"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 135,
+      "kind": "typo",
+      "tokens": [
+        "التحضير",
+        "تشمبو"
+      ],
+      "truth": "تشيبو",
+      "a_selected": "شامبو",
+      "b_generated": [
+        "شامبو",
+        "تيمبو",
+        "تشيبو",
+        "تامبو",
+        "تشب"
+      ],
+      "b_selected": "تشيبو"
+    },
+    {
+      "id": 136,
+      "kind": "typo",
+      "tokens": [
+        "اضافة",
+        "بالانانهس"
+      ],
+      "truth": "بالاناناس",
+      "a_selected": "بالاناناس",
+      "b_generated": [
+        "بالاناناس",
+        "الاناناس",
+        "بالانس",
+        "والاناناس",
+        "الاسنان"
+      ],
+      "b_selected": "بالاناناس"
+    },
+    {
+      "id": 137,
+      "kind": "typo",
+      "tokens": [
+        "بغطاء",
+        "محفم"
+      ],
+      "truth": "محكم",
+      "a_selected": "محم",
+      "b_generated": [
+        "محم",
+        "محمص",
+        "محرم",
+        "محمد",
+        "محمل"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 138,
+      "kind": "typo",
+      "tokens": [
+        "بدون",
+        "مهونات"
+      ],
+      "truth": "ملونات",
+      "a_selected": null,
+      "b_generated": [
+        "مكونات",
+        "ملونات",
+        "مونت",
+        "هرمونات",
+        "موانا"
+      ],
+      "b_selected": "ملونات"
+    },
+    {
+      "id": 139,
+      "kind": "typo",
+      "tokens": [
+        "اسباجتي",
+        "ذيلون"
+      ],
+      "truth": "نيلون",
+      "a_selected": "نيلون",
+      "b_generated": [
+        "نيلون",
+        "جيلون",
+        "لون",
+        "ذيل",
+        "جيلونج"
+      ],
+      "b_selected": "نيلون"
+    },
+    {
+      "id": 140,
+      "kind": "typo",
+      "tokens": [
+        "الاسود",
+        "البفراء"
+      ],
+      "truth": "الصفراء",
+      "a_selected": "الصفراء",
+      "b_generated": [
+        "الصفراء",
+        "الفراخ",
+        "الفرات",
+        "الشفاء",
+        "الفا"
+      ],
+      "b_selected": "الصفراء"
+    },
+    {
+      "id": 141,
+      "kind": "typo",
+      "tokens": [
+        "رفشه"
+      ],
+      "truth": "فرشه",
+      "a_selected": null,
+      "b_generated": [
+        "ريشه",
+        "فرشه",
+        "قرفه",
+        "عرفه",
+        "فيشه"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 142,
+      "kind": "typo",
+      "tokens": [
+        "ااجج"
+      ],
+      "truth": "اجاج",
+      "a_selected": null,
+      "b_generated": [
+        "اجاج",
+        "ادراج",
+        "باراج",
+        "ابالدجاج",
+        "امواج"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 143,
+      "kind": "typo",
+      "tokens": [
+        "فشرا"
+      ],
+      "truth": "فشار",
+      "a_selected": null,
+      "b_generated": [
+        "فشار",
+        "فراخ",
+        "شراب",
+        "صفرا",
+        "فيرا"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 144,
+      "kind": "typo",
+      "tokens": [
+        "بونوبن"
+      ],
+      "truth": "بونبون",
+      "a_selected": "بونبون",
+      "b_generated": [
+        "بونبون",
+        "بنبون",
+        "بنسون",
+        "بوانو",
+        "بونتو"
+      ],
+      "b_selected": "بونبون"
+    },
+    {
+      "id": 145,
+      "kind": "typo",
+      "tokens": [
+        "كيرتاين"
+      ],
+      "truth": "كيراتين",
+      "a_selected": "كيراتين",
+      "b_generated": [
+        "كيراتين",
+        "كيرياتين",
+        "كراينج",
+        "كيتشين",
+        "بكرتين"
+      ],
+      "b_selected": "كيراتين"
+    },
+    {
+      "id": 146,
+      "kind": "typo",
+      "tokens": [
+        "يعون"
+      ],
+      "truth": "عيون",
+      "a_selected": null,
+      "b_generated": [
+        "عون",
+        "ليون",
+        "يوني",
+        "نيون",
+        "جيون"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 147,
+      "kind": "typo",
+      "tokens": [
+        "اولسلفات"
+      ],
+      "truth": "والسلفات",
+      "a_selected": "السلفات",
+      "b_generated": [
+        "السلفات",
+        "والسلفات",
+        "سلفات",
+        "لغسلات",
+        "الفاتح"
+      ],
+      "b_selected": "السلفات"
+    },
+    {
+      "id": 148,
+      "kind": "typo",
+      "tokens": [
+        "دراوكن"
+      ],
+      "truth": "دراكون",
+      "a_selected": "دراجون",
+      "b_generated": [
+        "دراجون",
+        "دراكون",
+        "دراك",
+        "داكن",
+        "براون"
+      ],
+      "b_selected": "دراكون"
+    },
+    {
+      "id": 149,
+      "kind": "typo",
+      "tokens": [
+        "ماجنا"
+      ],
+      "truth": "مجانا",
+      "a_selected": "موانا",
+      "b_generated": [
+        "موانا",
+        "مانجا",
+        "مجانا",
+        "مانيا",
+        "ماجنم"
+      ],
+      "b_selected": "مجانا"
+    },
+    {
+      "id": 150,
+      "kind": "typo",
+      "tokens": [
+        "يمسلار"
+      ],
+      "truth": "ميسلار",
+      "a_selected": "ميسلار",
+      "b_generated": [
+        "ميسلار",
+        "ميسيلار",
+        "ميسلر",
+        "مسالا",
+        "ميسيلر"
+      ],
+      "b_selected": "ميسلار"
+    },
+    {
+      "id": 151,
+      "kind": "typo",
+      "tokens": [
+        "الاغراض",
+        "السوادء"
+      ],
+      "truth": "السوداء",
+      "a_selected": "السوداء",
+      "b_generated": [
+        "السوداء",
+        "الاسود",
+        "المواد",
+        "السجاد",
+        "المساء"
+      ],
+      "b_selected": "السوداء"
+    },
+    {
+      "id": 152,
+      "kind": "typo",
+      "tokens": [
+        "ارضيات",
+        "نجرال"
+      ],
+      "truth": "جنرال",
+      "a_selected": null,
+      "b_generated": [
+        "جرافل",
+        "جنرال",
+        "جال",
+        "جينرال",
+        "نورمال"
+      ],
+      "b_selected": "جنرال"
+    },
+    {
+      "id": 153,
+      "kind": "typo",
+      "tokens": [
+        "الفراخ",
+        "وندلز"
+      ],
+      "truth": "نودلز",
+      "a_selected": "نودلز",
+      "b_generated": [
+        "نودلز",
+        "بوندز",
+        "تويدلز",
+        "جوندول",
+        "نوديلز"
+      ],
+      "b_selected": "نودلز"
+    },
+    {
+      "id": 154,
+      "kind": "typo",
+      "tokens": [
+        "بريزيدن",
+        "لثثات"
+      ],
+      "truth": "ثلثات",
+      "a_selected": "ثلثات",
+      "b_generated": [
+        "ثلثات",
+        "مثلثات",
+        "لايت",
+        "ثابت",
+        "فلات"
+      ],
+      "b_selected": "ثلثات"
+    },
+    {
+      "id": 155,
+      "kind": "typo",
+      "tokens": [
+        "الكريسماس",
+        "قبةع"
+      ],
+      "truth": "قبعة",
+      "a_selected": null,
+      "b_generated": [
+        "قبعة",
+        "رقبة",
+        "قابلة",
+        "حقيبة",
+        "قة"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 156,
+      "kind": "typo",
+      "tokens": [
+        "بالخلطة",
+        "لاحمص"
+      ],
+      "truth": "الحمص",
+      "a_selected": "الحمص",
+      "b_generated": [
+        "الحمص",
+        "لاحمر",
+        "لحم",
+        "حمص",
+        "الاحمر"
+      ],
+      "b_selected": "الحمص"
+    },
+    {
+      "id": 157,
+      "kind": "typo",
+      "tokens": [
+        "خوخ",
+        "مسترود"
+      ],
+      "truth": "مستورد",
+      "a_selected": "مستورد",
+      "b_generated": [
+        "مستورد",
+        "مسترده",
+        "مستردة",
+        "مستر",
+        "مستورده"
+      ],
+      "b_selected": "مستورد"
+    },
+    {
+      "id": 158,
+      "kind": "typo",
+      "tokens": [
+        "الجلوتين",
+        "سوبيرم"
+      ],
+      "truth": "سوبريم",
+      "a_selected": "سوبريم",
+      "b_generated": [
+        "سوبريم",
+        "سوبرمي",
+        "سوبر",
+        "سيرم",
+        "سويم"
+      ],
+      "b_selected": "سوبريم"
+    },
+    {
+      "id": 159,
+      "kind": "typo",
+      "tokens": [
+        "بيرل",
+        "بريجد"
+      ],
+      "truth": "بريدج",
+      "a_selected": "بريد",
+      "b_generated": [
+        "بريد",
+        "بريدج",
+        "سبريد",
+        "تبريد",
+        "بيد"
+      ],
+      "b_selected": "بريدج"
+    },
+    {
+      "id": 160,
+      "kind": "typo",
+      "tokens": [
+        "الاصطناعية",
+        "ابلقمح"
+      ],
+      "truth": "بالقمح",
+      "a_selected": "القمح",
+      "b_generated": [
+        "القمح",
+        "والقمح",
+        "بالقمح",
+        "الملح",
+        "القمر"
+      ],
+      "b_selected": "القمح"
+    },
+    {
+      "id": 161,
+      "kind": "clean_catalog",
+      "tokens": [
+        "c",
+        "razor"
+      ],
+      "truth": "razor",
+      "a_selected": "razor",
+      "b_generated": [
+        "razor",
+        "5razor",
+        "razore",
+        "rzr",
+        "raptor"
+      ],
+      "b_selected": "razor"
+    },
+    {
+      "id": 162,
+      "kind": "clean_catalog",
+      "tokens": [
+        "cake",
+        "mousse"
+      ],
+      "truth": "mousse",
+      "a_selected": "mousse",
+      "b_generated": [
+        "mousse",
+        "mouse",
+        "moussy",
+        "mussel",
+        "molasse"
+      ],
+      "b_selected": "mousse"
+    },
+    {
+      "id": 163,
+      "kind": "clean_catalog",
+      "tokens": [
+        "axe",
+        "africa"
+      ],
+      "truth": "africa",
+      "a_selected": "africa",
+      "b_generated": [
+        "africa",
+        "african",
+        "africano",
+        "afican",
+        "aria"
+      ],
+      "b_selected": "africa"
+    },
+    {
+      "id": 164,
+      "kind": "clean_catalog",
+      "tokens": [
+        "nouval",
+        "birmingham"
+      ],
+      "truth": "birmingham",
+      "a_selected": "birmingham",
+      "b_generated": [
+        "birmingham",
+        "bright",
+        "hiring",
+        "borgam",
+        "mirinda"
+      ],
+      "b_selected": "birmingham"
+    },
+    {
+      "id": 165,
+      "kind": "clean_catalog",
+      "tokens": [
+        "block",
+        "cappuccino"
+      ],
+      "truth": "cappuccino",
+      "a_selected": "cappuccino",
+      "b_generated": [
+        "cappuccino",
+        "cappucino",
+        "capuccino",
+        "cappuccinp",
+        "capacuino"
+      ],
+      "b_selected": "cappuccino"
+    },
+    {
+      "id": 166,
+      "kind": "clean_catalog",
+      "tokens": [
+        "cream",
+        "orgakera"
+      ],
+      "truth": "orgakera",
+      "a_selected": "orgakera",
+      "b_generated": [
+        "orgakera",
+        "forera",
+        "organizer",
+        "okra",
+        "cracker"
+      ],
+      "b_selected": "orgakera"
+    },
+    {
+      "id": 167,
+      "kind": "clean_catalog",
+      "tokens": [
+        "mcvitie",
+        "digestive"
+      ],
+      "truth": "digestive",
+      "a_selected": "digestive",
+      "b_generated": [
+        "digestive",
+        "digestiive",
+        "digest",
+        "digesta",
+        "stive"
+      ],
+      "b_selected": "digestive"
+    },
+    {
+      "id": 168,
+      "kind": "clean_catalog",
+      "tokens": [
+        "booster",
+        "bright"
+      ],
+      "truth": "bright",
+      "a_selected": "bright",
+      "b_generated": [
+        "bright",
+        "right",
+        "upright",
+        "light",
+        "brite"
+      ],
+      "b_selected": "bright"
+    },
+    {
+      "id": 169,
+      "kind": "clean_catalog",
+      "tokens": [
+        "plain",
+        "labna"
+      ],
+      "truth": "labna",
+      "a_selected": "labna",
+      "b_generated": [
+        "labna",
+        "labina",
+        "labenah",
+        "laban",
+        "lanab"
+      ],
+      "b_selected": "labna"
+    },
+    {
+      "id": 170,
+      "kind": "clean_catalog",
+      "tokens": [
+        "cruelty",
+        "solution"
+      ],
+      "truth": "solution",
+      "a_selected": "solution",
+      "b_generated": [
+        "solution",
+        "suction",
+        "lotion",
+        "softon",
+        "motion"
+      ],
+      "b_selected": "solution"
+    },
+    {
+      "id": 171,
+      "kind": "clean_catalog",
+      "tokens": [
+        "اسنان",
+        "للغاية"
+      ],
+      "truth": "للغاية",
+      "a_selected": "للغاية",
+      "b_generated": [
+        "للغاية",
+        "للعناية",
+        "للشواية",
+        "للحماية",
+        "للاحذية"
+      ],
+      "b_selected": "للغاية"
+    },
+    {
+      "id": 172,
+      "kind": "clean_catalog",
+      "tokens": [
+        "اصلي",
+        "العنايه"
+      ],
+      "truth": "العنايه",
+      "a_selected": "العنايه",
+      "b_generated": [
+        "العنايه",
+        "العاديه",
+        "العناية",
+        "للعنايه",
+        "العنبيه"
+      ],
+      "b_selected": "العنايه"
+    },
+    {
+      "id": 173,
+      "kind": "clean_catalog",
+      "tokens": [
+        "جم",
+        "بامية"
+      ],
+      "truth": "بامية",
+      "a_selected": "بامية",
+      "b_generated": [
+        "بامية",
+        "باميه",
+        "بداية",
+        "بامبي",
+        "باتية"
+      ],
+      "b_selected": "بامية"
+    },
+    {
+      "id": 174,
+      "kind": "clean_catalog",
+      "tokens": [
+        "الاطباق",
+        "لتنظيف"
+      ],
+      "truth": "لتنظيف",
+      "a_selected": "لتنظيف",
+      "b_generated": [
+        "لتنظيف",
+        "للتنظيف",
+        "التنظيف",
+        "تنظيف",
+        "لتنظيم"
+      ],
+      "b_selected": "لتنظيف"
+    },
+    {
+      "id": 175,
+      "kind": "clean_catalog",
+      "tokens": [
+        "بولة",
+        "تيتيز"
+      ],
+      "truth": "تيتيز",
+      "a_selected": "تيتيز",
+      "b_generated": [
+        "تيتيز",
+        "تيتز",
+        "تيتنز",
+        "تيميز",
+        "تيستي"
+      ],
+      "b_selected": "تيتيز"
+    },
+    {
+      "id": 176,
+      "kind": "clean_catalog",
+      "tokens": [
+        "اخضر",
+        "ماتشا"
+      ],
+      "truth": "ماتشا",
+      "a_selected": "ماتشا",
+      "b_generated": [
+        "ماتشا",
+        "ماتش",
+        "اتش",
+        "اشا",
+        "ميانتا"
+      ],
+      "b_selected": "ماتشا"
+    },
+    {
+      "id": 177,
+      "kind": "clean_catalog",
+      "tokens": [
+        "بشواية",
+        "شارب"
+      ],
+      "truth": "شارب",
+      "a_selected": "شارب",
+      "b_generated": [
+        "شارب",
+        "شار",
+        "شرب",
+        "للشارب",
+        "فشار"
+      ],
+      "b_selected": "شارب"
+    },
+    {
+      "id": 178,
+      "kind": "clean_catalog",
+      "tokens": [
+        "زهرة",
+        "البرسيم"
+      ],
+      "truth": "البرسيم",
+      "a_selected": "البرسيم",
+      "b_generated": [
+        "البرسيم",
+        "البري",
+        "برسيم",
+        "البحري",
+        "البقري"
+      ],
+      "b_selected": "البرسيم"
+    },
+    {
+      "id": 179,
+      "kind": "clean_catalog",
+      "tokens": [
+        "الاخضر",
+        "بالزيتون"
+      ],
+      "truth": "بالزيتون",
+      "a_selected": "بالزيتون",
+      "b_generated": [
+        "بالزيتون",
+        "الزيتون",
+        "والزيتون",
+        "بالزيت",
+        "بزيتون"
+      ],
+      "b_selected": "بالزيتون"
+    },
+    {
+      "id": 180,
+      "kind": "clean_catalog",
+      "tokens": [
+        "ايس",
+        "موتشي"
+      ],
+      "truth": "موتشي",
+      "a_selected": "موتشي",
+      "b_generated": [
+        "موتشي",
+        "سموتشي",
+        "مونتي",
+        "وتشيز",
+        "مونشي"
+      ],
+      "b_selected": "موتشي"
+    },
+    {
+      "id": 181,
+      "kind": "clean_filler",
+      "tokens": [
+        "alway",
+        "please"
+      ],
+      "truth": null,
+      "a_selected": "pleasure",
+      "b_generated": [
+        "pleasure",
+        "peas",
+        "cleanse",
+        "plaster",
+        "plate"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 182,
+      "kind": "clean_filler",
+      "tokens": [
+        "mejdool",
+        "maybe"
+      ],
+      "truth": null,
+      "a_selected": null,
+      "b_generated": [
+        "mable",
+        "mabel",
+        "may",
+        "marble",
+        "marbel"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 183,
+      "kind": "clean_filler",
+      "tokens": [
+        "dabur",
+        "really"
+      ],
+      "truth": null,
+      "a_selected": "real",
+      "b_generated": [
+        "real",
+        "raly",
+        "ready",
+        "jelly",
+        "reale"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 184,
+      "kind": "clean_filler",
+      "tokens": [
+        "arabic",
+        "quickly"
+      ],
+      "truth": null,
+      "a_selected": "quick",
+      "b_generated": [
+        "quick",
+        "quail",
+        "nesquick",
+        "picky",
+        "lucky"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 185,
+      "kind": "clean_filler",
+      "tokens": [
+        "frying",
+        "kindly"
+      ],
+      "truth": null,
+      "a_selected": null,
+      "b_generated": [
+        "kind",
+        "kindney",
+        "hindy",
+        "kiddy",
+        "lindy"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 186,
+      "kind": "clean_filler",
+      "tokens": [
+        "provolone",
+        "actually"
+      ],
+      "truth": null,
+      "a_selected": null,
+      "b_generated": [
+        "naturally",
+        "manually",
+        "natural",
+        "natrual",
+        "totally"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 187,
+      "kind": "clean_filler",
+      "tokens": [
+        "istanboli",
+        "possibly"
+      ],
+      "truth": null,
+      "a_selected": null,
+      "b_generated": [
+        "possible",
+        "visibly",
+        "oily",
+        "poly",
+        "professionl"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 188,
+      "kind": "clean_filler",
+      "tokens": [
+        "stand",
+        "something"
+      ],
+      "truth": null,
+      "a_selected": "soothing",
+      "b_generated": [
+        "soothing",
+        "smoothing",
+        "soothng",
+        "setting",
+        "sting"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 189,
+      "kind": "clean_filler",
+      "tokens": [
+        "staniless",
+        "anything"
+      ],
+      "truth": null,
+      "a_selected": null,
+      "b_generated": [
+        "bathing",
+        "thing",
+        "matching",
+        "planting",
+        "painting"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 190,
+      "kind": "clean_filler",
+      "tokens": [
+        "حراري",
+        "لوسمحت"
+      ],
+      "truth": null,
+      "a_selected": null,
+      "b_generated": [
+        "الومت",
+        "بلوسم",
+        "لوت",
+        "الوميت",
+        "لوح"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 191,
+      "kind": "clean_filler",
+      "tokens": [
+        "مثلج",
+        "بسرعة"
+      ],
+      "truth": null,
+      "a_selected": null,
+      "b_generated": [
+        "بسرة",
+        "بسعة",
+        "سريعة",
+        "وسرعة",
+        "سعة"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 192,
+      "kind": "clean_filler",
+      "tokens": [
+        "ماسا",
+        "ممكن"
+      ],
+      "truth": null,
+      "a_selected": null,
+      "b_generated": [
+        "ممكنة",
+        "مكون",
+        "ماكن",
+        "مسكن",
+        "مكان"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 193,
+      "kind": "clean_filler",
+      "tokens": [
+        "مانجو",
+        "يعني"
+      ],
+      "truth": null,
+      "a_selected": null,
+      "b_generated": [
+        "ميني",
+        "صيني",
+        "ويني",
+        "تيني",
+        "بيني"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 194,
+      "kind": "clean_filler",
+      "tokens": [
+        "كومبليت",
+        "بصراحة"
+      ],
+      "truth": null,
+      "a_selected": "برائحة",
+      "b_generated": [
+        "برائحة",
+        "رائحة",
+        "براية",
+        "سباحة",
+        "لراحة"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 195,
+      "kind": "clean_filler",
+      "tokens": [
+        "محمص",
+        "خالص"
+      ],
+      "truth": null,
+      "a_selected": "خال",
+      "b_generated": [
+        "خال",
+        "خاص",
+        "خالي",
+        "وخال",
+        "البصل"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 196,
+      "kind": "clean_filler",
+      "tokens": [
+        "تنظيف",
+        "النهاردة"
+      ],
+      "truth": null,
+      "a_selected": null,
+      "b_generated": [
+        "النهار",
+        "النهاري",
+        "الحارة",
+        "البارد",
+        "المنار"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 197,
+      "kind": "clean_filler",
+      "tokens": [
+        "براون",
+        "كمان"
+      ],
+      "truth": null,
+      "a_selected": "مان",
+      "b_generated": [
+        "مان",
+        "كان",
+        "بيكمان",
+        "كريمان",
+        "كولمان"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 198,
+      "kind": "clean_filler",
+      "tokens": [
+        "بالوان",
+        "شوية"
+      ],
+      "truth": null,
+      "a_selected": "شواية",
+      "b_generated": [
+        "شواية",
+        "شورية",
+        "مشوية",
+        "شوي",
+        "بشواية"
+      ],
+      "b_selected": null
+    },
+    {
+      "id": 199,
+      "kind": "clean_filler",
+      "tokens": [
+        "البرسيم",
+        "طبعا"
+      ],
+      "truth": null,
+      "a_selected": null,
+      "b_generated": [
+        "طعام",
+        "بقعا",
+        "مطبع",
+        "بعصا",
+        "اطباق"
+      ],
+      "b_selected": null
+    }
+  ]
+}

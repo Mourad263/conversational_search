@@ -1,0 +1,133 @@
+[
+  {
+    "label": "A_en_direct",
+    "text": "recommend something",
+    "history": null,
+    "intent": "no_op",
+    "recommendation_request": true,
+    "raw_query_text": null,
+    "category_hint": null
+  },
+  {
+    "label": "B_en_followup",
+    "text": "show me some other options",
+    "history": [
+      "I need shampoo"
+    ],
+    "intent": "no_op",
+    "recommendation_request": true,
+    "raw_query_text": null,
+    "category_hint": null
+  },
+  {
+    "label": "C_en_show_more",
+    "text": "show me more",
+    "history": [
+      "I need shampoo"
+    ],
+    "intent": "no_op",
+    "recommendation_request": true,
+    "raw_query_text": null,
+    "category_hint": null
+  },
+  {
+    "label": "D_ar_direct",
+    "text": "افترح عليا حاجة",
+    "history": null,
+    "intent": "no_op",
+    "recommendation_request": true,
+    "raw_query_text": null,
+    "category_hint": null
+  },
+  {
+    "label": "E_egy_followup",
+    "text": "وريني حاجات تانية",
+    "history": [
+      "عايز شامبو"
+    ],
+    "intent": "no_op",
+    "recommendation_request": true,
+    "raw_query_text": null,
+    "category_hint": null
+  },
+  {
+    "label": "F_ar_show_more",
+    "text": "وريني أكتر",
+    "history": [
+      "عايز شامبو"
+    ],
+    "intent": "no_op",
+    "recommendation_request": true,
+    "raw_query_text": null,
+    "category_hint": null
+  },
+  {
+    "label": "G_codeswitch",
+    "text": "recommendلي حاجة تانية",
+    "history": [
+      "عايز شامبو"
+    ],
+    "intent": "no_op",
+    "recommendation_request": true,
+    "raw_query_text": null,
+    "category_hint": null
+  },
+  {
+    "label": "H_same_turn",
+    "text": "what milk do you recommend?",
+    "history": null,
+    "intent": "no_op",
+    "recommendation_request": true,
+    "raw_query_text": "milk",
+    "category_hint": "dairy"
+  },
+  {
+    "label": "I_with_state",
+    "text": "anything else?",
+    "history": [
+      "I need milk"
+    ],
+    "intent": "no_op",
+    "recommendation_request": true,
+    "raw_query_text": null,
+    "category_hint": null
+  },
+  {
+    "label": "J_no_state",
+    "text": "what do you recommend?",
+    "history": null,
+    "intent": "no_op",
+    "recommendation_request": true,
+    "raw_query_text": null,
+    "category_hint": null
+  },
+  {
+    "label": "K_neg_search",
+    "text": "I need milk",
+    "history": null,
+    "intent": "search",
+    "recommendation_request": false,
+    "raw_query_text": "milk",
+    "category_hint": "dairy"
+  },
+  {
+    "label": "L_neg_filter",
+    "text": "change the price to under 50",
+    "history": [
+      "I need milk"
+    ],
+    "intent": "add_filter",
+    "recommendation_request": false,
+    "raw_query_text": "milk",
+    "category_hint": "dairy"
+  },
+  {
+    "label": "M_neg_offtopic",
+    "text": "what's the weather?",
+    "history": null,
+    "intent": "off_topic",
+    "recommendation_request": false,
+    "raw_query_text": null,
+    "category_hint": null
+  }
+]

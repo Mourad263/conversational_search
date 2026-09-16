@@ -1,0 +1,924 @@
+{
+  "weight_query": 0.5,
+  "weight_profile": 0.5,
+  "results": [
+    {
+      "case": "A_milk",
+      "query": "milk",
+      "active_filters": {
+        "category": "milk_29",
+        "brand": null,
+        "price_min": null,
+        "price_max": null,
+        "unresolved_exclusion": null
+      },
+      "shown_products": [
+        {
+          "product_id": 13804,
+          "name": "Avanti Super Instant Full Cream Milk Powder - 1.5 Kg"
+        },
+        {
+          "product_id": 6163,
+          "name": "Miro Skimmed Instant Milk Powder Mix Low Fat - 20 Gr"
+        },
+        {
+          "product_id": 16084,
+          "name": "Nestle Sweetened Full Cream Condensed Milk - 370 Gr"
+        },
+        {
+          "product_id": 9297,
+          "name": "Juhayna Long Life Full Fat Milk (3% Fat) - No Added Milk Powder - 1 L"
+        },
+        {
+          "product_id": 10131,
+          "name": "Daria Coconut Milk - 400 Ml"
+        }
+      ],
+      "relevant_clusters": [
+        71,
+        110
+      ],
+      "candidates_before_filter": 541,
+      "candidates_after_filter": 108,
+      "recommended_products": [
+        {
+          "product_id": 3969,
+          "name": "Miro Skimmed Powdered Milk - 250 Gr",
+          "brand": "mero",
+          "price": 68.75,
+          "cluster_id": 71,
+          "combined_similarity": 0.8128
+        },
+        {
+          "product_id": 3792,
+          "name": "Miro Milk Powder Low Fat - 700 Gr",
+          "brand": "mero",
+          "price": 183.45,
+          "cluster_id": 71,
+          "combined_similarity": 0.8112
+        },
+        {
+          "product_id": 6169,
+          "name": "Miro Instant Milk Powder Mix Chocolate Flavor - 30 Gr",
+          "brand": "mero",
+          "price": 9.45,
+          "cluster_id": 71,
+          "combined_similarity": 0.8103
+        },
+        {
+          "product_id": 6258,
+          "name": "Miro Milk Powder Full Cream - 1500 Gr",
+          "brand": "mero",
+          "price": 515.75,
+          "cluster_id": 71,
+          "combined_similarity": 0.8101
+        },
+        {
+          "product_id": 4765,
+          "name": "Juhayna Skimmed Milk - 200 Ml",
+          "brand": "juhayna",
+          "price": 12.95,
+          "cluster_id": 110,
+          "combined_similarity": 0.8076
+        }
+      ],
+      "reason_if_empty": null,
+      "all_recommendations_satisfy_active_filters": true,
+      "no_overlap_with_shown_products": true,
+      "no_duplicate_recommendations": true
+    },
+    {
+      "case": "B_lactose_free_milk",
+      "query": "lactose-free milk",
+      "active_filters": {
+        "category": "lactose_free_32297",
+        "brand": null,
+        "price_min": null,
+        "price_max": null,
+        "unresolved_exclusion": null
+      },
+      "shown_products": [
+        {
+          "product_id": 9892,
+          "name": "Juhayna Milk (3% Fat) - Lactose Free, Powder Free - 1 L"
+        },
+        {
+          "product_id": 15436,
+          "name": "Valor Milk Chocolate - Lactose Free, Gluten Free - 100 Gr"
+        },
+        {
+          "product_id": 9239,
+          "name": "Juhayna Skimmed Milk (0.5% Fat) - Lactose Free, Preservatives Free, Additives Free - 1 L"
+        }
+      ],
+      "relevant_clusters": [
+        9,
+        110
+      ],
+      "candidates_before_filter": 807,
+      "candidates_after_filter": 0,
+      "recommended_products": [],
+      "reason_if_empty": "no candidates survive the active hard filters",
+      "all_recommendations_satisfy_active_filters": true,
+      "no_overlap_with_shown_products": true,
+      "no_duplicate_recommendations": true
+    },
+    {
+      "case": "B2_lactose_free_milk_with_headroom",
+      "query": "lactose-free milk",
+      "active_filters": {
+        "category": "lactose_free_32297",
+        "brand": null,
+        "price_min": null,
+        "price_max": null,
+        "unresolved_exclusion": null
+      },
+      "shown_products": [
+        {
+          "product_id": 9892,
+          "name": "Juhayna Milk (3% Fat) - Lactose Free, Powder Free - 1 L"
+        },
+        {
+          "product_id": 15436,
+          "name": "Valor Milk Chocolate - Lactose Free, Gluten Free - 100 Gr"
+        }
+      ],
+      "relevant_clusters": [
+        9,
+        110
+      ],
+      "candidates_before_filter": 808,
+      "candidates_after_filter": 1,
+      "recommended_products": [
+        {
+          "product_id": 9239,
+          "name": "Juhayna Skimmed Milk (0.5% Fat) - Lactose Free, Preservatives Free, Additives Free - 1 L",
+          "brand": "juhayna",
+          "price": 94.7,
+          "cluster_id": 110,
+          "combined_similarity": 0.8326
+        }
+      ],
+      "reason_if_empty": null,
+      "all_recommendations_satisfy_active_filters": true,
+      "no_overlap_with_shown_products": true,
+      "no_duplicate_recommendations": true
+    },
+    {
+      "case": "C_yogurt",
+      "query": "yogurt",
+      "active_filters": {
+        "category": "yogurt",
+        "brand": null,
+        "price_min": null,
+        "price_max": null,
+        "unresolved_exclusion": null
+      },
+      "shown_products": [
+        {
+          "product_id": 9181,
+          "name": "Juhayna Low Fat Peach Strained Yogurt - Low Sugar - 180 Gr"
+        },
+        {
+          "product_id": 17687,
+          "name": "Yopolis Greek Yogurt With Peach - 150G"
+        },
+        {
+          "product_id": 9251,
+          "name": "Yopolis 12G Protein Natural Greek Yogurt (2% Fat) - 150 Gr"
+        },
+        {
+          "product_id": 9233,
+          "name": "Yopolis Flip 7G Protein Greek Yogurt With Salted Caramel Almonds - 145 Gr"
+        },
+        {
+          "product_id": 9144,
+          "name": "Juhayna Zabado Peach Yogurt Drink - 220 Gr"
+        }
+      ],
+      "relevant_clusters": [
+        110
+      ],
+      "candidates_before_filter": 251,
+      "candidates_after_filter": 170,
+      "recommended_products": [
+        {
+          "product_id": 18203,
+          "name": "Juhayna Greek Low Fat Mixed Berry Yogurt - Preservatives Free, Gluten Free, Artificial Sweeteners Free - 180 Gr",
+          "brand": "juhayna",
+          "price": 37.6,
+          "cluster_id": 110,
+          "combined_similarity": 0.846
+        },
+        {
+          "product_id": 9182,
+          "name": "Juhayna Low Fat Strawberry Greek Yogurt - Low Sugar - 180 Gr",
+          "brand": "juhayna",
+          "price": 37.6,
+          "cluster_id": 110,
+          "combined_similarity": 0.8379
+        },
+        {
+          "product_id": 14497,
+          "name": "Juhayna Greek Yogurt (2% Fat) - 180 Gr",
+          "brand": "juhayna",
+          "price": 34.45,
+          "cluster_id": 110,
+          "combined_similarity": 0.8348
+        },
+        {
+          "product_id": 14498,
+          "name": "Juhayna Greek Yogurt (0.2%) - 180 Gr",
+          "brand": "juhayna",
+          "price": 34.45,
+          "cluster_id": 110,
+          "combined_similarity": 0.8347
+        },
+        {
+          "product_id": 14495,
+          "name": "Juhayna Greek Yogurt (7% Fat) - 13G Protein - 180 Gr",
+          "brand": "juhayna",
+          "price": 34.45,
+          "cluster_id": 110,
+          "combined_similarity": 0.8347
+        }
+      ],
+      "reason_if_empty": null,
+      "all_recommendations_satisfy_active_filters": true,
+      "no_overlap_with_shown_products": true,
+      "no_duplicate_recommendations": true
+    },
+    {
+      "case": "D_olive_oil",
+      "query": "olive oil",
+      "active_filters": {
+        "category": "oil_5685",
+        "brand": null,
+        "price_min": null,
+        "price_max": null,
+        "unresolved_exclusion": null
+      },
+      "shown_products": [
+        {
+          "product_id": 2341,
+          "name": "Shahd Sunflower Oil- 750 Ml"
+        },
+        {
+          "product_id": 18571,
+          "name": "Borges Olive Oil - 750Ml"
+        },
+        {
+          "product_id": 5202,
+          "name": "Tiara Cold Pressed Flaxseed Oil - 500 Ml"
+        },
+        {
+          "product_id": 5206,
+          "name": "Choice Cold Pressed Sesame Oil - 500 Ml"
+        },
+        {
+          "product_id": 5217,
+          "name": "Choice Cold Pressed Flaxseed Oil - 250 Ml"
+        }
+      ],
+      "relevant_clusters": [
+        13,
+        55,
+        107,
+        112
+      ],
+      "candidates_before_filter": 923,
+      "candidates_after_filter": 214,
+      "recommended_products": [
+        {
+          "product_id": 2142,
+          "name": "Tiara Unfiltered Cold Pressed Unrefined Virgin Olive Oil - Cholesterol Free - 500 Ml",
+          "brand": "tiara",
+          "price": 436.25,
+          "cluster_id": 55,
+          "combined_similarity": 0.8169
+        },
+        {
+          "product_id": 2125,
+          "name": "Tiara Unfiltered Cold Pressed Unrefined Virgin Olive Oil - Cholesterol Free - 250 Ml",
+          "brand": "tiara",
+          "price": 234.95,
+          "cluster_id": 55,
+          "combined_similarity": 0.8164
+        },
+        {
+          "product_id": 2127,
+          "name": "Tiara Cold Pressed Unrefined Extra Virgin Olive Oil - Cholesterol Free - 1 L",
+          "brand": "tiara",
+          "price": 858.95,
+          "cluster_id": 55,
+          "combined_similarity": 0.8128
+        },
+        {
+          "product_id": 14399,
+          "name": "Choice Olivia Extra Virgin Olive Oil - 500 Ml",
+          "brand": "choice",
+          "price": 222.95,
+          "cluster_id": 55,
+          "combined_similarity": 0.8123
+        },
+        {
+          "product_id": 15407,
+          "name": "Consul Olive Oil Pure - 250 Ml",
+          "brand": "consul",
+          "price": 124.75,
+          "cluster_id": 55,
+          "combined_similarity": 0.8099
+        }
+      ],
+      "reason_if_empty": null,
+      "all_recommendations_satisfy_active_filters": true,
+      "no_overlap_with_shown_products": true,
+      "no_duplicate_recommendations": true
+    },
+    {
+      "case": "E_detergent",
+      "query": "detergent",
+      "active_filters": {
+        "category": "detergents_19",
+        "brand": null,
+        "price_min": null,
+        "price_max": null,
+        "unresolved_exclusion": null
+      },
+      "shown_products": [
+        {
+          "product_id": 13020,
+          "name": "Xtra Washing Powder L/S"
+        },
+        {
+          "product_id": 15061,
+          "name": "Spinneys Value Washing Powder - 1Kg"
+        },
+        {
+          "product_id": 850,
+          "name": "Clorox Clothes Laundry Detergent Stain Remover & Color Booster - 500 Gr"
+        },
+        {
+          "product_id": 4983,
+          "name": "Tide Automatic Clean & Fresh Laundry Detergent Powder Front Load (30% Off) - 7 kg"
+        },
+        {
+          "product_id": 14265,
+          "name": "Persil Washing Gel Xl Off - 3.9L"
+        }
+      ],
+      "relevant_clusters": [
+        6,
+        63,
+        119
+      ],
+      "candidates_before_filter": 595,
+      "candidates_after_filter": 92,
+      "recommended_products": [
+        {
+          "product_id": 8505,
+          "name": "Persil Automatic Deep Clean Antigreying Laundry Detergent Powder Lavender Scent Top Load",
+          "brand": "persil",
+          "price": 24.95,
+          "cluster_id": 119,
+          "combined_similarity": 0.8186
+        },
+        {
+          "product_id": 852,
+          "name": "Persil Concentrated Power Gel Laundry Detergent Liquid Front & Top Load Lavender Scent (30% Off) - 3.9 Kg",
+          "brand": "persil",
+          "price": 279.95,
+          "cluster_id": 119,
+          "combined_similarity": 0.8154
+        },
+        {
+          "product_id": 4795,
+          "name": "Persil Power Gel Laundry Detergent Lavender Scent Front & Top Load - 1 Kg",
+          "brand": "persil",
+          "price": 77.5,
+          "cluster_id": 119,
+          "combined_similarity": 0.8143
+        },
+        {
+          "product_id": 4224,
+          "name": "Persil Automatic Color Deep Clean Laundry Detergent Powder Flower Scent (25% Off) - 2.5 Kg",
+          "brand": "persil",
+          "price": 184.25,
+          "cluster_id": 119,
+          "combined_similarity": 0.8125
+        },
+        {
+          "product_id": 7260,
+          "name": "Persil Automatic Deep Clean Technology Laundry Detergent Powder Lavender Scent Front & Top Load - 8 Kg",
+          "brand": "persil",
+          "price": 429.95,
+          "cluster_id": 119,
+          "combined_similarity": 0.8119
+        }
+      ],
+      "reason_if_empty": null,
+      "all_recommendations_satisfy_active_filters": true,
+      "no_overlap_with_shown_products": true,
+      "no_duplicate_recommendations": true
+    },
+    {
+      "case": "F_milk_under_30",
+      "query": "milk under 30",
+      "active_filters": {
+        "category": "milk_29",
+        "brand": null,
+        "price_min": null,
+        "price_max": 30.0,
+        "unresolved_exclusion": null
+      },
+      "shown_products": [
+        {
+          "product_id": 6163,
+          "name": "Miro Skimmed Instant Milk Powder Mix Low Fat - 20 Gr"
+        },
+        {
+          "product_id": 15613,
+          "name": "Domty Long Life Full Fat Milk - milk powder free, additives free - 1 L"
+        },
+        {
+          "product_id": 386,
+          "name": "Juhayna Light Laban Rayeb - 440 Gr"
+        },
+        {
+          "product_id": 389,
+          "name": "Danone Danao Strawberry & Banana Drink With Milk- 235 Ml"
+        },
+        {
+          "product_id": 7589,
+          "name": "Almarai Rayeb Fresh Laban - 220 Gr"
+        }
+      ],
+      "relevant_clusters": [
+        71,
+        75,
+        110
+      ],
+      "candidates_before_filter": 735,
+      "candidates_after_filter": 36,
+      "recommended_products": [
+        {
+          "product_id": 6168,
+          "name": "Miro Mix Strawberry Powder Milk - 30Gm",
+          "brand": "mero",
+          "price": 9.45,
+          "cluster_id": 71,
+          "combined_similarity": 0.7996
+        },
+        {
+          "product_id": 4765,
+          "name": "Juhayna Skimmed Milk - 200 Ml",
+          "brand": "juhayna",
+          "price": 12.95,
+          "cluster_id": 110,
+          "combined_similarity": 0.7959
+        },
+        {
+          "product_id": 9006,
+          "name": "Miro Mix Milk Powder Banana Flavour - 30 Gr",
+          "brand": "mero",
+          "price": 8.95,
+          "cluster_id": 71,
+          "combined_similarity": 0.7958
+        },
+        {
+          "product_id": 6169,
+          "name": "Miro Instant Milk Powder Mix Chocolate Flavor - 30 Gr",
+          "brand": "mero",
+          "price": 9.45,
+          "cluster_id": 71,
+          "combined_similarity": 0.7953
+        },
+        {
+          "product_id": 385,
+          "name": "Labanita Long Life Skimmed Milk - 1 L",
+          "brand": "labanita",
+          "price": 29.25,
+          "cluster_id": 71,
+          "combined_similarity": 0.7948
+        }
+      ],
+      "reason_if_empty": null,
+      "all_recommendations_satisfy_active_filters": true,
+      "no_overlap_with_shown_products": true,
+      "no_duplicate_recommendations": true
+    },
+    {
+      "case": "G_juhayna_milk",
+      "query": "Juhayna milk",
+      "active_filters": {
+        "category": "milk_29",
+        "brand": "juhayna",
+        "price_min": null,
+        "price_max": null,
+        "unresolved_exclusion": null
+      },
+      "shown_products": [
+        {
+          "product_id": 9297,
+          "name": "Juhayna Long Life Full Fat Milk (3% Fat) - No Added Milk Powder - 1 L"
+        },
+        {
+          "product_id": 386,
+          "name": "Juhayna Light Laban Rayeb - 440 Gr"
+        },
+        {
+          "product_id": 7817,
+          "name": "Juhayna Oat Milk With Nuts & Grains - Vegan, No Added Sugar, Gluten Free - 1 L"
+        },
+        {
+          "product_id": 4765,
+          "name": "Juhayna Skimmed Milk - 200 Ml"
+        },
+        {
+          "product_id": 9668,
+          "name": "Juhayna Long Life Full Cream Milk - 6 X 1 L"
+        }
+      ],
+      "relevant_clusters": [
+        110
+      ],
+      "candidates_before_filter": 251,
+      "candidates_after_filter": 13,
+      "recommended_products": [
+        {
+          "product_id": 9892,
+          "name": "Juhayna Milk (3% Fat) - Lactose Free, Powder Free - 1 L",
+          "brand": "juhayna",
+          "price": 98.25,
+          "cluster_id": 110,
+          "combined_similarity": 0.9241
+        },
+        {
+          "product_id": 10007,
+          "name": "Juhayna Skimmed Milk (0.5% Fat) - No Added Milk Powder - 1 L",
+          "brand": "juhayna",
+          "price": 48.95,
+          "cluster_id": 110,
+          "combined_similarity": 0.9029
+        },
+        {
+          "product_id": 14246,
+          "name": "Juhayna Skimmed Milk (0.5% Fat) (-6 Egp) - No Added Milk Powder - 6 X 1 L",
+          "brand": "juhayna",
+          "price": 294.0,
+          "cluster_id": 110,
+          "combined_similarity": 0.8998
+        },
+        {
+          "product_id": 388,
+          "name": "Juhayna Half Cream Milk (1.5% Fat) (-6 Egp) - No Added Milk Powder - 6 X 1 L",
+          "brand": "juhayna",
+          "price": 294.0,
+          "cluster_id": 110,
+          "combined_similarity": 0.8972
+        },
+        {
+          "product_id": 9168,
+          "name": "Juhayna Long Life Full Fat Milk (3% Fat) - 200 Ml",
+          "brand": "juhayna",
+          "price": 12.95,
+          "cluster_id": 110,
+          "combined_similarity": 0.8968
+        }
+      ],
+      "reason_if_empty": null,
+      "all_recommendations_satisfy_active_filters": true,
+      "no_overlap_with_shown_products": true,
+      "no_duplicate_recommendations": true
+    },
+    {
+      "case": "H_edge_narrow_brand_category",
+      "query": "Juhayna yogurt",
+      "active_filters": {
+        "category": "yogurt",
+        "brand": "juhayna",
+        "price_min": null,
+        "price_max": null,
+        "unresolved_exclusion": null
+      },
+      "shown_products": [
+        {
+          "product_id": 9181,
+          "name": "Juhayna Low Fat Peach Strained Yogurt - Low Sugar - 180 Gr"
+        },
+        {
+          "product_id": 14213,
+          "name": "Juhayna Light Yogurt - 180 Gr"
+        },
+        {
+          "product_id": 14498,
+          "name": "Juhayna Greek Yogurt (0.2%) - 180 Gr"
+        },
+        {
+          "product_id": 9126,
+          "name": "Juhayna 5 Light Yogurt + 1Free- 6*105 Gm"
+        },
+        {
+          "product_id": 21134,
+          "name": "Juhayna Yoghurt With Strawberry - 105G"
+        }
+      ],
+      "relevant_clusters": [
+        110
+      ],
+      "candidates_before_filter": 251,
+      "candidates_after_filter": 32,
+      "recommended_products": [
+        {
+          "product_id": 18203,
+          "name": "Juhayna Greek Low Fat Mixed Berry Yogurt - Preservatives Free, Gluten Free, Artificial Sweeteners Free - 180 Gr",
+          "brand": "juhayna",
+          "price": 37.6,
+          "cluster_id": 110,
+          "combined_similarity": 0.9058
+        },
+        {
+          "product_id": 9182,
+          "name": "Juhayna Low Fat Strawberry Greek Yogurt - Low Sugar - 180 Gr",
+          "brand": "juhayna",
+          "price": 37.6,
+          "cluster_id": 110,
+          "combined_similarity": 0.895
+        },
+        {
+          "product_id": 9213,
+          "name": "Juhayna Natural Yogurt - 105g",
+          "brand": "juhayna",
+          "price": 8.5,
+          "cluster_id": 110,
+          "combined_similarity": 0.8944
+        },
+        {
+          "product_id": 7404,
+          "name": "Juhayna Low Fat French Vanilla Bean Strained Yogurt - Low Sugar - 180 Gr",
+          "brand": "juhayna",
+          "price": 37.6,
+          "cluster_id": 110,
+          "combined_similarity": 0.8918
+        },
+        {
+          "product_id": 9146,
+          "name": "Juhayna Natural Yogurt- 475 G",
+          "brand": "juhayna",
+          "price": 34.65,
+          "cluster_id": 110,
+          "combined_similarity": 0.8913
+        },
+        {
+          "product_id": 9826,
+          "name": "Juhayna 5 Plain Yoghurt+1 Free- 6*105 Gm",
+          "brand": "juhayna",
+          "price": 45.75,
+          "cluster_id": 110,
+          "combined_similarity": 0.8902
+        },
+        {
+          "product_id": 7876,
+          "name": "Juhayna Yogurt With Sugar 3+1- 105 G",
+          "brand": "juhayna",
+          "price": 26.95,
+          "cluster_id": 110,
+          "combined_similarity": 0.8894
+        },
+        {
+          "product_id": 14497,
+          "name": "Juhayna Greek Yogurt (2% Fat) - 180 Gr",
+          "brand": "juhayna",
+          "price": 34.45,
+          "cluster_id": 110,
+          "combined_similarity": 0.8854
+        },
+        {
+          "product_id": 14212,
+          "name": "Juhayna Natural Yoghurt -180G",
+          "brand": "juhayna",
+          "price": 13.75,
+          "cluster_id": 110,
+          "combined_similarity": 0.884
+        },
+        {
+          "product_id": 21136,
+          "name": "Juhayna Yoghurt With Mixed Berries - 105G",
+          "brand": "juhayna",
+          "price": 10.0,
+          "cluster_id": 110,
+          "combined_similarity": 0.8836
+        },
+        {
+          "product_id": 11076,
+          "name": "Juhayna Natural Yogurt - 115 Gr",
+          "brand": "juhayna",
+          "price": 8.95,
+          "cluster_id": 110,
+          "combined_similarity": 0.8835
+        },
+        {
+          "product_id": 14512,
+          "name": "Juhayna Plain Yoghurt, 105G - 8 Pieces - ",
+          "brand": "juhayna",
+          "price": 54.95,
+          "cluster_id": 110,
+          "combined_similarity": 0.881
+        },
+        {
+          "product_id": 13154,
+          "name": "Juhayna Plain Yoghurt- 5 Kg",
+          "brand": "juhayna",
+          "price": 329.95,
+          "cluster_id": 110,
+          "combined_similarity": 0.8805
+        },
+        {
+          "product_id": 7873,
+          "name": "Juhayna Strawberry Yoghurt (5+1 Free) - Artificial Colors Free, Preservatives Free, Artificial Flavors Free - 6 Per Pack",
+          "brand": "juhayna",
+          "price": 46.95,
+          "cluster_id": 110,
+          "combined_similarity": 0.8805
+        },
+        {
+          "product_id": 22434,
+          "name": "Juhayna Light Stirred Yogurt - 105G",
+          "brand": "juhayna",
+          "price": 8.45,
+          "cluster_id": 110,
+          "combined_similarity": 0.8803
+        },
+        {
+          "product_id": 21135,
+          "name": "Juhayna Yoghurt With Peach - 105G",
+          "brand": "juhayna",
+          "price": 10.0,
+          "cluster_id": 110,
+          "combined_similarity": 0.88
+        },
+        {
+          "product_id": 11077,
+          "name": "Juhayna Light Yogurt - 115G",
+          "brand": "juhayna",
+          "price": 8.95,
+          "cluster_id": 110,
+          "combined_similarity": 0.8799
+        },
+        {
+          "product_id": 9118,
+          "name": "Juhayna Natural Yogurt (9+3 Free) - 12 X 105 Gr",
+          "brand": "juhayna",
+          "price": 83.75,
+          "cluster_id": 110,
+          "combined_similarity": 0.8783
+        },
+        {
+          "product_id": 16915,
+          "name": "Juhayna Light Yogurt, 105G - 8 Pieces - ",
+          "brand": "juhayna",
+          "price": 54.95,
+          "cluster_id": 110,
+          "combined_similarity": 0.8775
+        },
+        {
+          "product_id": 14495,
+          "name": "Juhayna Greek Yogurt (7% Fat) - 13G Protein - 180 Gr",
+          "brand": "juhayna",
+          "price": 34.45,
+          "cluster_id": 110,
+          "combined_similarity": 0.8769
+        },
+        {
+          "product_id": 22433,
+          "name": "Juhayna Plain Stirred Yogurt - 105G",
+          "brand": "juhayna",
+          "price": 8.45,
+          "cluster_id": 110,
+          "combined_similarity": 0.8754
+        },
+        {
+          "product_id": 11999,
+          "name": "Juhayna Yoghurt Light  Save 1L.E - 180G",
+          "brand": "juhayna",
+          "price": 13.5,
+          "cluster_id": 110,
+          "combined_similarity": 0.8745
+        },
+        {
+          "product_id": 9031,
+          "name": "Juhayna Plain Yoghurt- 3 Kg",
+          "brand": "juhayna",
+          "price": 237.85,
+          "cluster_id": 110,
+          "combined_similarity": 0.8742
+        },
+        {
+          "product_id": 9292,
+          "name": "Juhayna Yoghurt Natural",
+          "brand": "juhayna",
+          "price": 13.5,
+          "cluster_id": 110,
+          "combined_similarity": 0.8738
+        },
+        {
+          "product_id": 22435,
+          "name": "Juhayna Stirred Sugar Yogurt - 105G",
+          "brand": "juhayna",
+          "price": 8.45,
+          "cluster_id": 110,
+          "combined_similarity": 0.8733
+        },
+        {
+          "product_id": 9016,
+          "name": "Juhayna Happy Kitchen Natural Yogurt (25% Off) - Preservatives Free - 1 Kg",
+          "brand": "juhayna",
+          "price": 78.95,
+          "cluster_id": 110,
+          "combined_similarity": 0.8713
+        },
+        {
+          "product_id": 14496,
+          "name": "Juhayna Plain Greek Yogurt - 180 Gr",
+          "brand": "juhayna",
+          "price": 34.45,
+          "cluster_id": 110,
+          "combined_similarity": 0.8708
+        },
+        {
+          "product_id": 21133,
+          "name": "Juhayna Yoghurt With Mango - 105G",
+          "brand": "juhayna",
+          "price": 10.0,
+          "cluster_id": 110,
+          "combined_similarity": 0.8699
+        },
+        {
+          "product_id": 13201,
+          "name": "Juhayna Youghurt Light 9 & 3 Free- 105 G",
+          "brand": "juhayna",
+          "price": 83.75,
+          "cluster_id": 110,
+          "combined_similarity": 0.8672
+        },
+        {
+          "product_id": 13735,
+          "name": "Juhayna 3 Mix Yogurt Strawberry+1 - 420G",
+          "brand": "juhayna",
+          "price": 26.95,
+          "cluster_id": 110,
+          "combined_similarity": 0.8618
+        },
+        {
+          "product_id": 9212,
+          "name": "Juhayna Zabado Mixed Berries Yogurt Drink - 220 Gr",
+          "brand": "juhayna",
+          "price": 15.5,
+          "cluster_id": 110,
+          "combined_similarity": 0.8444
+        },
+        {
+          "product_id": 9044,
+          "name": "Juhayna Zabado Mixed Berries Yogurt Drink - 440 Gr",
+          "brand": "juhayna",
+          "price": 24.95,
+          "cluster_id": 110,
+          "combined_similarity": 0.8435
+        }
+      ],
+      "reason_if_empty": null,
+      "all_recommendations_satisfy_active_filters": true,
+      "no_overlap_with_shown_products": true,
+      "no_duplicate_recommendations": true
+    },
+    {
+      "case": "I_edge_zero_candidates",
+      "query": "milk under 0.01",
+      "active_filters": {
+        "category": "milk_29",
+        "brand": null,
+        "price_min": null,
+        "price_max": 0.01,
+        "unresolved_exclusion": null
+      },
+      "shown_products": [],
+      "relevant_clusters": [],
+      "candidates_before_filter": 0,
+      "candidates_after_filter": 0,
+      "recommended_products": [],
+      "reason_if_empty": "no valid search-result embeddings available",
+      "all_recommendations_satisfy_active_filters": true,
+      "no_overlap_with_shown_products": true,
+      "no_duplicate_recommendations": true
+    },
+    {
+      "case": "J_edge_empty_search_results",
+      "query": "milk",
+      "shown_products": [],
+      "recommended_products": [],
+      "reason_if_empty": "no valid search-result embeddings available",
+      "candidates_before_filter": 0,
+      "candidates_after_filter": 0
+    }
+  ]
+}

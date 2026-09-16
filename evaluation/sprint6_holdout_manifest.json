@@ -1,0 +1,5054 @@
+{
+  "seed": 20260914,
+  "generated_by": "evaluation/sprint6_build_manifest.py",
+  "leakage_exclusion": {
+    "test_files_scanned": 25,
+    "query_text_literals_extracted": 130,
+    "total_excluded_normalized_words": 246,
+    "method": "Scanned every tests/**/*.py file for string literals passed as query text (calls to parse_keyword_query/search_keyword/handle_message/understand/run_turn/trace/single, ALL_CAPS constant assignments, and JSON 'q'/'message' fields), tokenized each into words, and excluded those normalized words from holdout eligibility. Also excluded every word in _BRAND_FUZZY_BLOCKLIST, _CATEGORY_FUZZY_BLOCKLIST, _CATEGORY_SINGULAR_ALIASES, _CATEGORY_COMPOUND_ALIASES, plus a small explicit list of examples named in the Sprint 5/6 task prompts themselves. Deliberately scoped to actual query-input text, not every string literal (e.g. category slugs used only in assertions), per the task's own instruction not to exclude a whole catalog entry just because some unrelated test mentions it."
+  },
+  "candidate_pool_sizes": {
+    "product_words_en": 2858,
+    "product_words_ar": 4926,
+    "brands": 906,
+    "categories": 218
+  },
+  "sample_sizes": {
+    "product_words_en": 40,
+    "product_words_ar": 40,
+    "brands": 25,
+    "categories": 25,
+    "natural_queries_en": 20,
+    "natural_queries_ar": 20
+  },
+  "vocabulary_entries": [
+    {
+      "id": 1,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "monster",
+      "mutation_type": "deletion",
+      "mutated": "moster",
+      "product_support": 8
+    },
+    {
+      "id": 2,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "monster",
+      "mutation_type": "insertion",
+      "mutated": "monstecr",
+      "product_support": 8
+    },
+    {
+      "id": 3,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "monster",
+      "mutation_type": "substitution",
+      "mutated": "mogster",
+      "product_support": 8
+    },
+    {
+      "id": 4,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "monster",
+      "mutation_type": "transposition",
+      "mutated": "omnster",
+      "product_support": 8
+    },
+    {
+      "id": 5,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "swizzel",
+      "mutation_type": "deletion",
+      "mutated": "swizel",
+      "product_support": 6
+    },
+    {
+      "id": 6,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "swizzel",
+      "mutation_type": "insertion",
+      "mutated": "fswizzel",
+      "product_support": 6
+    },
+    {
+      "id": 7,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "swizzel",
+      "mutation_type": "substitution",
+      "mutated": "swizrel",
+      "product_support": 6
+    },
+    {
+      "id": 8,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "swizzel",
+      "mutation_type": "transposition",
+      "mutated": "swizezl",
+      "product_support": 6
+    },
+    {
+      "id": 9,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "pinar",
+      "mutation_type": "deletion",
+      "mutated": "piar",
+      "product_support": 7
+    },
+    {
+      "id": 10,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "pinar",
+      "mutation_type": "insertion",
+      "mutated": "pirnar",
+      "product_support": 7
+    },
+    {
+      "id": 11,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "pinar",
+      "mutation_type": "substitution",
+      "mutated": "pifar",
+      "product_support": 7
+    },
+    {
+      "id": 12,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "pinar",
+      "mutation_type": "transposition",
+      "mutated": "pniar",
+      "product_support": 7
+    },
+    {
+      "id": 13,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "vegetable",
+      "mutation_type": "deletion",
+      "mutated": "egetable",
+      "product_support": 193
+    },
+    {
+      "id": 14,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "vegetable",
+      "mutation_type": "insertion",
+      "mutated": "vegentable",
+      "product_support": 193
+    },
+    {
+      "id": 15,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "vegetable",
+      "mutation_type": "substitution",
+      "mutated": "begetable",
+      "product_support": 193
+    },
+    {
+      "id": 16,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "vegetable",
+      "mutation_type": "transposition",
+      "mutated": "vegeatble",
+      "product_support": 193
+    },
+    {
+      "id": 17,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lamar",
+      "mutation_type": "deletion",
+      "mutated": "lamr",
+      "product_support": 24
+    },
+    {
+      "id": 18,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lamar",
+      "mutation_type": "insertion",
+      "mutated": "lapmar",
+      "product_support": 24
+    },
+    {
+      "id": 19,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lamar",
+      "mutation_type": "substitution",
+      "mutated": "xamar",
+      "product_support": 24
+    },
+    {
+      "id": 20,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lamar",
+      "mutation_type": "transposition",
+      "mutated": "lmaar",
+      "product_support": 24
+    },
+    {
+      "id": 21,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "sliced",
+      "mutation_type": "deletion",
+      "mutated": "slied",
+      "product_support": 48
+    },
+    {
+      "id": 22,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "sliced",
+      "mutation_type": "insertion",
+      "mutated": "slicped",
+      "product_support": 48
+    },
+    {
+      "id": 23,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "sliced",
+      "mutation_type": "substitution",
+      "mutated": "sciced",
+      "product_support": 48
+    },
+    {
+      "id": 24,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "sliced",
+      "mutation_type": "transposition",
+      "mutated": "sliecd",
+      "product_support": 48
+    },
+    {
+      "id": 25,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "accessory",
+      "mutation_type": "deletion",
+      "mutated": "accessry",
+      "product_support": 4
+    },
+    {
+      "id": 26,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "accessory",
+      "mutation_type": "insertion",
+      "mutated": "raccessory",
+      "product_support": 4
+    },
+    {
+      "id": 27,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "accessory",
+      "mutation_type": "substitution",
+      "mutated": "acdessory",
+      "product_support": 4
+    },
+    {
+      "id": 28,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "accessory",
+      "mutation_type": "transposition",
+      "mutated": "acecssory",
+      "product_support": 4
+    },
+    {
+      "id": 29,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lavendar",
+      "mutation_type": "deletion",
+      "mutated": "laendar",
+      "product_support": 6
+    },
+    {
+      "id": 30,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lavendar",
+      "mutation_type": "insertion",
+      "mutated": "lavendadr",
+      "product_support": 6
+    },
+    {
+      "id": 31,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lavendar",
+      "mutation_type": "substitution",
+      "mutated": "lavendan",
+      "product_support": 6
+    },
+    {
+      "id": 32,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lavendar",
+      "mutation_type": "transposition",
+      "mutated": "lavenadr",
+      "product_support": 6
+    },
+    {
+      "id": 33,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "temmy",
+      "mutation_type": "deletion",
+      "mutated": "emmy",
+      "product_support": 55
+    },
+    {
+      "id": 34,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "temmy",
+      "mutation_type": "insertion",
+      "mutated": "tegmmy",
+      "product_support": 55
+    },
+    {
+      "id": 35,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "temmy",
+      "mutation_type": "substitution",
+      "mutated": "temoy",
+      "product_support": 55
+    },
+    {
+      "id": 36,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "temmy",
+      "mutation_type": "transposition",
+      "mutated": "temym",
+      "product_support": 55
+    },
+    {
+      "id": 37,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "halawani",
+      "mutation_type": "deletion",
+      "mutated": "halawai",
+      "product_support": 7
+    },
+    {
+      "id": 38,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "halawani",
+      "mutation_type": "insertion",
+      "mutated": "halawanig",
+      "product_support": 7
+    },
+    {
+      "id": 39,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "halawani",
+      "mutation_type": "substitution",
+      "mutated": "halawann",
+      "product_support": 7
+    },
+    {
+      "id": 40,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "halawani",
+      "mutation_type": "transposition",
+      "mutated": "ahlawani",
+      "product_support": 7
+    },
+    {
+      "id": 41,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "rustic",
+      "mutation_type": "deletion",
+      "mutated": "rusic",
+      "product_support": 5
+    },
+    {
+      "id": 42,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "rustic",
+      "mutation_type": "insertion",
+      "mutated": "rusticq",
+      "product_support": 5
+    },
+    {
+      "id": 43,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "rustic",
+      "mutation_type": "substitution",
+      "mutated": "rusric",
+      "product_support": 5
+    },
+    {
+      "id": 44,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "rustic",
+      "mutation_type": "transposition",
+      "mutated": "rutsic",
+      "product_support": 5
+    },
+    {
+      "id": 45,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "werther",
+      "mutation_type": "deletion",
+      "mutated": "wrther",
+      "product_support": 7
+    },
+    {
+      "id": 46,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "werther",
+      "mutation_type": "insertion",
+      "mutated": "werether",
+      "product_support": 7
+    },
+    {
+      "id": 47,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "werther",
+      "mutation_type": "substitution",
+      "mutated": "werthel",
+      "product_support": 7
+    },
+    {
+      "id": 48,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "werther",
+      "mutation_type": "transposition",
+      "mutated": "ewrther",
+      "product_support": 7
+    },
+    {
+      "id": 49,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "drainer",
+      "mutation_type": "deletion",
+      "mutated": "dainer",
+      "product_support": 7
+    },
+    {
+      "id": 50,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "drainer",
+      "mutation_type": "insertion",
+      "mutated": "mdrainer",
+      "product_support": 7
+    },
+    {
+      "id": 51,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "drainer",
+      "mutation_type": "substitution",
+      "mutated": "drtiner",
+      "product_support": 7
+    },
+    {
+      "id": 52,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "drainer",
+      "mutation_type": "transposition",
+      "mutated": "draienr",
+      "product_support": 7
+    },
+    {
+      "id": 53,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "scotti",
+      "mutation_type": "deletion",
+      "mutated": "scoti",
+      "product_support": 10
+    },
+    {
+      "id": 54,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "scotti",
+      "mutation_type": "insertion",
+      "mutated": "scottit",
+      "product_support": 10
+    },
+    {
+      "id": 55,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "scotti",
+      "mutation_type": "substitution",
+      "mutated": "scqtti",
+      "product_support": 10
+    },
+    {
+      "id": 56,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "scotti",
+      "mutation_type": "transposition",
+      "mutated": "sctoti",
+      "product_support": 10
+    },
+    {
+      "id": 57,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "trigger",
+      "mutation_type": "deletion",
+      "mutated": "triger",
+      "product_support": 10
+    },
+    {
+      "id": 58,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "trigger",
+      "mutation_type": "insertion",
+      "mutated": "trikgger",
+      "product_support": 10
+    },
+    {
+      "id": 59,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "trigger",
+      "mutation_type": "substitution",
+      "mutated": "tkigger",
+      "product_support": 10
+    },
+    {
+      "id": 60,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "trigger",
+      "mutation_type": "transposition",
+      "mutated": "rtigger",
+      "product_support": 10
+    },
+    {
+      "id": 61,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "guatemala",
+      "mutation_type": "deletion",
+      "mutated": "guatemla",
+      "product_support": 6
+    },
+    {
+      "id": 62,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "guatemala",
+      "mutation_type": "insertion",
+      "mutated": "guatemiala",
+      "product_support": 6
+    },
+    {
+      "id": 63,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "guatemala",
+      "mutation_type": "substitution",
+      "mutated": "gubtemala",
+      "product_support": 6
+    },
+    {
+      "id": 64,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "guatemala",
+      "mutation_type": "transposition",
+      "mutated": "gutaemala",
+      "product_support": 6
+    },
+    {
+      "id": 65,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "bingo",
+      "mutation_type": "deletion",
+      "mutated": "bino",
+      "product_support": 15
+    },
+    {
+      "id": 66,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "bingo",
+      "mutation_type": "insertion",
+      "mutated": "bilngo",
+      "product_support": 15
+    },
+    {
+      "id": 67,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "bingo",
+      "mutation_type": "substitution",
+      "mutated": "bingr",
+      "product_support": 15
+    },
+    {
+      "id": 68,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "bingo",
+      "mutation_type": "transposition",
+      "mutated": "bnigo",
+      "product_support": 15
+    },
+    {
+      "id": 69,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lover",
+      "mutation_type": "deletion",
+      "mutated": "loer",
+      "product_support": 10
+    },
+    {
+      "id": 70,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lover",
+      "mutation_type": "insertion",
+      "mutated": "lovner",
+      "product_support": 10
+    },
+    {
+      "id": 71,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lover",
+      "mutation_type": "substitution",
+      "mutated": "lojer",
+      "product_support": 10
+    },
+    {
+      "id": 72,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lover",
+      "mutation_type": "transposition",
+      "mutated": "lvoer",
+      "product_support": 10
+    },
+    {
+      "id": 73,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "cucumber",
+      "mutation_type": "deletion",
+      "mutated": "cuumber",
+      "product_support": 56
+    },
+    {
+      "id": 74,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "cucumber",
+      "mutation_type": "insertion",
+      "mutated": "cucumbeir",
+      "product_support": 56
+    },
+    {
+      "id": 75,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "cucumber",
+      "mutation_type": "substitution",
+      "mutated": "cgcumber",
+      "product_support": 56
+    },
+    {
+      "id": 76,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "cucumber",
+      "mutation_type": "transposition",
+      "mutated": "cucumbre",
+      "product_support": 56
+    },
+    {
+      "id": 77,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "korean",
+      "mutation_type": "deletion",
+      "mutated": "korea",
+      "product_support": 4
+    },
+    {
+      "id": 78,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "korean",
+      "mutation_type": "insertion",
+      "mutated": "hkorean",
+      "product_support": 4
+    },
+    {
+      "id": 79,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "korean",
+      "mutation_type": "substitution",
+      "mutated": "korenn",
+      "product_support": 4
+    },
+    {
+      "id": 80,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "korean",
+      "mutation_type": "transposition",
+      "mutated": "okrean",
+      "product_support": 4
+    },
+    {
+      "id": 81,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "fashkool",
+      "mutation_type": "deletion",
+      "mutated": "fashkol",
+      "product_support": 13
+    },
+    {
+      "id": 82,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "fashkool",
+      "mutation_type": "insertion",
+      "mutated": "fashklool",
+      "product_support": 13
+    },
+    {
+      "id": 83,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "fashkool",
+      "mutation_type": "substitution",
+      "mutated": "fashkooe",
+      "product_support": 13
+    },
+    {
+      "id": 84,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "fashkool",
+      "mutation_type": "transposition",
+      "mutated": "faskhool",
+      "product_support": 13
+    },
+    {
+      "id": 85,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "carrot",
+      "mutation_type": "deletion",
+      "mutated": "carro",
+      "product_support": 59
+    },
+    {
+      "id": 86,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "carrot",
+      "mutation_type": "insertion",
+      "mutated": "carorot",
+      "product_support": 59
+    },
+    {
+      "id": 87,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "carrot",
+      "mutation_type": "substitution",
+      "mutated": "carhot",
+      "product_support": 59
+    },
+    {
+      "id": 88,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "carrot",
+      "mutation_type": "transposition",
+      "mutated": "carort",
+      "product_support": 59
+    },
+    {
+      "id": 89,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "cairo",
+      "mutation_type": "deletion",
+      "mutated": "caio",
+      "product_support": 29
+    },
+    {
+      "id": 90,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "cairo",
+      "mutation_type": "insertion",
+      "mutated": "cairoh",
+      "product_support": 29
+    },
+    {
+      "id": 91,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "cairo",
+      "mutation_type": "substitution",
+      "mutated": "cairr",
+      "product_support": 29
+    },
+    {
+      "id": 92,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "cairo",
+      "mutation_type": "transposition",
+      "mutated": "cario",
+      "product_support": 29
+    },
+    {
+      "id": 93,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "ramadan",
+      "mutation_type": "deletion",
+      "mutated": "ramdan",
+      "product_support": 10
+    },
+    {
+      "id": 94,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "ramadan",
+      "mutation_type": "insertion",
+      "mutated": "ragmadan",
+      "product_support": 10
+    },
+    {
+      "id": 95,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "ramadan",
+      "mutation_type": "substitution",
+      "mutated": "ramadao",
+      "product_support": 10
+    },
+    {
+      "id": 96,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "ramadan",
+      "mutation_type": "transposition",
+      "mutated": "ramadna",
+      "product_support": 10
+    },
+    {
+      "id": 97,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lasting",
+      "mutation_type": "deletion",
+      "mutated": "lastig",
+      "product_support": 6
+    },
+    {
+      "id": 98,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lasting",
+      "mutation_type": "insertion",
+      "mutated": "lastiing",
+      "product_support": 6
+    },
+    {
+      "id": 99,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lasting",
+      "mutation_type": "substitution",
+      "mutated": "tasting",
+      "product_support": 6
+    },
+    {
+      "id": 100,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "lasting",
+      "mutation_type": "transposition",
+      "mutated": "lsating",
+      "product_support": 6
+    },
+    {
+      "id": 101,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "fusilli",
+      "mutation_type": "deletion",
+      "mutated": "fuilli",
+      "product_support": 26
+    },
+    {
+      "id": 102,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "fusilli",
+      "mutation_type": "insertion",
+      "mutated": "hfusilli",
+      "product_support": 26
+    },
+    {
+      "id": 103,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "fusilli",
+      "mutation_type": "substitution",
+      "mutated": "fusglli",
+      "product_support": 26
+    },
+    {
+      "id": 104,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "fusilli",
+      "mutation_type": "transposition",
+      "mutated": "fuislli",
+      "product_support": 26
+    },
+    {
+      "id": 105,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "plate",
+      "mutation_type": "deletion",
+      "mutated": "plae",
+      "product_support": 159
+    },
+    {
+      "id": 106,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "plate",
+      "mutation_type": "insertion",
+      "mutated": "platde",
+      "product_support": 159
+    },
+    {
+      "id": 107,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "plate",
+      "mutation_type": "substitution",
+      "mutated": "plste",
+      "product_support": 159
+    },
+    {
+      "id": 108,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "plate",
+      "mutation_type": "transposition",
+      "mutated": "pltae",
+      "product_support": 159
+    },
+    {
+      "id": 109,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "oyster",
+      "mutation_type": "deletion",
+      "mutated": "oyser",
+      "product_support": 12
+    },
+    {
+      "id": 110,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "oyster",
+      "mutation_type": "insertion",
+      "mutated": "ofyster",
+      "product_support": 12
+    },
+    {
+      "id": 111,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "oyster",
+      "mutation_type": "substitution",
+      "mutated": "ryster",
+      "product_support": 12
+    },
+    {
+      "id": 112,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "oyster",
+      "mutation_type": "transposition",
+      "mutated": "osyter",
+      "product_support": 12
+    },
+    {
+      "id": 113,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "avrelle",
+      "mutation_type": "deletion",
+      "mutated": "vrelle",
+      "product_support": 21
+    },
+    {
+      "id": 114,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "avrelle",
+      "mutation_type": "insertion",
+      "mutated": "avreblle",
+      "product_support": 21
+    },
+    {
+      "id": 115,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "avrelle",
+      "mutation_type": "substitution",
+      "mutated": "aarelle",
+      "product_support": 21
+    },
+    {
+      "id": 116,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "avrelle",
+      "mutation_type": "transposition",
+      "mutated": "avrlele",
+      "product_support": 21
+    },
+    {
+      "id": 117,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "perfumed",
+      "mutation_type": "deletion",
+      "mutated": "perumed",
+      "product_support": 25
+    },
+    {
+      "id": 118,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "perfumed",
+      "mutation_type": "insertion",
+      "mutated": "perfumedc",
+      "product_support": 25
+    },
+    {
+      "id": 119,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "perfumed",
+      "mutation_type": "substitution",
+      "mutated": "cerfumed",
+      "product_support": 25
+    },
+    {
+      "id": 120,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "perfumed",
+      "mutation_type": "transposition",
+      "mutated": "perfmued",
+      "product_support": 25
+    },
+    {
+      "id": 121,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "bundle",
+      "mutation_type": "deletion",
+      "mutated": "bunde",
+      "product_support": 49
+    },
+    {
+      "id": 122,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "bundle",
+      "mutation_type": "insertion",
+      "mutated": "mbundle",
+      "product_support": 49
+    },
+    {
+      "id": 123,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "bundle",
+      "mutation_type": "substitution",
+      "mutated": "bhndle",
+      "product_support": 49
+    },
+    {
+      "id": 124,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "bundle",
+      "mutation_type": "transposition",
+      "mutated": "bnudle",
+      "product_support": 49
+    },
+    {
+      "id": 125,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "elano",
+      "mutation_type": "deletion",
+      "mutated": "elan",
+      "product_support": 9
+    },
+    {
+      "id": 126,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "elano",
+      "mutation_type": "insertion",
+      "mutated": "elajno",
+      "product_support": 9
+    },
+    {
+      "id": 127,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "elano",
+      "mutation_type": "substitution",
+      "mutated": "elato",
+      "product_support": 9
+    },
+    {
+      "id": 128,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "elano",
+      "mutation_type": "transposition",
+      "mutated": "elaon",
+      "product_support": 9
+    },
+    {
+      "id": 129,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "rectangle",
+      "mutation_type": "deletion",
+      "mutated": "rectngle",
+      "product_support": 18
+    },
+    {
+      "id": 130,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "rectangle",
+      "mutation_type": "insertion",
+      "mutated": "rectangles",
+      "product_support": 18
+    },
+    {
+      "id": 131,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "rectangle",
+      "mutation_type": "substitution",
+      "mutated": "rkctangle",
+      "product_support": 18
+    },
+    {
+      "id": 132,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "rectangle",
+      "mutation_type": "transposition",
+      "mutated": "erctangle",
+      "product_support": 18
+    },
+    {
+      "id": 133,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "jouri",
+      "mutation_type": "deletion",
+      "mutated": "jour",
+      "product_support": 3
+    },
+    {
+      "id": 134,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "jouri",
+      "mutation_type": "insertion",
+      "mutated": "sjouri",
+      "product_support": 3
+    },
+    {
+      "id": 135,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "jouri",
+      "mutation_type": "substitution",
+      "mutated": "touri",
+      "product_support": 3
+    },
+    {
+      "id": 136,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "jouri",
+      "mutation_type": "transposition",
+      "mutated": "jorui",
+      "product_support": 3
+    },
+    {
+      "id": 137,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "foaming",
+      "mutation_type": "deletion",
+      "mutated": "oaming",
+      "product_support": 5
+    },
+    {
+      "id": 138,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "foaming",
+      "mutation_type": "insertion",
+      "mutated": "foamxing",
+      "product_support": 5
+    },
+    {
+      "id": 139,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "foaming",
+      "mutation_type": "substitution",
+      "mutated": "ffaming",
+      "product_support": 5
+    },
+    {
+      "id": 140,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "foaming",
+      "mutation_type": "transposition",
+      "mutated": "ofaming",
+      "product_support": 5
+    },
+    {
+      "id": 141,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "million",
+      "mutation_type": "deletion",
+      "mutated": "milion",
+      "product_support": 7
+    },
+    {
+      "id": 142,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "million",
+      "mutation_type": "insertion",
+      "mutated": "millionf",
+      "product_support": 7
+    },
+    {
+      "id": 143,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "million",
+      "mutation_type": "substitution",
+      "mutated": "milaion",
+      "product_support": 7
+    },
+    {
+      "id": 144,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "million",
+      "mutation_type": "transposition",
+      "mutated": "milloin",
+      "product_support": 7
+    },
+    {
+      "id": 145,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "dixie",
+      "mutation_type": "deletion",
+      "mutated": "dixe",
+      "product_support": 23
+    },
+    {
+      "id": 146,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "dixie",
+      "mutation_type": "insertion",
+      "mutated": "diaxie",
+      "product_support": 23
+    },
+    {
+      "id": 147,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "dixie",
+      "mutation_type": "substitution",
+      "mutated": "dixio",
+      "product_support": 23
+    },
+    {
+      "id": 148,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "dixie",
+      "mutation_type": "transposition",
+      "mutated": "dixei",
+      "product_support": 23
+    },
+    {
+      "id": 149,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "substitute",
+      "mutation_type": "deletion",
+      "mutated": "subsitute",
+      "product_support": 6
+    },
+    {
+      "id": 150,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "substitute",
+      "mutation_type": "insertion",
+      "mutated": "subsvtitute",
+      "product_support": 6
+    },
+    {
+      "id": 151,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "substitute",
+      "mutation_type": "substitution",
+      "mutated": "subsjitute",
+      "product_support": 6
+    },
+    {
+      "id": 152,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "substitute",
+      "mutation_type": "transposition",
+      "mutated": "subtsitute",
+      "product_support": 6
+    },
+    {
+      "id": 153,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "chrome",
+      "mutation_type": "deletion",
+      "mutated": "chrom",
+      "product_support": 3
+    },
+    {
+      "id": 154,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "chrome",
+      "mutation_type": "insertion",
+      "mutated": "chromec",
+      "product_support": 3
+    },
+    {
+      "id": 155,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "chrome",
+      "mutation_type": "substitution",
+      "mutated": "chlome",
+      "product_support": 3
+    },
+    {
+      "id": 156,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "chrome",
+      "mutation_type": "transposition",
+      "mutated": "chorme",
+      "product_support": 3
+    },
+    {
+      "id": 157,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "halve",
+      "mutation_type": "deletion",
+      "mutated": "hale",
+      "product_support": 7
+    },
+    {
+      "id": 158,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "halve",
+      "mutation_type": "insertion",
+      "mutated": "halver",
+      "product_support": 7
+    },
+    {
+      "id": 159,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "halve",
+      "mutation_type": "substitution",
+      "mutated": "halvt",
+      "product_support": 7
+    },
+    {
+      "id": 160,
+      "entity_type": "product_word",
+      "language": "en",
+      "source_clean": "halve",
+      "mutation_type": "transposition",
+      "mutated": "halev",
+      "product_support": 7
+    },
+    {
+      "id": 161,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "الزهور",
+      "mutation_type": "deletion",
+      "mutated": "الهور",
+      "product_support": 39
+    },
+    {
+      "id": 162,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "الزهور",
+      "mutation_type": "insertion",
+      "mutated": "الزضهور",
+      "product_support": 39
+    },
+    {
+      "id": 163,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "الزهور",
+      "mutation_type": "substitution",
+      "mutated": "الزهنر",
+      "product_support": 39
+    },
+    {
+      "id": 164,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "الزهور",
+      "mutation_type": "transposition",
+      "mutated": "الزهرو",
+      "product_support": 39
+    },
+    {
+      "id": 165,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "فتحه",
+      "mutation_type": "deletion",
+      "mutated": "فحه",
+      "product_support": 12
+    },
+    {
+      "id": 166,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "فتحه",
+      "mutation_type": "insertion",
+      "mutated": "فتحهت",
+      "product_support": 12
+    },
+    {
+      "id": 167,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "فتحه",
+      "mutation_type": "substitution",
+      "mutated": "فطحه",
+      "product_support": 12
+    },
+    {
+      "id": 168,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "فتحه",
+      "mutation_type": "transposition",
+      "mutated": "تفحه",
+      "product_support": 12
+    },
+    {
+      "id": 169,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "اوتوماتيك",
+      "mutation_type": "deletion",
+      "mutated": "وتوماتيك",
+      "product_support": 95
+    },
+    {
+      "id": 170,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "اوتوماتيك",
+      "mutation_type": "insertion",
+      "mutated": "اوتوماتيكف",
+      "product_support": 95
+    },
+    {
+      "id": 171,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "اوتوماتيك",
+      "mutation_type": "substitution",
+      "mutated": "اوتوغاتيك",
+      "product_support": 95
+    },
+    {
+      "id": 172,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "اوتوماتيك",
+      "mutation_type": "transposition",
+      "mutated": "اوتوماتكي",
+      "product_support": 95
+    },
+    {
+      "id": 173,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مارينا",
+      "mutation_type": "deletion",
+      "mutated": "ارينا",
+      "product_support": 4
+    },
+    {
+      "id": 174,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مارينا",
+      "mutation_type": "insertion",
+      "mutated": "نمارينا",
+      "product_support": 4
+    },
+    {
+      "id": 175,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مارينا",
+      "mutation_type": "substitution",
+      "mutated": "مارينر",
+      "product_support": 4
+    },
+    {
+      "id": 176,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مارينا",
+      "mutation_type": "transposition",
+      "mutated": "ماريان",
+      "product_support": 4
+    },
+    {
+      "id": 177,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "لمرحلة",
+      "mutation_type": "deletion",
+      "mutated": "لرحلة",
+      "product_support": 4
+    },
+    {
+      "id": 178,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "لمرحلة",
+      "mutation_type": "insertion",
+      "mutated": "غلمرحلة",
+      "product_support": 4
+    },
+    {
+      "id": 179,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "لمرحلة",
+      "mutation_type": "substitution",
+      "mutated": "لخرحلة",
+      "product_support": 4
+    },
+    {
+      "id": 180,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "لمرحلة",
+      "mutation_type": "transposition",
+      "mutated": "ملرحلة",
+      "product_support": 4
+    },
+    {
+      "id": 181,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "ناعمه",
+      "mutation_type": "deletion",
+      "mutated": "ناعه",
+      "product_support": 28
+    },
+    {
+      "id": 182,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "ناعمه",
+      "mutation_type": "insertion",
+      "mutated": "لناعمه",
+      "product_support": 28
+    },
+    {
+      "id": 183,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "ناعمه",
+      "mutation_type": "substitution",
+      "mutated": "ناقمه",
+      "product_support": 28
+    },
+    {
+      "id": 184,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "ناعمه",
+      "mutation_type": "transposition",
+      "mutated": "انعمه",
+      "product_support": 28
+    },
+    {
+      "id": 185,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "المضافة",
+      "mutation_type": "deletion",
+      "mutated": "لمضافة",
+      "product_support": 28
+    },
+    {
+      "id": 186,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "المضافة",
+      "mutation_type": "insertion",
+      "mutated": "المضافشة",
+      "product_support": 28
+    },
+    {
+      "id": 187,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "المضافة",
+      "mutation_type": "substitution",
+      "mutated": "المضافض",
+      "product_support": 28
+    },
+    {
+      "id": 188,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "المضافة",
+      "mutation_type": "transposition",
+      "mutated": "الضمافة",
+      "product_support": 28
+    },
+    {
+      "id": 189,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "المرق",
+      "mutation_type": "deletion",
+      "mutated": "لمرق",
+      "product_support": 8
+    },
+    {
+      "id": 190,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "المرق",
+      "mutation_type": "insertion",
+      "mutated": "اسلمرق",
+      "product_support": 8
+    },
+    {
+      "id": 191,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "المرق",
+      "mutation_type": "substitution",
+      "mutated": "الكرق",
+      "product_support": 8
+    },
+    {
+      "id": 192,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "المرق",
+      "mutation_type": "transposition",
+      "mutated": "الرمق",
+      "product_support": 8
+    },
+    {
+      "id": 193,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مبارد",
+      "mutation_type": "deletion",
+      "mutated": "مبار",
+      "product_support": 3
+    },
+    {
+      "id": 194,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مبارد",
+      "mutation_type": "insertion",
+      "mutated": "مباراد",
+      "product_support": 3
+    },
+    {
+      "id": 195,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مبارد",
+      "mutation_type": "substitution",
+      "mutated": "مباصد",
+      "product_support": 3
+    },
+    {
+      "id": 196,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مبارد",
+      "mutation_type": "transposition",
+      "mutated": "بمارد",
+      "product_support": 3
+    },
+    {
+      "id": 197,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "سيرفيس",
+      "mutation_type": "deletion",
+      "mutated": "يرفيس",
+      "product_support": 7
+    },
+    {
+      "id": 198,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "سيرفيس",
+      "mutation_type": "insertion",
+      "mutated": "سيرفيسض",
+      "product_support": 7
+    },
+    {
+      "id": 199,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "سيرفيس",
+      "mutation_type": "substitution",
+      "mutated": "سيدفيس",
+      "product_support": 7
+    },
+    {
+      "id": 200,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "سيرفيس",
+      "mutation_type": "transposition",
+      "mutated": "سيريفس",
+      "product_support": 7
+    },
+    {
+      "id": 201,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "لكافة",
+      "mutation_type": "deletion",
+      "mutated": "لافة",
+      "product_support": 4
+    },
+    {
+      "id": 202,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "لكافة",
+      "mutation_type": "insertion",
+      "mutated": "دلكافة",
+      "product_support": 4
+    },
+    {
+      "id": 203,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "لكافة",
+      "mutation_type": "substitution",
+      "mutated": "لكافذ",
+      "product_support": 4
+    },
+    {
+      "id": 204,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "لكافة",
+      "mutation_type": "transposition",
+      "mutated": "لكفاة",
+      "product_support": 4
+    },
+    {
+      "id": 205,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "دورو",
+      "mutation_type": "deletion",
+      "mutated": "ورو",
+      "product_support": 40
+    },
+    {
+      "id": 206,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "دورو",
+      "mutation_type": "insertion",
+      "mutated": "دقورو",
+      "product_support": 40
+    },
+    {
+      "id": 207,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "دورو",
+      "mutation_type": "substitution",
+      "mutated": "قورو",
+      "product_support": 40
+    },
+    {
+      "id": 208,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "دورو",
+      "mutation_type": "transposition",
+      "mutated": "دروو",
+      "product_support": 40
+    },
+    {
+      "id": 209,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "شوكليت",
+      "mutation_type": "deletion",
+      "mutated": "شوكلي",
+      "product_support": 3
+    },
+    {
+      "id": 210,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "شوكليت",
+      "mutation_type": "insertion",
+      "mutated": "شوكليتي",
+      "product_support": 3
+    },
+    {
+      "id": 211,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "شوكليت",
+      "mutation_type": "substitution",
+      "mutated": "شوكلجت",
+      "product_support": 3
+    },
+    {
+      "id": 212,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "شوكليت",
+      "mutation_type": "transposition",
+      "mutated": "وشكليت",
+      "product_support": 3
+    },
+    {
+      "id": 213,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "الشعر",
+      "mutation_type": "deletion",
+      "mutated": "العر",
+      "product_support": 450
+    },
+    {
+      "id": 214,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "الشعر",
+      "mutation_type": "insertion",
+      "mutated": "الشدعر",
+      "product_support": 450
+    },
+    {
+      "id": 215,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "الشعر",
+      "mutation_type": "substitution",
+      "mutated": "ابشعر",
+      "product_support": 450
+    },
+    {
+      "id": 216,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "الشعر",
+      "mutation_type": "transposition",
+      "mutated": "الشرع",
+      "product_support": 450
+    },
+    {
+      "id": 217,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "جوجا",
+      "mutation_type": "deletion",
+      "mutated": "ججا",
+      "product_support": 15
+    },
+    {
+      "id": 218,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "جوجا",
+      "mutation_type": "insertion",
+      "mutated": "جوجضا",
+      "product_support": 15
+    },
+    {
+      "id": 219,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "جوجا",
+      "mutation_type": "substitution",
+      "mutated": "لوجا",
+      "product_support": 15
+    },
+    {
+      "id": 220,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "جوجا",
+      "mutation_type": "transposition",
+      "mutated": "وججا",
+      "product_support": 15
+    },
+    {
+      "id": 221,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مايكروفايبر",
+      "mutation_type": "deletion",
+      "mutated": "ايكروفايبر",
+      "product_support": 5
+    },
+    {
+      "id": 222,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مايكروفايبر",
+      "mutation_type": "insertion",
+      "mutated": "مجايكروفايبر",
+      "product_support": 5
+    },
+    {
+      "id": 223,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مايكروفايبر",
+      "mutation_type": "substitution",
+      "mutated": "صايكروفايبر",
+      "product_support": 5
+    },
+    {
+      "id": 224,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مايكروفايبر",
+      "mutation_type": "transposition",
+      "mutated": "مايكروفيابر",
+      "product_support": 5
+    },
+    {
+      "id": 225,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "موخيتو",
+      "mutation_type": "deletion",
+      "mutated": "وخيتو",
+      "product_support": 3
+    },
+    {
+      "id": 226,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "موخيتو",
+      "mutation_type": "insertion",
+      "mutated": "موخشيتو",
+      "product_support": 3
+    },
+    {
+      "id": 227,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "موخيتو",
+      "mutation_type": "substitution",
+      "mutated": "مسخيتو",
+      "product_support": 3
+    },
+    {
+      "id": 228,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "موخيتو",
+      "mutation_type": "transposition",
+      "mutated": "مويختو",
+      "product_support": 3
+    },
+    {
+      "id": 229,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "انيزي",
+      "mutation_type": "deletion",
+      "mutated": "انزي",
+      "product_support": 13
+    },
+    {
+      "id": 230,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "انيزي",
+      "mutation_type": "insertion",
+      "mutated": "انيزيح",
+      "product_support": 13
+    },
+    {
+      "id": 231,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "انيزي",
+      "mutation_type": "substitution",
+      "mutated": "انيزغ",
+      "product_support": 13
+    },
+    {
+      "id": 232,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "انيزي",
+      "mutation_type": "transposition",
+      "mutated": "اينزي",
+      "product_support": 13
+    },
+    {
+      "id": 233,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "الايطالي",
+      "mutation_type": "deletion",
+      "mutated": "لايطالي",
+      "product_support": 3
+    },
+    {
+      "id": 234,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "الايطالي",
+      "mutation_type": "insertion",
+      "mutated": "ارلايطالي",
+      "product_support": 3
+    },
+    {
+      "id": 235,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "الايطالي",
+      "mutation_type": "substitution",
+      "mutated": "الكيطالي",
+      "product_support": 3
+    },
+    {
+      "id": 236,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "الايطالي",
+      "mutation_type": "transposition",
+      "mutated": "الاياطلي",
+      "product_support": 3
+    },
+    {
+      "id": 237,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "اسفنجات",
+      "mutation_type": "deletion",
+      "mutated": "اسنجات",
+      "product_support": 11
+    },
+    {
+      "id": 238,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "اسفنجات",
+      "mutation_type": "insertion",
+      "mutated": "اسفنجنات",
+      "product_support": 11
+    },
+    {
+      "id": 239,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "اسفنجات",
+      "mutation_type": "substitution",
+      "mutated": "اسفنجهت",
+      "product_support": 11
+    },
+    {
+      "id": 240,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "اسفنجات",
+      "mutation_type": "transposition",
+      "mutated": "اسفناجت",
+      "product_support": 11
+    },
+    {
+      "id": 241,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "فريتو",
+      "mutation_type": "deletion",
+      "mutated": "فيتو",
+      "product_support": 12
+    },
+    {
+      "id": 242,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "فريتو",
+      "mutation_type": "insertion",
+      "mutated": "فريتول",
+      "product_support": 12
+    },
+    {
+      "id": 243,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "فريتو",
+      "mutation_type": "substitution",
+      "mutated": "فرظتو",
+      "product_support": 12
+    },
+    {
+      "id": 244,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "فريتو",
+      "mutation_type": "transposition",
+      "mutated": "رفيتو",
+      "product_support": 12
+    },
+    {
+      "id": 245,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "السينما",
+      "mutation_type": "deletion",
+      "mutated": "الينما",
+      "product_support": 5
+    },
+    {
+      "id": 246,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "السينما",
+      "mutation_type": "insertion",
+      "mutated": "السيينما",
+      "product_support": 5
+    },
+    {
+      "id": 247,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "السينما",
+      "mutation_type": "substitution",
+      "mutated": "السيظما",
+      "product_support": 5
+    },
+    {
+      "id": 248,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "السينما",
+      "mutation_type": "transposition",
+      "mutated": "السيمنا",
+      "product_support": 5
+    },
+    {
+      "id": 249,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مونو",
+      "mutation_type": "deletion",
+      "mutated": "منو",
+      "product_support": 4
+    },
+    {
+      "id": 250,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مونو",
+      "mutation_type": "insertion",
+      "mutated": "ظمونو",
+      "product_support": 4
+    },
+    {
+      "id": 251,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مونو",
+      "mutation_type": "substitution",
+      "mutated": "اونو",
+      "product_support": 4
+    },
+    {
+      "id": 252,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "مونو",
+      "mutation_type": "transposition",
+      "mutated": "موون",
+      "product_support": 4
+    },
+    {
+      "id": 253,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "اسيتو",
+      "mutation_type": "deletion",
+      "mutated": "استو",
+      "product_support": 4
+    },
+    {
+      "id": 254,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "اسيتو",
+      "mutation_type": "insertion",
+      "mutated": "ايسيتو",
+      "product_support": 4
+    },
+    {
+      "id": 255,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "اسيتو",
+      "mutation_type": "substitution",
+      "mutated": "اظيتو",
+      "product_support": 4
+    },
+    {
+      "id": 256,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "اسيتو",
+      "mutation_type": "transposition",
+      "mutated": "استيو",
+      "product_support": 4
+    },
+    {
+      "id": 257,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "دانو",
+      "mutation_type": "deletion",
+      "mutated": "انو",
+      "product_support": 4
+    },
+    {
+      "id": 258,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "دانو",
+      "mutation_type": "insertion",
+      "mutated": "دانوه",
+      "product_support": 4
+    },
+    {
+      "id": 259,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "دانو",
+      "mutation_type": "substitution",
+      "mutated": "اانو",
+      "product_support": 4
+    },
+    {
+      "id": 260,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "دانو",
+      "mutation_type": "transposition",
+      "mutated": "داون",
+      "product_support": 4
+    },
+    {
+      "id": 261,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "لوفيا",
+      "mutation_type": "deletion",
+      "mutated": "لوفي",
+      "product_support": 4
+    },
+    {
+      "id": 262,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "لوفيا",
+      "mutation_type": "insertion",
+      "mutated": "لوفيقا",
+      "product_support": 4
+    },
+    {
+      "id": 263,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "لوفيا",
+      "mutation_type": "substitution",
+      "mutated": "لوريا",
+      "product_support": 4
+    },
+    {
+      "id": 264,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "لوفيا",
+      "mutation_type": "transposition",
+      "mutated": "لوفاي",
+      "product_support": 4
+    },
+    {
+      "id": 265,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "داعم",
+      "mutation_type": "deletion",
+      "mutated": "اعم",
+      "product_support": 12
+    },
+    {
+      "id": 266,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "داعم",
+      "mutation_type": "insertion",
+      "mutated": "داعخم",
+      "product_support": 12
+    },
+    {
+      "id": 267,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "داعم",
+      "mutation_type": "substitution",
+      "mutated": "شاعم",
+      "product_support": 12
+    },
+    {
+      "id": 268,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "داعم",
+      "mutation_type": "transposition",
+      "mutated": "دامع",
+      "product_support": 12
+    },
+    {
+      "id": 269,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "عجوه",
+      "mutation_type": "deletion",
+      "mutated": "عجه",
+      "product_support": 5
+    },
+    {
+      "id": 270,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "عجوه",
+      "mutation_type": "insertion",
+      "mutated": "عجفوه",
+      "product_support": 5
+    },
+    {
+      "id": 271,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "عجوه",
+      "mutation_type": "substitution",
+      "mutated": "عجذه",
+      "product_support": 5
+    },
+    {
+      "id": 272,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "عجوه",
+      "mutation_type": "transposition",
+      "mutated": "جعوه",
+      "product_support": 5
+    },
+    {
+      "id": 273,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "ميجو",
+      "mutation_type": "deletion",
+      "mutated": "ميج",
+      "product_support": 113
+    },
+    {
+      "id": 274,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "ميجو",
+      "mutation_type": "insertion",
+      "mutated": "ميججو",
+      "product_support": 113
+    },
+    {
+      "id": 275,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "ميجو",
+      "mutation_type": "substitution",
+      "mutated": "جيجو",
+      "product_support": 113
+    },
+    {
+      "id": 276,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "ميجو",
+      "mutation_type": "transposition",
+      "mutated": "يمجو",
+      "product_support": 113
+    },
+    {
+      "id": 277,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "حارة",
+      "mutation_type": "deletion",
+      "mutated": "حاة",
+      "product_support": 36
+    },
+    {
+      "id": 278,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "حارة",
+      "mutation_type": "insertion",
+      "mutated": "رحارة",
+      "product_support": 36
+    },
+    {
+      "id": 279,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "حارة",
+      "mutation_type": "substitution",
+      "mutated": "نارة",
+      "product_support": 36
+    },
+    {
+      "id": 280,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "حارة",
+      "mutation_type": "transposition",
+      "mutated": "حراة",
+      "product_support": 36
+    },
+    {
+      "id": 281,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "بالزعتر",
+      "mutation_type": "deletion",
+      "mutated": "بالزعر",
+      "product_support": 12
+    },
+    {
+      "id": 282,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "بالزعتر",
+      "mutation_type": "insertion",
+      "mutated": "باذلزعتر",
+      "product_support": 12
+    },
+    {
+      "id": 283,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "بالزعتر",
+      "mutation_type": "substitution",
+      "mutated": "قالزعتر",
+      "product_support": 12
+    },
+    {
+      "id": 284,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "بالزعتر",
+      "mutation_type": "transposition",
+      "mutated": "ابلزعتر",
+      "product_support": 12
+    },
+    {
+      "id": 285,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "ميانتا",
+      "mutation_type": "deletion",
+      "mutated": "مياتا",
+      "product_support": 8
+    },
+    {
+      "id": 286,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "ميانتا",
+      "mutation_type": "insertion",
+      "mutated": "ميانتظا",
+      "product_support": 8
+    },
+    {
+      "id": 287,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "ميانتا",
+      "mutation_type": "substitution",
+      "mutated": "متانتا",
+      "product_support": 8
+    },
+    {
+      "id": 288,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "ميانتا",
+      "mutation_type": "transposition",
+      "mutated": "مياتنا",
+      "product_support": 8
+    },
+    {
+      "id": 289,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "عناية",
+      "mutation_type": "deletion",
+      "mutated": "ناية",
+      "product_support": 29
+    },
+    {
+      "id": 290,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "عناية",
+      "mutation_type": "insertion",
+      "mutated": "عنلاية",
+      "product_support": 29
+    },
+    {
+      "id": 291,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "عناية",
+      "mutation_type": "substitution",
+      "mutated": "عخاية",
+      "product_support": 29
+    },
+    {
+      "id": 292,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "عناية",
+      "mutation_type": "transposition",
+      "mutated": "عناةي",
+      "product_support": 29
+    },
+    {
+      "id": 293,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "باكيت",
+      "mutation_type": "deletion",
+      "mutated": "بكيت",
+      "product_support": 57
+    },
+    {
+      "id": 294,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "باكيت",
+      "mutation_type": "insertion",
+      "mutated": "بباكيت",
+      "product_support": 57
+    },
+    {
+      "id": 295,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "باكيت",
+      "mutation_type": "substitution",
+      "mutated": "باهيت",
+      "product_support": 57
+    },
+    {
+      "id": 296,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "باكيت",
+      "mutation_type": "transposition",
+      "mutated": "بايكت",
+      "product_support": 57
+    },
+    {
+      "id": 297,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "البروتين",
+      "mutation_type": "deletion",
+      "mutated": "البروتي",
+      "product_support": 35
+    },
+    {
+      "id": 298,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "البروتين",
+      "mutation_type": "insertion",
+      "mutated": "الفبروتين",
+      "product_support": 35
+    },
+    {
+      "id": 299,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "البروتين",
+      "mutation_type": "substitution",
+      "mutated": "قلبروتين",
+      "product_support": 35
+    },
+    {
+      "id": 300,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "البروتين",
+      "mutation_type": "transposition",
+      "mutated": "البرتوين",
+      "product_support": 35
+    },
+    {
+      "id": 301,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "طرشي",
+      "mutation_type": "deletion",
+      "mutated": "طرش",
+      "product_support": 3
+    },
+    {
+      "id": 302,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "طرشي",
+      "mutation_type": "insertion",
+      "mutated": "طرمشي",
+      "product_support": 3
+    },
+    {
+      "id": 303,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "طرشي",
+      "mutation_type": "substitution",
+      "mutated": "طرفي",
+      "product_support": 3
+    },
+    {
+      "id": 304,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "طرشي",
+      "mutation_type": "transposition",
+      "mutated": "طشري",
+      "product_support": 3
+    },
+    {
+      "id": 305,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "توليت",
+      "mutation_type": "deletion",
+      "mutated": "تولت",
+      "product_support": 3
+    },
+    {
+      "id": 306,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "توليت",
+      "mutation_type": "insertion",
+      "mutated": "توليتط",
+      "product_support": 3
+    },
+    {
+      "id": 307,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "توليت",
+      "mutation_type": "substitution",
+      "mutated": "تبليت",
+      "product_support": 3
+    },
+    {
+      "id": 308,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "توليت",
+      "mutation_type": "transposition",
+      "mutated": "تولتي",
+      "product_support": 3
+    },
+    {
+      "id": 309,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "جاميز",
+      "mutation_type": "deletion",
+      "mutated": "جايز",
+      "product_support": 5
+    },
+    {
+      "id": 310,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "جاميز",
+      "mutation_type": "insertion",
+      "mutated": "جاجميز",
+      "product_support": 5
+    },
+    {
+      "id": 311,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "جاميز",
+      "mutation_type": "substitution",
+      "mutated": "جاميس",
+      "product_support": 5
+    },
+    {
+      "id": 312,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "جاميز",
+      "mutation_type": "transposition",
+      "mutated": "جايمز",
+      "product_support": 5
+    },
+    {
+      "id": 313,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "كورازي",
+      "mutation_type": "deletion",
+      "mutated": "كوازي",
+      "product_support": 4
+    },
+    {
+      "id": 314,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "كورازي",
+      "mutation_type": "insertion",
+      "mutated": "كورازيت",
+      "product_support": 4
+    },
+    {
+      "id": 315,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "كورازي",
+      "mutation_type": "substitution",
+      "mutated": "كوراتي",
+      "product_support": 4
+    },
+    {
+      "id": 316,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "كورازي",
+      "mutation_type": "transposition",
+      "mutated": "كورايز",
+      "product_support": 4
+    },
+    {
+      "id": 317,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "كبشه",
+      "mutation_type": "deletion",
+      "mutated": "بشه",
+      "product_support": 4
+    },
+    {
+      "id": 318,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "كبشه",
+      "mutation_type": "insertion",
+      "mutated": "خكبشه",
+      "product_support": 4
+    },
+    {
+      "id": 319,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "كبشه",
+      "mutation_type": "substitution",
+      "mutated": "كبشس",
+      "product_support": 4
+    },
+    {
+      "id": 320,
+      "entity_type": "product_word",
+      "language": "ar",
+      "source_clean": "كبشه",
+      "mutation_type": "transposition",
+      "mutated": "كشبه",
+      "product_support": 4
+    },
+    {
+      "id": 321,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Chtoura Garden",
+      "canonical_slug": "chtoura_garden",
+      "mutation_type": "deletion",
+      "mutated": "Chtoua Garden"
+    },
+    {
+      "id": 322,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Chtoura Garden",
+      "canonical_slug": "chtoura_garden",
+      "mutation_type": "insertion",
+      "mutated": "Chtoura Gardaen"
+    },
+    {
+      "id": 323,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Chtoura Garden",
+      "canonical_slug": "chtoura_garden",
+      "mutation_type": "substitution",
+      "mutated": "Chtodra Garden"
+    },
+    {
+      "id": 324,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Chtoura Garden",
+      "canonical_slug": "chtoura_garden",
+      "mutation_type": "transposition",
+      "mutated": "Chtouar Garden"
+    },
+    {
+      "id": 325,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Slazenger",
+      "canonical_slug": "slazenger",
+      "mutation_type": "deletion",
+      "mutated": "Slaenger"
+    },
+    {
+      "id": 326,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Slazenger",
+      "canonical_slug": "slazenger",
+      "mutation_type": "insertion",
+      "mutated": "Sldazenger"
+    },
+    {
+      "id": 327,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Slazenger",
+      "canonical_slug": "slazenger",
+      "mutation_type": "substitution",
+      "mutated": "Slazetger"
+    },
+    {
+      "id": 328,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Slazenger",
+      "canonical_slug": "slazenger",
+      "mutation_type": "transposition",
+      "mutated": "Slzaenger"
+    },
+    {
+      "id": 329,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Poly Time",
+      "canonical_slug": "poly_time",
+      "mutation_type": "deletion",
+      "mutated": "Poly ime"
+    },
+    {
+      "id": 330,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Poly Time",
+      "canonical_slug": "poly_time",
+      "mutation_type": "insertion",
+      "mutated": "Polyn Time"
+    },
+    {
+      "id": 331,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Poly Time",
+      "canonical_slug": "poly_time",
+      "mutation_type": "substitution",
+      "mutated": "PolyrTime"
+    },
+    {
+      "id": 332,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Poly Time",
+      "canonical_slug": "poly_time",
+      "mutation_type": "transposition",
+      "mutated": "Poly iTme"
+    },
+    {
+      "id": 333,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Newzelanda Alhalob",
+      "canonical_slug": "newzelanda_alhalob",
+      "mutation_type": "deletion",
+      "mutated": "Nwzelanda Alhalob"
+    },
+    {
+      "id": 334,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Newzelanda Alhalob",
+      "canonical_slug": "newzelanda_alhalob",
+      "mutation_type": "insertion",
+      "mutated": "Newzelanda Alhablob"
+    },
+    {
+      "id": 335,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Newzelanda Alhalob",
+      "canonical_slug": "newzelanda_alhalob",
+      "mutation_type": "substitution",
+      "mutated": "Newzedanda Alhalob"
+    },
+    {
+      "id": 336,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Newzelanda Alhalob",
+      "canonical_slug": "newzelanda_alhalob",
+      "mutation_type": "transposition",
+      "mutated": "Newzealnda Alhalob"
+    },
+    {
+      "id": 337,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Venecia",
+      "canonical_slug": "venecia",
+      "mutation_type": "deletion",
+      "mutated": "Veecia"
+    },
+    {
+      "id": 338,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Venecia",
+      "canonical_slug": "venecia",
+      "mutation_type": "insertion",
+      "mutated": "Venehcia"
+    },
+    {
+      "id": 339,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Venecia",
+      "canonical_slug": "venecia",
+      "mutation_type": "substitution",
+      "mutated": "Vedecia"
+    },
+    {
+      "id": 340,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Venecia",
+      "canonical_slug": "venecia",
+      "mutation_type": "transposition",
+      "mutated": "Venecai"
+    },
+    {
+      "id": 341,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Damfi",
+      "canonical_slug": "damfi",
+      "mutation_type": "deletion",
+      "mutated": "amfi"
+    },
+    {
+      "id": 342,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Damfi",
+      "canonical_slug": "damfi",
+      "mutation_type": "insertion",
+      "mutated": "Damfhi"
+    },
+    {
+      "id": 343,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Damfi",
+      "canonical_slug": "damfi",
+      "mutation_type": "substitution",
+      "mutated": "Dsmfi"
+    },
+    {
+      "id": 344,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Damfi",
+      "canonical_slug": "damfi",
+      "mutation_type": "transposition",
+      "mutated": "Dafmi"
+    },
+    {
+      "id": 345,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Jolyeva",
+      "canonical_slug": "jolyeva",
+      "mutation_type": "deletion",
+      "mutated": "Joyeva"
+    },
+    {
+      "id": 346,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Jolyeva",
+      "canonical_slug": "jolyeva",
+      "mutation_type": "insertion",
+      "mutated": "Jolyevah"
+    },
+    {
+      "id": 347,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Jolyeva",
+      "canonical_slug": "jolyeva",
+      "mutation_type": "substitution",
+      "mutated": "nolyeva"
+    },
+    {
+      "id": 348,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Jolyeva",
+      "canonical_slug": "jolyeva",
+      "mutation_type": "transposition",
+      "mutated": "Joyleva"
+    },
+    {
+      "id": 349,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Karess",
+      "canonical_slug": "karess",
+      "mutation_type": "deletion",
+      "mutated": "Karss"
+    },
+    {
+      "id": 350,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Karess",
+      "canonical_slug": "karess",
+      "mutation_type": "insertion",
+      "mutated": "Karbess"
+    },
+    {
+      "id": 351,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Karess",
+      "canonical_slug": "karess",
+      "mutation_type": "substitution",
+      "mutated": "Kiress"
+    },
+    {
+      "id": 352,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Karess",
+      "canonical_slug": "karess",
+      "mutation_type": "transposition",
+      "mutated": "Karses"
+    },
+    {
+      "id": 353,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Friendship",
+      "canonical_slug": "friendship",
+      "mutation_type": "deletion",
+      "mutated": "riendship"
+    },
+    {
+      "id": 354,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Friendship",
+      "canonical_slug": "friendship",
+      "mutation_type": "insertion",
+      "mutated": "Fkriendship"
+    },
+    {
+      "id": 355,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Friendship",
+      "canonical_slug": "friendship",
+      "mutation_type": "substitution",
+      "mutated": "Frieydship"
+    },
+    {
+      "id": 356,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Friendship",
+      "canonical_slug": "friendship",
+      "mutation_type": "transposition",
+      "mutated": "Friendhsip"
+    },
+    {
+      "id": 357,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Helwa",
+      "canonical_slug": "helwa",
+      "mutation_type": "deletion",
+      "mutated": "Hewa"
+    },
+    {
+      "id": 358,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Helwa",
+      "canonical_slug": "helwa",
+      "mutation_type": "insertion",
+      "mutated": "Helwla"
+    },
+    {
+      "id": 359,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Helwa",
+      "canonical_slug": "helwa",
+      "mutation_type": "substitution",
+      "mutated": "pelwa"
+    },
+    {
+      "id": 360,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Helwa",
+      "canonical_slug": "helwa",
+      "mutation_type": "transposition",
+      "mutated": "Hlewa"
+    },
+    {
+      "id": 361,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Ice Ball",
+      "canonical_slug": "ice_ball",
+      "mutation_type": "deletion",
+      "mutated": "Ice all"
+    },
+    {
+      "id": 362,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Ice Ball",
+      "canonical_slug": "ice_ball",
+      "mutation_type": "insertion",
+      "mutated": "Icce Ball"
+    },
+    {
+      "id": 363,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Ice Ball",
+      "canonical_slug": "ice_ball",
+      "mutation_type": "substitution",
+      "mutated": "Ife Ball"
+    },
+    {
+      "id": 364,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Ice Ball",
+      "canonical_slug": "ice_ball",
+      "mutation_type": "transposition",
+      "mutated": "IceB all"
+    },
+    {
+      "id": 365,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Barilla",
+      "canonical_slug": "barilla",
+      "mutation_type": "deletion",
+      "mutated": "Barill"
+    },
+    {
+      "id": 366,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Barilla",
+      "canonical_slug": "barilla",
+      "mutation_type": "insertion",
+      "mutated": "Barillah"
+    },
+    {
+      "id": 367,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Barilla",
+      "canonical_slug": "barilla",
+      "mutation_type": "substitution",
+      "mutated": "Baiilla"
+    },
+    {
+      "id": 368,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Barilla",
+      "canonical_slug": "barilla",
+      "mutation_type": "transposition",
+      "mutated": "aBrilla"
+    },
+    {
+      "id": 369,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Rana",
+      "canonical_slug": "rana",
+      "mutation_type": "deletion",
+      "mutated": "Rna"
+    },
+    {
+      "id": 370,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Rana",
+      "canonical_slug": "rana",
+      "mutation_type": "insertion",
+      "mutated": "Ranar"
+    },
+    {
+      "id": 371,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Rana",
+      "canonical_slug": "rana",
+      "mutation_type": "substitution",
+      "mutated": "Ranw"
+    },
+    {
+      "id": 372,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Rana",
+      "canonical_slug": "rana",
+      "mutation_type": "transposition",
+      "mutated": "Rnaa"
+    },
+    {
+      "id": 373,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Schwartz",
+      "canonical_slug": "schwartz",
+      "mutation_type": "deletion",
+      "mutated": "Scwartz"
+    },
+    {
+      "id": 374,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Schwartz",
+      "canonical_slug": "schwartz",
+      "mutation_type": "insertion",
+      "mutated": "Schwabrtz"
+    },
+    {
+      "id": 375,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Schwartz",
+      "canonical_slug": "schwartz",
+      "mutation_type": "substitution",
+      "mutated": "Sclwartz"
+    },
+    {
+      "id": 376,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Schwartz",
+      "canonical_slug": "schwartz",
+      "mutation_type": "transposition",
+      "mutated": "Scwhartz"
+    },
+    {
+      "id": 377,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Lotus",
+      "canonical_slug": "lotus",
+      "mutation_type": "deletion",
+      "mutated": "Lous"
+    },
+    {
+      "id": 378,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Lotus",
+      "canonical_slug": "lotus",
+      "mutation_type": "insertion",
+      "mutated": "hLotus"
+    },
+    {
+      "id": 379,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Lotus",
+      "canonical_slug": "lotus",
+      "mutation_type": "substitution",
+      "mutated": "votus"
+    },
+    {
+      "id": 380,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Lotus",
+      "canonical_slug": "lotus",
+      "mutation_type": "transposition",
+      "mutated": "Lotsu"
+    },
+    {
+      "id": 381,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Marvel",
+      "canonical_slug": "marvel",
+      "mutation_type": "deletion",
+      "mutated": "Marve"
+    },
+    {
+      "id": 382,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Marvel",
+      "canonical_slug": "marvel",
+      "mutation_type": "insertion",
+      "mutated": "Marvyel"
+    },
+    {
+      "id": 383,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Marvel",
+      "canonical_slug": "marvel",
+      "mutation_type": "substitution",
+      "mutated": "Marvee"
+    },
+    {
+      "id": 384,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Marvel",
+      "canonical_slug": "marvel",
+      "mutation_type": "transposition",
+      "mutated": "Mavrel"
+    },
+    {
+      "id": 385,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Saluti",
+      "canonical_slug": "saluti",
+      "mutation_type": "deletion",
+      "mutated": "Salut"
+    },
+    {
+      "id": 386,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Saluti",
+      "canonical_slug": "saluti",
+      "mutation_type": "insertion",
+      "mutated": "dSaluti"
+    },
+    {
+      "id": 387,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Saluti",
+      "canonical_slug": "saluti",
+      "mutation_type": "substitution",
+      "mutated": "Sallti"
+    },
+    {
+      "id": 388,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Saluti",
+      "canonical_slug": "saluti",
+      "mutation_type": "transposition",
+      "mutated": "Slauti"
+    },
+    {
+      "id": 389,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Fagr",
+      "canonical_slug": "fagr",
+      "mutation_type": "deletion",
+      "mutated": "Fgr"
+    },
+    {
+      "id": 390,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Fagr",
+      "canonical_slug": "fagr",
+      "mutation_type": "insertion",
+      "mutated": "Falgr"
+    },
+    {
+      "id": 391,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Fagr",
+      "canonical_slug": "fagr",
+      "mutation_type": "substitution",
+      "mutated": "Faxr"
+    },
+    {
+      "id": 392,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Fagr",
+      "canonical_slug": "fagr",
+      "mutation_type": "transposition",
+      "mutated": "aFgr"
+    },
+    {
+      "id": 393,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Poinner",
+      "canonical_slug": "poinner",
+      "mutation_type": "deletion",
+      "mutated": "Poiner"
+    },
+    {
+      "id": 394,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Poinner",
+      "canonical_slug": "poinner",
+      "mutation_type": "insertion",
+      "mutated": "hPoinner"
+    },
+    {
+      "id": 395,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Poinner",
+      "canonical_slug": "poinner",
+      "mutation_type": "substitution",
+      "mutated": "Poivner"
+    },
+    {
+      "id": 396,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Poinner",
+      "canonical_slug": "poinner",
+      "mutation_type": "transposition",
+      "mutated": "oPinner"
+    },
+    {
+      "id": 397,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Taw Taw",
+      "canonical_slug": "taw_taw",
+      "mutation_type": "deletion",
+      "mutated": "Taw Tw"
+    },
+    {
+      "id": 398,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Taw Taw",
+      "canonical_slug": "taw_taw",
+      "mutation_type": "insertion",
+      "mutated": "Tawt Taw"
+    },
+    {
+      "id": 399,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Taw Taw",
+      "canonical_slug": "taw_taw",
+      "mutation_type": "substitution",
+      "mutated": "Taw yaw"
+    },
+    {
+      "id": 400,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Taw Taw",
+      "canonical_slug": "taw_taw",
+      "mutation_type": "transposition",
+      "mutated": "Taw Twa"
+    },
+    {
+      "id": 401,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Roasty",
+      "canonical_slug": "roasty",
+      "mutation_type": "deletion",
+      "mutated": "oasty"
+    },
+    {
+      "id": 402,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Roasty",
+      "canonical_slug": "roasty",
+      "mutation_type": "insertion",
+      "mutated": "Roastye"
+    },
+    {
+      "id": 403,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Roasty",
+      "canonical_slug": "roasty",
+      "mutation_type": "substitution",
+      "mutated": "Roaspy"
+    },
+    {
+      "id": 404,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Roasty",
+      "canonical_slug": "roasty",
+      "mutation_type": "transposition",
+      "mutated": "oRasty"
+    },
+    {
+      "id": 405,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Intesa",
+      "canonical_slug": "intesa",
+      "mutation_type": "deletion",
+      "mutated": "Itesa"
+    },
+    {
+      "id": 406,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Intesa",
+      "canonical_slug": "intesa",
+      "mutation_type": "insertion",
+      "mutated": "Ibntesa"
+    },
+    {
+      "id": 407,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Intesa",
+      "canonical_slug": "intesa",
+      "mutation_type": "substitution",
+      "mutated": "Iatesa"
+    },
+    {
+      "id": 408,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Intesa",
+      "canonical_slug": "intesa",
+      "mutation_type": "transposition",
+      "mutated": "Intsea"
+    },
+    {
+      "id": 409,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Tomorrow",
+      "canonical_slug": "tomorrow",
+      "mutation_type": "deletion",
+      "mutated": "Tmorrow"
+    },
+    {
+      "id": 410,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Tomorrow",
+      "canonical_slug": "tomorrow",
+      "mutation_type": "insertion",
+      "mutated": "hTomorrow"
+    },
+    {
+      "id": 411,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Tomorrow",
+      "canonical_slug": "tomorrow",
+      "mutation_type": "substitution",
+      "mutated": "Toworrow"
+    },
+    {
+      "id": 412,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Tomorrow",
+      "canonical_slug": "tomorrow",
+      "mutation_type": "transposition",
+      "mutated": "oTmorrow"
+    },
+    {
+      "id": 413,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Pinar",
+      "canonical_slug": "pinar",
+      "mutation_type": "deletion",
+      "mutated": "Pnar"
+    },
+    {
+      "id": 414,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Pinar",
+      "canonical_slug": "pinar",
+      "mutation_type": "insertion",
+      "mutated": "Pinoar"
+    },
+    {
+      "id": 415,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Pinar",
+      "canonical_slug": "pinar",
+      "mutation_type": "substitution",
+      "mutated": "Pihar"
+    },
+    {
+      "id": 416,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Pinar",
+      "canonical_slug": "pinar",
+      "mutation_type": "transposition",
+      "mutated": "iPnar"
+    },
+    {
+      "id": 417,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Sun Top",
+      "canonical_slug": "sun_top",
+      "mutation_type": "deletion",
+      "mutated": "Sun Tp"
+    },
+    {
+      "id": 418,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Sun Top",
+      "canonical_slug": "sun_top",
+      "mutation_type": "insertion",
+      "mutated": "Sun eTop"
+    },
+    {
+      "id": 419,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Sun Top",
+      "canonical_slug": "sun_top",
+      "mutation_type": "substitution",
+      "mutated": "Sgn Top"
+    },
+    {
+      "id": 420,
+      "entity_type": "brand",
+      "language": "en",
+      "source_clean": "Sun Top",
+      "canonical_slug": "sun_top",
+      "mutation_type": "transposition",
+      "mutated": "Sun oTp"
+    },
+    {
+      "id": 421,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Baby Care",
+      "canonical_slug": "baby_care_1719",
+      "mutation_type": "deletion",
+      "mutated": "Bay Care"
+    },
+    {
+      "id": 422,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Baby Care",
+      "canonical_slug": "baby_care_1719",
+      "mutation_type": "insertion",
+      "mutated": "Bvaby Care"
+    },
+    {
+      "id": 423,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Baby Care",
+      "canonical_slug": "baby_care_1719",
+      "mutation_type": "substitution",
+      "mutated": "Baby Caje"
+    },
+    {
+      "id": 424,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Baby Care",
+      "canonical_slug": "baby_care_1719",
+      "mutation_type": "transposition",
+      "mutated": "Baby aCre"
+    },
+    {
+      "id": 425,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Dental Care",
+      "canonical_slug": "dental_care_3311",
+      "mutation_type": "deletion",
+      "mutated": "Dentl Care"
+    },
+    {
+      "id": 426,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Dental Care",
+      "canonical_slug": "dental_care_3311",
+      "mutation_type": "insertion",
+      "mutated": "Dental Carev"
+    },
+    {
+      "id": 427,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Dental Care",
+      "canonical_slug": "dental_care_3311",
+      "mutation_type": "substitution",
+      "mutated": "Dental gare"
+    },
+    {
+      "id": 428,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Dental Care",
+      "canonical_slug": "dental_care_3311",
+      "mutation_type": "transposition",
+      "mutated": "eDntal Care"
+    },
+    {
+      "id": 429,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Men's Shaving",
+      "canonical_slug": "men_s_shaving_1745",
+      "mutation_type": "deletion",
+      "mutated": "Men's Shavng"
+    },
+    {
+      "id": 430,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Men's Shaving",
+      "canonical_slug": "men_s_shaving_1745",
+      "mutation_type": "insertion",
+      "mutated": "cMen's Shaving"
+    },
+    {
+      "id": 431,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Men's Shaving",
+      "canonical_slug": "men_s_shaving_1745",
+      "mutation_type": "substitution",
+      "mutated": "Mek's Shaving"
+    },
+    {
+      "id": 432,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Men's Shaving",
+      "canonical_slug": "men_s_shaving_1745",
+      "mutation_type": "transposition",
+      "mutated": "eMn's Shaving"
+    },
+    {
+      "id": 433,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "EnaWalks",
+      "canonical_slug": "enawalks_27955",
+      "mutation_type": "deletion",
+      "mutated": "naWalks"
+    },
+    {
+      "id": 434,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "EnaWalks",
+      "canonical_slug": "enawalks_27955",
+      "mutation_type": "insertion",
+      "mutated": "EnuaWalks"
+    },
+    {
+      "id": 435,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "EnaWalks",
+      "canonical_slug": "enawalks_27955",
+      "mutation_type": "substitution",
+      "mutated": "EnaWulks"
+    },
+    {
+      "id": 436,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "EnaWalks",
+      "canonical_slug": "enawalks_27955",
+      "mutation_type": "transposition",
+      "mutated": "EnaWlaks"
+    },
+    {
+      "id": 437,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Laundry",
+      "canonical_slug": "laundry_15",
+      "mutation_type": "deletion",
+      "mutated": "Landry"
+    },
+    {
+      "id": 438,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Laundry",
+      "canonical_slug": "laundry_15",
+      "mutation_type": "insertion",
+      "mutated": "Laundryb"
+    },
+    {
+      "id": 439,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Laundry",
+      "canonical_slug": "laundry_15",
+      "mutation_type": "substitution",
+      "mutated": "Laumdry"
+    },
+    {
+      "id": 440,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Laundry",
+      "canonical_slug": "laundry_15",
+      "mutation_type": "transposition",
+      "mutated": "Laundyr"
+    },
+    {
+      "id": 441,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Fabric Care",
+      "canonical_slug": "fabric_care_17",
+      "mutation_type": "deletion",
+      "mutated": "Fabri Care"
+    },
+    {
+      "id": 442,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Fabric Care",
+      "canonical_slug": "fabric_care_17",
+      "mutation_type": "insertion",
+      "mutated": "Fabric Cqare"
+    },
+    {
+      "id": 443,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Fabric Care",
+      "canonical_slug": "fabric_care_17",
+      "mutation_type": "substitution",
+      "mutated": "Fabric eare"
+    },
+    {
+      "id": 444,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Fabric Care",
+      "canonical_slug": "fabric_care_17",
+      "mutation_type": "transposition",
+      "mutated": "Fabrci Care"
+    },
+    {
+      "id": 445,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Personal Care",
+      "canonical_slug": "personal_care_3293",
+      "mutation_type": "deletion",
+      "mutated": "PersonalCare"
+    },
+    {
+      "id": 446,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Personal Care",
+      "canonical_slug": "personal_care_3293",
+      "mutation_type": "insertion",
+      "mutated": "Personval Care"
+    },
+    {
+      "id": 447,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Personal Care",
+      "canonical_slug": "personal_care_3293",
+      "mutation_type": "substitution",
+      "mutated": "Personar Care"
+    },
+    {
+      "id": 448,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Personal Care",
+      "canonical_slug": "personal_care_3293",
+      "mutation_type": "transposition",
+      "mutated": "Persoanl Care"
+    },
+    {
+      "id": 449,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Mango Festival",
+      "canonical_slug": "mango_festival_11675",
+      "mutation_type": "deletion",
+      "mutated": "Mano Festival"
+    },
+    {
+      "id": 450,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Mango Festival",
+      "canonical_slug": "mango_festival_11675",
+      "mutation_type": "insertion",
+      "mutated": "Mangon Festival"
+    },
+    {
+      "id": 451,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Mango Festival",
+      "canonical_slug": "mango_festival_11675",
+      "mutation_type": "substitution",
+      "mutated": "Mangg Festival"
+    },
+    {
+      "id": 452,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Mango Festival",
+      "canonical_slug": "mango_festival_11675",
+      "mutation_type": "transposition",
+      "mutated": "MangoF estival"
+    },
+    {
+      "id": 453,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Fabric Softener",
+      "canonical_slug": "fabric_softener_16",
+      "mutation_type": "deletion",
+      "mutated": "Fabric Sftener"
+    },
+    {
+      "id": 454,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Fabric Softener",
+      "canonical_slug": "fabric_softener_16",
+      "mutation_type": "insertion",
+      "mutated": "Fabridc Softener"
+    },
+    {
+      "id": 455,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Fabric Softener",
+      "canonical_slug": "fabric_softener_16",
+      "mutation_type": "substitution",
+      "mutated": "Fabric Siftener"
+    },
+    {
+      "id": 456,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Fabric Softener",
+      "canonical_slug": "fabric_softener_16",
+      "mutation_type": "transposition",
+      "mutated": "Fabri cSoftener"
+    },
+    {
+      "id": 457,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Nestlé Waters",
+      "canonical_slug": "nestl_waters_1735",
+      "mutation_type": "deletion",
+      "mutated": "Nestlé Waers"
+    },
+    {
+      "id": 458,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Nestlé Waters",
+      "canonical_slug": "nestl_waters_1735",
+      "mutation_type": "insertion",
+      "mutated": "Nestlé Watlers"
+    },
+    {
+      "id": 459,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Nestlé Waters",
+      "canonical_slug": "nestl_waters_1735",
+      "mutation_type": "substitution",
+      "mutated": "Nestlé Wateos"
+    },
+    {
+      "id": 460,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Nestlé Waters",
+      "canonical_slug": "nestl_waters_1735",
+      "mutation_type": "transposition",
+      "mutated": "NestléW aters"
+    },
+    {
+      "id": 461,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Toast",
+      "canonical_slug": "toast_22979",
+      "mutation_type": "deletion",
+      "mutated": "Tost"
+    },
+    {
+      "id": 462,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Toast",
+      "canonical_slug": "toast_22979",
+      "mutation_type": "insertion",
+      "mutated": "Toastl"
+    },
+    {
+      "id": 463,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Toast",
+      "canonical_slug": "toast_22979",
+      "mutation_type": "substitution",
+      "mutated": "Tonst"
+    },
+    {
+      "id": 464,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Toast",
+      "canonical_slug": "toast_22979",
+      "mutation_type": "transposition",
+      "mutated": "oTast"
+    },
+    {
+      "id": 465,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Spinneys Products",
+      "canonical_slug": "spinneys_products_7",
+      "mutation_type": "deletion",
+      "mutated": "Spinneys roducts"
+    },
+    {
+      "id": 466,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Spinneys Products",
+      "canonical_slug": "spinneys_products_7",
+      "mutation_type": "insertion",
+      "mutated": "Spinneys wProducts"
+    },
+    {
+      "id": 467,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Spinneys Products",
+      "canonical_slug": "spinneys_products_7",
+      "mutation_type": "substitution",
+      "mutated": "Sppnneys Products"
+    },
+    {
+      "id": 468,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Spinneys Products",
+      "canonical_slug": "spinneys_products_7",
+      "mutation_type": "transposition",
+      "mutated": "Spinnyes Products"
+    },
+    {
+      "id": 469,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Seafood",
+      "canonical_slug": "seafood",
+      "mutation_type": "deletion",
+      "mutated": "Seafod"
+    },
+    {
+      "id": 470,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Seafood",
+      "canonical_slug": "seafood",
+      "mutation_type": "insertion",
+      "mutated": "Seafooad"
+    },
+    {
+      "id": 471,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Seafood",
+      "canonical_slug": "seafood",
+      "mutation_type": "substitution",
+      "mutated": "Snafood"
+    },
+    {
+      "id": 472,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Seafood",
+      "canonical_slug": "seafood",
+      "mutation_type": "transposition",
+      "mutated": "eSafood"
+    },
+    {
+      "id": 473,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Dates",
+      "canonical_slug": "dates",
+      "mutation_type": "deletion",
+      "mutated": "Daes"
+    },
+    {
+      "id": 474,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Dates",
+      "canonical_slug": "dates",
+      "mutation_type": "insertion",
+      "mutated": "mDates"
+    },
+    {
+      "id": 475,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Dates",
+      "canonical_slug": "dates",
+      "mutation_type": "substitution",
+      "mutated": "Dateh"
+    },
+    {
+      "id": 476,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Dates",
+      "canonical_slug": "dates",
+      "mutation_type": "transposition",
+      "mutated": "Datse"
+    },
+    {
+      "id": 477,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "chilled",
+      "canonical_slug": "chilled_3282",
+      "mutation_type": "deletion",
+      "mutated": "chille"
+    },
+    {
+      "id": 478,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "chilled",
+      "canonical_slug": "chilled_3282",
+      "mutation_type": "insertion",
+      "mutated": "cehilled"
+    },
+    {
+      "id": 479,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "chilled",
+      "canonical_slug": "chilled_3282",
+      "mutation_type": "substitution",
+      "mutated": "chilwed"
+    },
+    {
+      "id": 480,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "chilled",
+      "canonical_slug": "chilled_3282",
+      "mutation_type": "transposition",
+      "mutated": "cihlled"
+    },
+    {
+      "id": 481,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Textiles",
+      "canonical_slug": "textiles_46026",
+      "mutation_type": "deletion",
+      "mutated": "Txtiles"
+    },
+    {
+      "id": 482,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Textiles",
+      "canonical_slug": "textiles_46026",
+      "mutation_type": "insertion",
+      "mutated": "Texitiles"
+    },
+    {
+      "id": 483,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Textiles",
+      "canonical_slug": "textiles_46026",
+      "mutation_type": "substitution",
+      "mutated": "Textilrs"
+    },
+    {
+      "id": 484,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Textiles",
+      "canonical_slug": "textiles_46026",
+      "mutation_type": "transposition",
+      "mutated": "Txetiles"
+    },
+    {
+      "id": 485,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Top sales Deli",
+      "canonical_slug": "top_sales_deli_1762",
+      "mutation_type": "deletion",
+      "mutated": "Top sales Dli"
+    },
+    {
+      "id": 486,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Top sales Deli",
+      "canonical_slug": "top_sales_deli_1762",
+      "mutation_type": "insertion",
+      "mutated": "Top sales Dieli"
+    },
+    {
+      "id": 487,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Top sales Deli",
+      "canonical_slug": "top_sales_deli_1762",
+      "mutation_type": "substitution",
+      "mutated": "Top sales beli"
+    },
+    {
+      "id": 488,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Top sales Deli",
+      "canonical_slug": "top_sales_deli_1762",
+      "mutation_type": "transposition",
+      "mutated": "Top salesD eli"
+    },
+    {
+      "id": 489,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Men`s Care",
+      "canonical_slug": "men_s_care_1746",
+      "mutation_type": "deletion",
+      "mutated": "Men`sCare"
+    },
+    {
+      "id": 490,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Men`s Care",
+      "canonical_slug": "men_s_care_1746",
+      "mutation_type": "insertion",
+      "mutated": "Men`s Capre"
+    },
+    {
+      "id": 491,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Men`s Care",
+      "canonical_slug": "men_s_care_1746",
+      "mutation_type": "substitution",
+      "mutated": "Menus Care"
+    },
+    {
+      "id": 492,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Men`s Care",
+      "canonical_slug": "men_s_care_1746",
+      "mutation_type": "transposition",
+      "mutated": "Mens` Care"
+    },
+    {
+      "id": 493,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Rice",
+      "canonical_slug": "rice",
+      "mutation_type": "deletion",
+      "mutated": "Rce"
+    },
+    {
+      "id": 494,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Rice",
+      "canonical_slug": "rice",
+      "mutation_type": "insertion",
+      "mutated": "Ricea"
+    },
+    {
+      "id": 495,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Rice",
+      "canonical_slug": "rice",
+      "mutation_type": "substitution",
+      "mutated": "Rite"
+    },
+    {
+      "id": 496,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Rice",
+      "canonical_slug": "rice",
+      "mutation_type": "transposition",
+      "mutated": "Rcie"
+    },
+    {
+      "id": 497,
+      "entity_type": "category",
+      "language": "ar",
+      "source_clean": "الجبن,منتجات الألبان والبيض",
+      "canonical_slug": "cheese_dairy_eggs_30",
+      "mutation_type": "deletion",
+      "mutated": "الجبن,منجات الألبان والبيض"
+    },
+    {
+      "id": 498,
+      "entity_type": "category",
+      "language": "ar",
+      "source_clean": "الجبن,منتجات الألبان والبيض",
+      "canonical_slug": "cheese_dairy_eggs_30",
+      "mutation_type": "insertion",
+      "mutated": "الطجبن,منتجات الألبان والبيض"
+    },
+    {
+      "id": 499,
+      "entity_type": "category",
+      "language": "ar",
+      "source_clean": "الجبن,منتجات الألبان والبيض",
+      "canonical_slug": "cheese_dairy_eggs_30",
+      "mutation_type": "substitution",
+      "mutated": "الجبن,منتجات الألبطن والبيض"
+    },
+    {
+      "id": 500,
+      "entity_type": "category",
+      "language": "ar",
+      "source_clean": "الجبن,منتجات الألبان والبيض",
+      "canonical_slug": "cheese_dairy_eggs_30",
+      "mutation_type": "transposition",
+      "mutated": "الجبن,منتجات الألبنا والبيض"
+    },
+    {
+      "id": 501,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Toilet Cleaning",
+      "canonical_slug": "toilet_cleaning_28",
+      "mutation_type": "deletion",
+      "mutated": "Toilt Cleaning"
+    },
+    {
+      "id": 502,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Toilet Cleaning",
+      "canonical_slug": "toilet_cleaning_28",
+      "mutation_type": "insertion",
+      "mutated": "Toilet Cleanring"
+    },
+    {
+      "id": 503,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Toilet Cleaning",
+      "canonical_slug": "toilet_cleaning_28",
+      "mutation_type": "substitution",
+      "mutated": "Toilet Cleaying"
+    },
+    {
+      "id": 504,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Toilet Cleaning",
+      "canonical_slug": "toilet_cleaning_28",
+      "mutation_type": "transposition",
+      "mutated": "ToiletC leaning"
+    },
+    {
+      "id": 505,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Ramadan Box",
+      "canonical_slug": "ramadan_box_50992",
+      "mutation_type": "deletion",
+      "mutated": "amadan Box"
+    },
+    {
+      "id": 506,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Ramadan Box",
+      "canonical_slug": "ramadan_box_50992",
+      "mutation_type": "insertion",
+      "mutated": "Ramadkan Box"
+    },
+    {
+      "id": 507,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Ramadan Box",
+      "canonical_slug": "ramadan_box_50992",
+      "mutation_type": "substitution",
+      "mutated": "Ramadhn Box"
+    },
+    {
+      "id": 508,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Ramadan Box",
+      "canonical_slug": "ramadan_box_50992",
+      "mutation_type": "transposition",
+      "mutated": "Ramadan oBx"
+    },
+    {
+      "id": 509,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Jams",
+      "canonical_slug": "jams_5701",
+      "mutation_type": "deletion",
+      "mutated": "ams"
+    },
+    {
+      "id": 510,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Jams",
+      "canonical_slug": "jams_5701",
+      "mutation_type": "insertion",
+      "mutated": "Jamls"
+    },
+    {
+      "id": 511,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Jams",
+      "canonical_slug": "jams_5701",
+      "mutation_type": "substitution",
+      "mutated": "Jnms"
+    },
+    {
+      "id": 512,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Jams",
+      "canonical_slug": "jams_5701",
+      "mutation_type": "transposition",
+      "mutated": "Jasm"
+    },
+    {
+      "id": 513,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Cleaning",
+      "canonical_slug": "cleaning_6",
+      "mutation_type": "deletion",
+      "mutated": "Ceaning"
+    },
+    {
+      "id": 514,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Cleaning",
+      "canonical_slug": "cleaning_6",
+      "mutation_type": "insertion",
+      "mutated": "Cleaninng"
+    },
+    {
+      "id": 515,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Cleaning",
+      "canonical_slug": "cleaning_6",
+      "mutation_type": "substitution",
+      "mutated": "Cleaniny"
+    },
+    {
+      "id": 516,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Cleaning",
+      "canonical_slug": "cleaning_6",
+      "mutation_type": "transposition",
+      "mutated": "Cleannig"
+    },
+    {
+      "id": 517,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Candy , Gum",
+      "canonical_slug": "candy_gum_1737",
+      "mutation_type": "deletion",
+      "mutated": "Candy, Gum"
+    },
+    {
+      "id": 518,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Candy , Gum",
+      "canonical_slug": "candy_gum_1737",
+      "mutation_type": "insertion",
+      "mutated": "hCandy , Gum"
+    },
+    {
+      "id": 519,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Candy , Gum",
+      "canonical_slug": "candy_gum_1737",
+      "mutation_type": "substitution",
+      "mutated": "Candy , yum"
+    },
+    {
+      "id": 520,
+      "entity_type": "category",
+      "language": "en",
+      "source_clean": "Candy , Gum",
+      "canonical_slug": "candy_gum_1737",
+      "mutation_type": "transposition",
+      "mutated": "Candy , Gmu"
+    }
+  ],
+  "natural_query_holdout": [
+    {
+      "id": 1,
+      "language": "en",
+      "source_entry_id": 54,
+      "source_clean": "scotti",
+      "mutated_word": "scottit",
+      "query": "show me scottit under 100"
+    },
+    {
+      "id": 2,
+      "language": "en",
+      "source_entry_id": 4,
+      "source_clean": "monster",
+      "mutated_word": "omnster",
+      "query": "do you have omnster"
+    },
+    {
+      "id": 3,
+      "language": "en",
+      "source_entry_id": 97,
+      "source_clean": "lasting",
+      "mutated_word": "lastig",
+      "query": "looking for lastig"
+    },
+    {
+      "id": 4,
+      "language": "en",
+      "source_entry_id": 29,
+      "source_clean": "lavendar",
+      "mutated_word": "laendar",
+      "query": "I need laendar"
+    },
+    {
+      "id": 5,
+      "language": "en",
+      "source_entry_id": 55,
+      "source_clean": "scotti",
+      "mutated_word": "scqtti",
+      "query": "show me scqtti under 100"
+    },
+    {
+      "id": 6,
+      "language": "en",
+      "source_entry_id": 77,
+      "source_clean": "korean",
+      "mutated_word": "korea",
+      "query": "do you have korea"
+    },
+    {
+      "id": 7,
+      "language": "en",
+      "source_entry_id": 81,
+      "source_clean": "fashkool",
+      "mutated_word": "fashkol",
+      "query": "looking for fashkol"
+    },
+    {
+      "id": 8,
+      "language": "en",
+      "source_entry_id": 34,
+      "source_clean": "temmy",
+      "mutated_word": "tegmmy",
+      "query": "I need tegmmy"
+    },
+    {
+      "id": 9,
+      "language": "en",
+      "source_entry_id": 17,
+      "source_clean": "lamar",
+      "mutated_word": "lamr",
+      "query": "show me lamr under 100"
+    },
+    {
+      "id": 10,
+      "language": "en",
+      "source_entry_id": 60,
+      "source_clean": "trigger",
+      "mutated_word": "rtigger",
+      "query": "do you have rtigger"
+    },
+    {
+      "id": 11,
+      "language": "en",
+      "source_entry_id": 102,
+      "source_clean": "fusilli",
+      "mutated_word": "hfusilli",
+      "query": "looking for hfusilli"
+    },
+    {
+      "id": 12,
+      "language": "en",
+      "source_entry_id": 71,
+      "source_clean": "lover",
+      "mutated_word": "lojer",
+      "query": "I need lojer"
+    },
+    {
+      "id": 13,
+      "language": "en",
+      "source_entry_id": 140,
+      "source_clean": "foaming",
+      "mutated_word": "ofaming",
+      "query": "show me ofaming under 100"
+    },
+    {
+      "id": 14,
+      "language": "en",
+      "source_entry_id": 24,
+      "source_clean": "sliced",
+      "mutated_word": "sliecd",
+      "query": "do you have sliecd"
+    },
+    {
+      "id": 15,
+      "language": "en",
+      "source_entry_id": 63,
+      "source_clean": "guatemala",
+      "mutated_word": "gubtemala",
+      "query": "looking for gubtemala"
+    },
+    {
+      "id": 16,
+      "language": "en",
+      "source_entry_id": 42,
+      "source_clean": "rustic",
+      "mutated_word": "rusticq",
+      "query": "I need rusticq"
+    },
+    {
+      "id": 17,
+      "language": "en",
+      "source_entry_id": 39,
+      "source_clean": "halawani",
+      "mutated_word": "halawann",
+      "query": "show me halawann under 100"
+    },
+    {
+      "id": 18,
+      "language": "en",
+      "source_entry_id": 19,
+      "source_clean": "lamar",
+      "mutated_word": "xamar",
+      "query": "do you have xamar"
+    },
+    {
+      "id": 19,
+      "language": "en",
+      "source_entry_id": 116,
+      "source_clean": "avrelle",
+      "mutated_word": "avrlele",
+      "query": "looking for avrlele"
+    },
+    {
+      "id": 20,
+      "language": "en",
+      "source_entry_id": 78,
+      "source_clean": "korean",
+      "mutated_word": "hkorean",
+      "query": "I need hkorean"
+    },
+    {
+      "id": 21,
+      "language": "ar",
+      "source_entry_id": 161,
+      "source_clean": "الزهور",
+      "mutated_word": "الهور",
+      "query": "عايز الهور تحت ١٠٠"
+    },
+    {
+      "id": 22,
+      "language": "ar",
+      "source_entry_id": 227,
+      "source_clean": "موخيتو",
+      "mutated_word": "مسخيتو",
+      "query": "عندكم مسخيتو؟"
+    },
+    {
+      "id": 23,
+      "language": "ar",
+      "source_entry_id": 242,
+      "source_clean": "فريتو",
+      "mutated_word": "فريتول",
+      "query": "وريني فريتول"
+    },
+    {
+      "id": 24,
+      "language": "ar",
+      "source_entry_id": 188,
+      "source_clean": "المضافة",
+      "mutated_word": "الضمافة",
+      "query": "عايز الضمافة"
+    },
+    {
+      "id": 25,
+      "language": "ar",
+      "source_entry_id": 221,
+      "source_clean": "مايكروفايبر",
+      "mutated_word": "ايكروفايبر",
+      "query": "عايز ايكروفايبر تحت ١٠٠"
+    },
+    {
+      "id": 26,
+      "language": "ar",
+      "source_entry_id": 307,
+      "source_clean": "توليت",
+      "mutated_word": "تبليت",
+      "query": "عندكم تبليت؟"
+    },
+    {
+      "id": 27,
+      "language": "ar",
+      "source_entry_id": 313,
+      "source_clean": "كورازي",
+      "mutated_word": "كوازي",
+      "query": "وريني كوازي"
+    },
+    {
+      "id": 28,
+      "language": "ar",
+      "source_entry_id": 183,
+      "source_clean": "ناعمه",
+      "mutated_word": "ناقمه",
+      "query": "عايز ناقمه"
+    },
+    {
+      "id": 29,
+      "language": "ar",
+      "source_entry_id": 296,
+      "source_clean": "باكيت",
+      "mutated_word": "بايكت",
+      "query": "عايز بايكت تحت ١٠٠"
+    },
+    {
+      "id": 30,
+      "language": "ar",
+      "source_entry_id": 274,
+      "source_clean": "ميجو",
+      "mutated_word": "ميججو",
+      "query": "عندكم ميججو؟"
+    },
+    {
+      "id": 31,
+      "language": "ar",
+      "source_entry_id": 264,
+      "source_clean": "لوفيا",
+      "mutated_word": "لوفاي",
+      "query": "وريني لوفاي"
+    },
+    {
+      "id": 32,
+      "language": "ar",
+      "source_entry_id": 195,
+      "source_clean": "مبارد",
+      "mutated_word": "مباصد",
+      "query": "عايز مباصد"
+    },
+    {
+      "id": 33,
+      "language": "ar",
+      "source_entry_id": 280,
+      "source_clean": "حارة",
+      "mutated_word": "حراة",
+      "query": "عايز حراة تحت ١٠٠"
+    },
+    {
+      "id": 34,
+      "language": "ar",
+      "source_entry_id": 290,
+      "source_clean": "عناية",
+      "mutated_word": "عنلاية",
+      "query": "عندكم عنلاية؟"
+    },
+    {
+      "id": 35,
+      "language": "ar",
+      "source_entry_id": 169,
+      "source_clean": "اوتوماتيك",
+      "mutated_word": "وتوماتيك",
+      "query": "وريني وتوماتيك"
+    },
+    {
+      "id": 36,
+      "language": "ar",
+      "source_entry_id": 199,
+      "source_clean": "سيرفيس",
+      "mutated_word": "سيدفيس",
+      "query": "عايز سيدفيس"
+    },
+    {
+      "id": 37,
+      "language": "ar",
+      "source_entry_id": 218,
+      "source_clean": "جوجا",
+      "mutated_word": "جوجضا",
+      "query": "عايز جوجضا تحت ١٠٠"
+    },
+    {
+      "id": 38,
+      "language": "ar",
+      "source_entry_id": 203,
+      "source_clean": "لكافة",
+      "mutated_word": "لكافذ",
+      "query": "عندكم لكافذ؟"
+    },
+    {
+      "id": 39,
+      "language": "ar",
+      "source_entry_id": 192,
+      "source_clean": "المرق",
+      "mutated_word": "الرمق",
+      "query": "وريني الرمق"
+    },
+    {
+      "id": 40,
+      "language": "ar",
+      "source_entry_id": 164,
+      "source_clean": "الزهور",
+      "mutated_word": "الزهرو",
+      "query": "عايز الزهرو"
+    }
+  ],
+  "free_from_category_coverage": [
+    {
+      "slug": "gluten_free_27956",
+      "name": "Gluten Free"
+    },
+    {
+      "slug": "gluten_free_27956",
+      "name": "خالي من الجلوتين"
+    },
+    {
+      "slug": "lactose_free_32297",
+      "name": "Lactose Free"
+    },
+    {
+      "slug": "lactose_free_32297",
+      "name": "خالي من اللاكتوز"
+    },
+    {
+      "slug": "sugar_free_1736",
+      "name": " Sugar Free"
+    },
+    {
+      "slug": "sugar_free_1736",
+      "name": "خالي من السكر"
+    }
+  ]
+}

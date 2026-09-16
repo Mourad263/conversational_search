@@ -1,0 +1,1265 @@
+{
+  "summary": {
+    "label": "holdout",
+    "dataset": "evaluation\\sprint6_semantic_benchmark_holdout.json",
+    "n_cases": 32,
+    "metric_A_semantic_extraction_accuracy": 0.84375,
+    "metric_B_catalog_grounding_accuracy": 0.8125,
+    "metric_C_category_recall_unambiguous": 0.8571428571428571,
+    "metric_C_n": 14,
+    "metric_D_final_search_success": 0.896551724137931,
+    "metric_D_n": 29,
+    "metric_E_wrong_confident_match_rate": 0.05555555555555555,
+    "metric_E_n": 18
+  },
+  "results": [
+    {
+      "id": 4,
+      "tag": "en_bare_product",
+      "sentence": "I want rice",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "rice",
+        "category_hint": "rice",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "rice",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "rice",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 1.0,
+      "d_success": true
+    },
+    {
+      "id": 5,
+      "tag": "en_bare_product",
+      "sentence": "looking for eggs",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "eggs",
+        "category_hint": "eggs",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "eggs",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "eggs",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 1.0,
+      "d_success": true
+    },
+    {
+      "id": 6,
+      "tag": "en_bare_product",
+      "sentence": "any butter available",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "butter",
+        "category_hint": "butter",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "butter",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "butter",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 1.0,
+      "d_success": true
+    },
+    {
+      "id": 9,
+      "tag": "ar_bare_product",
+      "sentence": "عايزة عسل",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "عسل",
+        "category_hint": "عسل",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "honey_5698",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "honey_5698",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 1.0,
+      "d_success": true
+    },
+    {
+      "id": 10,
+      "tag": "ar_bare_product",
+      "sentence": "محتاج رز",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "رز",
+        "category_hint": "رز",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "rice",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "rice",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 1.0,
+      "d_success": true
+    },
+    {
+      "id": 17,
+      "tag": "code_switch",
+      "sentence": "give me عسل please",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "عسل",
+        "category_hint": "عسل",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "honey_5698",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "honey_5698",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 1.0,
+      "d_success": true
+    },
+    {
+      "id": 21,
+      "tag": "explicit_brand_common",
+      "sentence": "show me Nestle products",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": "Nestle",
+        "free_from": null,
+        "resolved_category": null,
+        "resolved_brand": "nestle"
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": "nestle",
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 25,
+      "tag": "explicit_brand_obscure",
+      "sentence": "do you have Al Tahhan products",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": "Al Tahhan",
+        "free_from": null,
+        "resolved_category": null,
+        "resolved_brand": "al_tahhan"
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": "al_tahhan",
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 26,
+      "tag": "explicit_brand_obscure",
+      "sentence": "anything from Abo Bint",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": "Abo Bint",
+        "free_from": null,
+        "resolved_category": null,
+        "resolved_brand": "abo_bint"
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": "abo_bint",
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 31,
+      "tag": "brand_typo",
+      "sentence": "I want Pepsii",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": "Pepsii",
+        "free_from": null,
+        "resolved_category": null,
+        "resolved_brand": "pepsi"
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": "pepsi",
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 37,
+      "tag": "product_word_resembling_brand",
+      "sentence": "بلدي جبنة",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "بلدي جبنة",
+        "category_hint": "جبنة",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "cheese",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "cheese",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 1.0,
+      "d_success": true
+    },
+    {
+      "id": 42,
+      "tag": "category_only",
+      "sentence": "show me the beverages you carry",
+      "ambiguous": true,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "beverages",
+        "category_hint": "beverages",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "beverages_35",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "beverages_35",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 43,
+      "tag": "category_only",
+      "sentence": "what dairy products do you have",
+      "ambiguous": true,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": false,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "dairy products",
+        "category_hint": "dairy products",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "baby_products_1720",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 45,
+      "tag": "category_only",
+      "sentence": "وريني قسم المكسرات",
+      "ambiguous": true,
+      "a_all_correct": false,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": false,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": false,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "المكسرات",
+        "category_hint": "المكسرات",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "nuts_seeds_16871",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "nuts",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 46,
+      "tag": "category_only",
+      "sentence": "what's available in frozen food",
+      "ambiguous": true,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "frozen food",
+        "category_hint": "frozen food",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "frozen_food_3281",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "frozen_food_3281",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 49,
+      "tag": "multi_word_concept",
+      "sentence": "show me sliced cheese",
+      "ambiguous": true,
+      "a_all_correct": false,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": false,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": false,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "sliced cheese",
+        "category_hint": "cheese",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "cheese",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "sliced_cheese_56",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 52,
+      "tag": "multi_word_concept",
+      "sentence": "جبنة قريش طازة",
+      "ambiguous": true,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "جبنة قريش طازة",
+        "category_hint": "جبنة",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "cheese",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "cheese",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 55,
+      "tag": "ingredient_vs_product",
+      "sentence": "lemon",
+      "ambiguous": false,
+      "a_all_correct": false,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": false,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": false,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "lemon",
+        "category_hint": "vegetables",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "vegetables_3286",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "fruits_3283",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 0.0,
+      "d_success": false
+    },
+    {
+      "id": 60,
+      "tag": "free_from",
+      "sentence": "bread with no gluten",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "bread",
+        "category_hint": "bread",
+        "brand_text": null,
+        "free_from": "gluten",
+        "resolved_category": "gluten_free_27956",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "gluten_free_27956",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": true,
+      "d_category_precision": null,
+      "d_success": false
+    },
+    {
+      "id": 65,
+      "tag": "price",
+      "sentence": "milk between 20 and 40",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": 20.0,
+        "price_max": 40.0,
+        "raw_query_text": "milk",
+        "category_hint": "milk",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "milk_29",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "milk_29",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 1.0,
+      "d_success": true
+    },
+    {
+      "id": 66,
+      "tag": "price",
+      "sentence": "anything under 15 pounds",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": 15.0,
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": null,
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 69,
+      "tag": "price",
+      "sentence": "بين ثلاثين وستين جنيه",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": 30.0,
+        "price_max": 60.0,
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": null,
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 71,
+      "tag": "typo_en",
+      "sentence": "I need chese please",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "chese",
+        "category_hint": "cheese",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "cheese",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "cheese",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 1.0,
+      "d_success": true
+    },
+    {
+      "id": 73,
+      "tag": "typo_en",
+      "sentence": "I want browne bread",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "browne bread",
+        "category_hint": "bread",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "bread",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "bread",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 1.0,
+      "d_success": true
+    },
+    {
+      "id": 74,
+      "tag": "typo_en",
+      "sentence": "looking for irce",
+      "ambiguous": false,
+      "a_all_correct": false,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": false,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": false,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "irce",
+        "category_hint": null,
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": null,
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "rice",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 0.0,
+      "d_success": false
+    },
+    {
+      "id": 86,
+      "tag": "multiword_one_typo",
+      "sentence": "sliced chesse please",
+      "ambiguous": true,
+      "a_all_correct": false,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": false,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": false,
+      "b_brand": true,
+      "actual": {
+        "intent": "search",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "sliced chesse",
+        "category_hint": "cheese",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "cheese",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "sliced_cheese_56",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 90,
+      "tag": "add_modify_remove_reset",
+      "sentence": "كمان عايز عسل",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "add_filter",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "عسل",
+        "category_hint": "عسل",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": "honey_5698",
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": "honey_5698",
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": 1.0,
+      "d_success": true
+    },
+    {
+      "id": 91,
+      "tag": "add_modify_remove_reset",
+      "sentence": "make it under 80 instead",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "modify_filter",
+        "price_min": null,
+        "price_max": 80.0,
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": null,
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 92,
+      "tag": "add_modify_remove_reset",
+      "sentence": "لأ عايز زبادي بدل كده",
+      "ambiguous": true,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "modify_filter",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": "زبادي",
+        "category_hint": "زبادي",
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": null,
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": true,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": true
+    },
+    {
+      "id": 93,
+      "tag": "add_modify_remove_reset",
+      "sentence": "never mind the brand",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "remove_filter",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": null,
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": false,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": null
+    },
+    {
+      "id": 103,
+      "tag": "off_topic",
+      "sentence": "do you deliver to Alexandria?",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "off_topic",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": null,
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": false,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": null
+    },
+    {
+      "id": 104,
+      "tag": "off_topic",
+      "sentence": "مبروك عليكم الافتتاح الجديد",
+      "ambiguous": false,
+      "a_all_correct": true,
+      "a_fields": {
+        "intent": true,
+        "price_min": true,
+        "price_max": true,
+        "target_facet": true,
+        "raw_query_text": true,
+        "category_hint": true,
+        "brand_text": true,
+        "free_from": true
+      },
+      "b_category": true,
+      "b_brand": true,
+      "actual": {
+        "intent": "off_topic",
+        "price_min": null,
+        "price_max": null,
+        "raw_query_text": null,
+        "category_hint": null,
+        "brand_text": null,
+        "free_from": null,
+        "resolved_category": null,
+        "resolved_brand": null
+      },
+      "expected_grounding": {
+        "category": null,
+        "brand": null,
+        "unresolved_exclusion": false
+      },
+      "d_applicable": false,
+      "d_zero_result": false,
+      "d_category_precision": null,
+      "d_success": null
+    }
+  ]
+}
